@@ -1,0 +1,1153 @@
+/* Icon sprite */
+.iconsprite {
+	display: inline-block;
+	vertical-align: top;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/icons/sprites-16-dark.png);
+	background-repeat: no-repeat;
+}
+
+.sml.drk.iconsprite, .drk-ico .sml.iconsprite {background-image: url(../images/icons/sprites-16-dark.png);}
+.sml.lgt.iconsprite, .lgt-ico .sml.iconsprite {background-image: url(../images/icons/sprites-16-light.png);}
+.lrg.drk.iconsprite, .drk-ico .lrg.iconsprite {background-image: url(../images/icons/sprites-64-dark.png);}
+.lrg.lgt.iconsprite, .lgt-ico .lrg.iconsprite {background-image: url(../images/icons/sprites-64-light.png);}
+.med.drk.iconsprite, .drk-ico .med.iconsprite {background-image: url(../images/icons/sprites-32-dark.png);}
+.med.lgt.iconsprite, .lgt-ico .med.iconsprite {background-image: url(../images/icons/sprites-32-light.png);}
+
+.sml.iconsprite {
+	width: 16px;
+	height: 16px;
+}
+.lrg.iconsprite {
+	width: 64px;
+	height: 64px;
+}
+.med.iconsprite {
+	width: 32px;
+	height: 32px;
+}
+/*Positions*/
+.sml.iconsprite.home {
+	background-position: 0 0;
+}
+.sml.iconsprite.home2 {
+	background-position: -32px 0;
+}
+.sml.iconsprite.office {
+	background-position: -64px 0;
+}
+.sml.iconsprite.newspaper {
+	background-position: -96px 0;
+}
+.sml.iconsprite.pen {
+	background-position: -128px 0;
+}
+.sml.iconsprite.image {
+	background-position: -160px 0;
+}
+.sml.iconsprite.images {
+	background-position: -192px 0;
+}
+.sml.iconsprite.camera {
+	background-position: -224px 0;
+}
+.sml.iconsprite.music {
+	background-position: -256px 0;
+}
+.sml.iconsprite.play {
+	background-position: -288px 0;
+}
+.sml.iconsprite.film {
+	background-position: -320px 0;
+}
+.sml.iconsprite.camera2 {
+	background-position: -352px 0;
+}
+.sml.iconsprite.bullhorn {
+	background-position: -384px 0;
+}
+.sml.iconsprite.book {
+	background-position: -416px 0;
+}
+.sml.iconsprite.profile {
+	background-position: -448px 0;
+}
+.sml.iconsprite.file {
+	background-position: -480px 0;
+}
+.sml.iconsprite.file2 {
+	background-position: 0 -32px;
+}
+.sml.iconsprite.file3 {
+	background-position: -32px -32px;
+}
+.sml.iconsprite.mic {
+	background-position: -64px -32px;
+}
+.sml.iconsprite.tag {
+	background-position: -96px -32px;
+}
+.sml.iconsprite.credit {
+	background-position: -128px -32px;
+}
+.sml.iconsprite.support {
+	background-position: -160px -32px;
+}
+.sml.iconsprite.phone {
+	background-position: -192px -32px;
+}
+.sml.iconsprite.address-book {
+	background-position: -224px -32px;
+}
+.sml.iconsprite.pushpin {
+	background-position: -256px -32px;
+}
+.sml.iconsprite.location {
+	background-position: -288px -32px;
+}
+.sml.iconsprite.location2 {
+	background-position: -320px -32px;
+}
+.sml.iconsprite.clock {
+	background-position: -352px -32px;
+}
+.sml.iconsprite.clock2 {
+	background-position: -384px -32px;
+}
+.sml.iconsprite.alarm {
+	background-position: -416px -32px;
+}
+.sml.iconsprite.calendar {
+	background-position: -448px -32px;
+}
+.sml.iconsprite.calendar2 {
+	background-position: -480px -32px;
+}
+.sml.iconsprite.screen {
+	background-position: 0 -64px;
+}
+.sml.iconsprite.laptop {
+	background-position: -32px -64px;
+}
+.sml.iconsprite.mobile {
+	background-position: -64px -64px;
+}
+.sml.iconsprite.mobile2 {
+	background-position: -96px -64px;
+}
+.sml.iconsprite.box-add {
+	background-position: -128px -64px;
+}
+.sml.iconsprite.box-remove {
+	background-position: -160px -64px;
+}
+.sml.iconsprite.bubble {
+	background-position: -192px -64px;
+}
+.sml.iconsprite.bubbles {
+	background-position: -224px -64px;
+	width: 18px;
+}
+.sml.iconsprite.user {
+	background-position: -256px -64px;
+}
+.sml.iconsprite.users {
+	background-position: -288px -64px;
+}
+.sml.iconsprite.cart {
+	background-position: -320px -64px;
+}
+.sml.iconsprite.user3 {
+	background-position: -352px -64px;
+}
+.sml.iconsprite.quotes-left {
+	background-position: -384px -64px;
+}
+.sml.iconsprite.busy {
+	background-position: -416px -64px;
+}
+.sml.iconsprite.search {
+	background-position: -448px -64px;
+}
+.sml.iconsprite.lock {
+	background-position: -480px -64px;
+}
+.sml.iconsprite.unlocked {
+	background-position: 0 -96px;
+}
+.sml.iconsprite.settings {
+	background-position: -32px -96px;
+}
+.sml.iconsprite.equalizer {
+	background-position: -64px -96px;
+}
+.sml.iconsprite.cog {
+	background-position: -96px -96px;
+}
+.sml.iconsprite.bug {
+	background-position: -128px -96px;
+}
+.sml.iconsprite.pie {
+	background-position: -160px -96px;
+}
+.sml.iconsprite.stats {
+	background-position: -192px -96px;
+}
+.sml.iconsprite.bars {
+	background-position: -224px -96px;
+}
+.sml.iconsprite.gift {
+	background-position: -256px -96px;
+}
+.sml.iconsprite.mug {
+	background-position: -288px -96px;
+}
+.sml.iconsprite.food {
+	background-position: -320px -96px;
+}
+.sml.iconsprite.fire {
+	background-position: -352px -96px;
+}
+.sml.iconsprite.lab {
+	background-position: -384px -96px;
+}
+.sml.iconsprite.airplane {
+	background-position: -416px -96px;
+}
+.sml.iconsprite.truck {
+	background-position: -448px -96px;
+}
+.sml.iconsprite.lightning {
+	background-position: -480px -96px;
+}
+.sml.iconsprite.switch {
+	background-position: 0 -128px;
+}
+.sml.iconsprite.menu {
+	background-position: -32px -128px;
+}
+.sml.iconsprite.cloud-download {
+	background-position: -64px -128px;
+}
+.sml.iconsprite.cloud-upload {
+	background-position: -96px -128px;
+}
+.sml.iconsprite.download {
+	background-position: -128px -128px;
+}
+.sml.iconsprite.upload {
+	background-position: -160px -128px;
+}
+.sml.iconsprite.globe {
+	background-position: -192px -128px;
+}
+.sml.iconsprite.earth {
+	background-position: -224px -128px;
+}
+.sml.iconsprite.link {
+	background-position: -256px -128px;
+}
+.sml.iconsprite.flag {
+	background-position: -288px -128px;
+}
+.sml.iconsprite.attachment {
+	background-position: -320px -128px;
+}
+.sml.iconsprite.eye {
+	background-position: -352px -128px;
+}
+.sml.iconsprite.bookmark {
+	background-position: -384px -128px;
+}
+.sml.iconsprite.star {
+	background-position: -416px -128px;
+}
+.sml.iconsprite.heart {
+	background-position: -448px -128px;
+}
+.sml.iconsprite.heart-broken {
+	background-position: -480px -128px;
+}
+.sml.iconsprite.info {
+	background-position: 0 -160px;
+}
+.sml.iconsprite.cancel-circle {
+	background-position: -32px -160px;
+}
+.sml.iconsprite.checkmark-circle {
+	background-position: -64px -160px;
+}
+.sml.iconsprite.checkmark {
+	background-position: -96px -160px;
+}
+.sml.iconsprite.thumbsup {
+	background-position: -128px -160px;
+}
+.sml.iconsprite.minus {
+	background-position: -160px -160px;
+}
+.sml.iconsprite.plus {
+	background-position: -192px -160px;
+}
+.sml.iconsprite.play2 {
+	background-position: -224px -160px;
+}
+.sml.iconsprite.pause {
+	background-position: -256px -160px;
+}
+.sml.iconsprite.stop {
+	background-position: -288px -160px;
+}
+.sml.iconsprite.backward {
+	background-position: -320px -160px;
+}
+.sml.iconsprite.forward {
+	background-position: -352px -160px;
+}
+.sml.iconsprite.first {
+	background-position: -384px -160px;
+}
+.sml.iconsprite.last {
+	background-position: -416px -160px;
+}
+.sml.iconsprite.previous {
+	background-position: -448px -160px;
+}
+.sml.iconsprite.next {
+	background-position: -480px -160px;
+}
+.sml.iconsprite.volume-high {
+	background-position: 0 -192px;
+	width: 17px;
+}
+.sml.iconsprite.volume-medium {
+	background-position: -32px -192px;
+}
+.sml.iconsprite.volume-low {
+	background-position: -64px -192px;
+}
+.sml.iconsprite.volume-mute {
+	background-position: -96px -192px;
+}
+.sml.iconsprite.volume-mute2 {
+	background-position: -128px -192px;
+}
+.sml.iconsprite.volume-increase {
+	background-position: -160px -192px;
+}
+.sml.iconsprite.loop {
+	background-position: -192px -192px;
+}
+.sml.iconsprite.radio-checked {
+	background-position: -224px -192px;
+}
+.sml.iconsprite.radio-unchecked {
+	background-position: -256px -192px;
+}
+.sml.iconsprite.paragraph-justify {
+	background-position: -288px -192px;
+}
+.sml.iconsprite.new-tab {
+	background-position: -320px -192px;
+}
+.sml.iconsprite.wifi {
+	background-position: -352px -192px;
+}
+.sml.iconsprite.basket {
+	background-position: -384px -192px;
+}
+.sml.iconsprite.google-plus {
+	background-position: -416px -192px;
+}
+.sml.iconsprite.facebook {
+	background-position: -448px -192px;
+}
+.sml.iconsprite.twitter {
+	background-position: -480px -192px;
+}
+.sml.iconsprite.feed {
+	background-position: 0 -224px;
+}
+.sml.iconsprite.youtube {
+	background-position: -32px -224px;
+}
+.sml.iconsprite.vimeo {
+	background-position: -64px -224px;
+}
+.sml.iconsprite.flickr {
+	background-position: -96px -224px;
+}
+.sml.iconsprite.flickr2 {
+	background-position: -128px -224px;
+}
+.sml.iconsprite.skype {
+	background-position: -160px -224px;
+}
+.sml.iconsprite.pinterest {
+	background-position: -192px -224px;
+}
+.sml.iconsprite.paypal {
+	background-position: -224px -224px;
+}
+.sml.iconsprite.directions {
+	background-position: -256px -224px;
+}
+.sml.iconsprite.envelope {
+	background-position: -288px -224px;
+}
+.sml.iconsprite.calendar3 {
+	background-position: -320px -224px;
+}
+.sml.iconsprite.coffee {
+	background-position: -352px -224px;
+}
+/*Large*/
+.lrg.iconsprite.home {
+	background-position: 0 0;
+}
+.lrg.iconsprite.home2 {
+	background-position: -128px 0;
+}
+.lrg.iconsprite.office {
+	background-position: -256px 0;
+}
+.lrg.iconsprite.newspaper {
+	background-position: -384px 0;
+}
+.lrg.iconsprite.pen {
+	background-position: -512px 0;
+}
+.lrg.iconsprite.image {
+	background-position: -640px 0;
+}
+.lrg.iconsprite.images {
+	background-position: -768px 0;
+}
+.lrg.iconsprite.camera {
+	background-position: -896px 0;
+}
+.lrg.iconsprite.music {
+	background-position: -1024px 0;
+}
+.lrg.iconsprite.play {
+	background-position: -1152px 0;
+}
+.lrg.iconsprite.film {
+	background-position: -1280px 0;
+}
+.lrg.iconsprite.camera2 {
+	background-position: -1408px 0;
+}
+.lrg.iconsprite.bullhorn {
+	background-position: -1536px 0;
+}
+.lrg.iconsprite.book {
+	background-position: -1664px 0;
+}
+.lrg.iconsprite.profile {
+	background-position: -1792px 0;
+}
+.lrg.iconsprite.file {
+	background-position: -1920px 0;
+}
+.lrg.iconsprite.file2 {
+	background-position: 0 -128px;
+}
+.lrg.iconsprite.file3 {
+	background-position: -128px -128px;
+}
+.lrg.iconsprite.mic {
+	background-position: -256px -128px;
+}
+.lrg.iconsprite.tag {
+	background-position: -384px -128px;
+}
+.lrg.iconsprite.credit {
+	background-position: -512px -128px;
+}
+.lrg.iconsprite.support {
+	background-position: -640px -128px;
+}
+.lrg.iconsprite.phone {
+	background-position: -768px -128px;
+}
+.lrg.iconsprite.address-book {
+	background-position: -896px -128px;
+}
+.lrg.iconsprite.pushpin {
+	background-position: -1024px -128px;
+}
+.lrg.iconsprite.location {
+	background-position: -1152px -128px;
+}
+.lrg.iconsprite.location2 {
+	background-position: -1280px -128px;
+}
+.lrg.iconsprite.clock {
+	background-position: -1408px -128px;
+}
+.lrg.iconsprite.clock2 {
+	background-position: -1536px -128px;
+}
+.lrg.iconsprite.alarm {
+	background-position: -1664px -128px;
+}
+.lrg.iconsprite.calendar {
+	background-position: -1792px -128px;
+}
+.lrg.iconsprite.calendar2 {
+	background-position: -1920px -128px;
+}
+.lrg.iconsprite.screen {
+	background-position: 0 -256px;
+}
+.lrg.iconsprite.laptop {
+	background-position: -128px -256px;
+}
+.lrg.iconsprite.mobile {
+	background-position: -256px -256px;
+}
+.lrg.iconsprite.mobile2 {
+	background-position: -384px -256px;
+}
+.lrg.iconsprite.box-add {
+	background-position: -512px -256px;
+}
+.lrg.iconsprite.box-remove {
+	background-position: -640px -256px;
+}
+.lrg.iconsprite.bubble {
+	background-position: -768px -256px;
+}
+.lrg.iconsprite.bubbles {
+	background-position: -896px -256px;
+}
+.lrg.iconsprite.user {
+	background-position: -1024px -256px;
+}
+.lrg.iconsprite.users {
+	background-position: -1152px -256px;
+}
+.lrg.iconsprite.cart {
+	background-position: -1280px -256px;
+}
+.lrg.iconsprite.user3 {
+	background-position: -1408px -256px;
+}
+.lrg.iconsprite.quotes-left {
+	background-position: -1536px -256px;
+}
+.lrg.iconsprite.busy {
+	background-position: -1664px -256px;
+}
+.lrg.iconsprite.search {
+	background-position: -1792px -256px;
+}
+.lrg.iconsprite.lock {
+	background-position: -1920px -256px;
+}
+.lrg.iconsprite.unlocked {
+	background-position: 0 -384px;
+}
+.lrg.iconsprite.settings {
+	background-position: -128px -384px;
+}
+.lrg.iconsprite.equalizer {
+	background-position: -256px -384px;
+}
+.lrg.iconsprite.cog {
+	background-position: -384px -384px;
+}
+.lrg.iconsprite.bug {
+	background-position: -512px -384px;
+}
+.lrg.iconsprite.pie {
+	background-position: -640px -384px;
+}
+.lrg.iconsprite.stats {
+	background-position: -768px -384px;
+}
+.lrg.iconsprite.bars {
+	background-position: -896px -384px;
+}
+.lrg.iconsprite.gift {
+	background-position: -1024px -384px;
+}
+.lrg.iconsprite.mug {
+	background-position: -1152px -384px;
+}
+.lrg.iconsprite.food {
+	background-position: -1280px -384px;
+}
+.lrg.iconsprite.fire {
+	background-position: -1408px -384px;
+}
+.lrg.iconsprite.lab {
+	background-position: -1536px -384px;
+}
+.lrg.iconsprite.airplane {
+	background-position: -1664px -384px;
+}
+.lrg.iconsprite.truck {
+	background-position: -1792px -384px;
+}
+.lrg.iconsprite.lightning {
+	background-position: -1920px -384px;
+}
+.lrg.iconsprite.switch {
+	background-position: 0 -512px;
+}
+.lrg.iconsprite.menu {
+	background-position: -128px -512px;
+}
+.lrg.iconsprite.cloud-download {
+	background-position: -256px -512px;
+}
+.lrg.iconsprite.cloud-upload {
+	background-position: -384px -512px;
+}
+.lrg.iconsprite.download {
+	background-position: -512px -512px;
+}
+.lrg.iconsprite.upload {
+	background-position: -640px -512px;
+}
+.lrg.iconsprite.globe {
+	background-position: -768px -512px;
+}
+.lrg.iconsprite.earth {
+	background-position: -896px -512px;
+}
+.lrg.iconsprite.link {
+	background-position: -1024px -512px;
+}
+.lrg.iconsprite.flag {
+	background-position: -1152px -512px;
+}
+.lrg.iconsprite.attachment {
+	background-position: -1280px -512px;
+}
+.lrg.iconsprite.eye {
+	background-position: -1408px -512px;
+}
+.lrg.iconsprite.bookmark {
+	background-position: -1536px -512px;
+}
+.lrg.iconsprite.star {
+	background-position: -1664px -512px;
+}
+.lrg.iconsprite.heart {
+	background-position: -1792px -512px;
+}
+.lrg.iconsprite.heart-broken {
+	background-position: -1920px -512px;
+}
+.lrg.iconsprite.info {
+	background-position: 0 -640px;
+}
+.lrg.iconsprite.cancel-circle {
+	background-position: -128px -640px;
+}
+.lrg.iconsprite.checkmark-circle {
+	background-position: -256px -640px;
+}
+.lrg.iconsprite.checkmark {
+	background-position: -384px -640px;
+}
+.lrg.iconsprite.thumbsup {
+	background-position: -512px -640px;
+}
+.lrg.iconsprite.minus {
+	background-position: -640px -640px;
+}
+.lrg.iconsprite.plus {
+	background-position: -768px -640px;
+}
+.lrg.iconsprite.play2 {
+	background-position: -896px -640px;
+}
+.lrg.iconsprite.pause {
+	background-position: -1024px -640px;
+}
+.lrg.iconsprite.stop {
+	background-position: -1152px -640px;
+}
+.lrg.iconsprite.backward {
+	background-position: -1280px -640px;
+}
+.lrg.iconsprite.forward {
+	background-position: -1408px -640px;
+}
+.lrg.iconsprite.first {
+	background-position: -1536px -640px;
+}
+.lrg.iconsprite.last {
+	background-position: -1664px -640px;
+}
+.lrg.iconsprite.previous {
+	background-position: -1792px -640px;
+}
+.lrg.iconsprite.next {
+	background-position: -1920px -640px;
+}
+.lrg.iconsprite.volume-high {
+	background-position: 0 -768px;
+}
+.lrg.iconsprite.volume-medium {
+	background-position: -128px -768px;
+}
+.lrg.iconsprite.volume-low {
+	background-position: -256px -768px;
+}
+.lrg.iconsprite.volume-mute {
+	background-position: -384px -768px;
+}
+.lrg.iconsprite.volume-mute2 {
+	background-position: -512px -768px;
+}
+.lrg.iconsprite.volume-increase {
+	background-position: -640px -768px;
+}
+.lrg.iconsprite.loop {
+	background-position: -768px -768px;
+}
+.lrg.iconsprite.radio-checked {
+	background-position: -896px -768px;
+}
+.lrg.iconsprite.radio-unchecked {
+	background-position: -1024px -768px;
+}
+.lrg.iconsprite.paragraph-justify {
+	background-position: -1152px -768px;
+}
+.lrg.iconsprite.new-tab {
+	background-position: -1280px -768px;
+}
+.lrg.iconsprite.wifi {
+	background-position: -1408px -768px;
+}
+.lrg.iconsprite.basket {
+	background-position: -1536px -768px;
+}
+.lrg.iconsprite.google-plus {
+	background-position: -1664px -768px;
+}
+.lrg.iconsprite.facebook {
+	background-position: -1792px -768px;
+}
+.lrg.iconsprite.twitter {
+	background-position: -1920px -768px;
+}
+.lrg.iconsprite.feed {
+	background-position: 0 -896px;
+}
+.lrg.iconsprite.youtube {
+	background-position: -128px -896px;
+}
+.lrg.iconsprite.vimeo {
+	background-position: -256px -896px;
+}
+.lrg.iconsprite.flickr {
+	background-position: -384px -896px;
+}
+.lrg.iconsprite.flickr2 {
+	background-position: -512px -896px;
+}
+.lrg.iconsprite.skype {
+	background-position: -640px -896px;
+}
+.lrg.iconsprite.pinterest {
+	background-position: -768px -896px;
+}
+.lrg.iconsprite.paypal {
+	background-position: -896px -896px;
+}
+.lrg.iconsprite.directions {
+	background-position: -1024px -896px;
+}
+.lrg.iconsprite.envelope {
+	background-position: -1152px -896px;
+}
+.lrg.iconsprite.calendar3 {
+	background-position: -1280px -896px;
+}
+.lrg.iconsprite.coffee {
+	background-position: -1408px -896px;
+}
+
+/*Medium*/
+.med.iconsprite.home {
+	background-position: 0 0;
+}
+.med.iconsprite.home2 {
+	background-position: -64px 0;
+}
+.med.iconsprite.office {
+	background-position: -128px 0;
+}
+.med.iconsprite.newspaper {
+	background-position: -192px 0;
+}
+.med.iconsprite.pen {
+	background-position: -256px 0;
+}
+.med.iconsprite.image {
+	background-position: -320px 0;
+}
+.med.iconsprite.images {
+	background-position: -384px 0;
+}
+.med.iconsprite.camera {
+	background-position: -448px 0;
+}
+.med.iconsprite.music {
+	background-position: -512px 0;
+}
+.med.iconsprite.play {
+	background-position: -576px 0;
+}
+.med.iconsprite.film {
+	background-position: -640px 0;
+}
+.med.iconsprite.camera2 {
+	background-position: -704px 0;
+}
+.med.iconsprite.bullhorn {
+	background-position: -768px 0;
+}
+.med.iconsprite.book {
+	background-position: -832px 0;
+}
+.med.iconsprite.profile {
+	background-position: -896px 0;
+}
+.med.iconsprite.file {
+	background-position: -960px 0;
+}
+.med.iconsprite.file2 {
+	background-position: 0 -64px;
+}
+.med.iconsprite.file3 {
+	background-position: -64px -64px;
+}
+.med.iconsprite.mic {
+	background-position: -128px -64px;
+}
+.med.iconsprite.tag {
+	background-position: -192px -64px;
+}
+.med.iconsprite.credit {
+	background-position: -256px -64px;
+}
+.med.iconsprite.support {
+	background-position: -320px -64px;
+}
+.med.iconsprite.phone {
+	background-position: -384px -64px;
+}
+.med.iconsprite.address-book {
+	background-position: -448px -64px;
+}
+.med.iconsprite.pushpin {
+	background-position: -512px -64px;
+}
+.med.iconsprite.location {
+	background-position: -576px -64px;
+}
+.med.iconsprite.location2 {
+	background-position: -640px -64px;
+}
+.med.iconsprite.clock {
+	background-position: -704px -64px;
+}
+.med.iconsprite.clock2 {
+	background-position: -768px -64px;
+}
+.med.iconsprite.alarm {
+	background-position: -832px -64px;
+}
+.med.iconsprite.calendar {
+	background-position: -896px -64px;
+}
+.med.iconsprite.calendar2 {
+	background-position: -960px -64px;
+}
+.med.iconsprite.screen {
+	background-position: 0 -128px;
+}
+.med.iconsprite.laptop {
+	background-position: -64px -128px;
+}
+.med.iconsprite.mobile {
+	background-position: -128px -128px;
+}
+.med.iconsprite.mobile2 {
+	background-position: -192px -128px;
+}
+.med.iconsprite.box-add {
+	background-position: -256px -128px;
+}
+.med.iconsprite.box-remove {
+	background-position: -320px -128px;
+}
+.med.iconsprite.bubble {
+	background-position: -384px -128px;
+}
+.med.iconsprite.bubbles {
+	background-position: -448px -128px;
+	width: 36px;
+}
+.med.iconsprite.user {
+	background-position: -512px -128px;
+}
+.med.iconsprite.users {
+	background-position: -576px -128px;
+}
+.med.iconsprite.cart {
+	background-position: -640px -128px;
+}
+.med.iconsprite.user3 {
+	background-position: -704px -128px;
+}
+.med.iconsprite.quotes-left {
+	background-position: -768px -128px;
+}
+.med.iconsprite.busy {
+	background-position: -832px -128px;
+}
+.med.iconsprite.search {
+	background-position: -896px -128px;
+}
+.med.iconsprite.lock {
+	background-position: -960px -128px;
+}
+.med.iconsprite.unlocked {
+	background-position: 0 -192px;
+}
+.med.iconsprite.settings {
+	background-position: -64px -192px;
+}
+.med.iconsprite.equalizer {
+	background-position: -128px -192px;
+}
+.med.iconsprite.cog {
+	background-position: -192px -192px;
+}
+.med.iconsprite.bug {
+	background-position: -256px -192px;
+}
+.med.iconsprite.pie {
+	background-position: -320px -192px;
+}
+.med.iconsprite.stats {
+	background-position: -384px -192px;
+}
+.med.iconsprite.bars {
+	background-position: -448px -192px;
+}
+.med.iconsprite.gift {
+	background-position: -512px -192px;
+}
+.med.iconsprite.mug {
+	background-position: -576px -192px;
+}
+.med.iconsprite.food {
+	background-position: -640px -192px;
+}
+.med.iconsprite.fire {
+	background-position: -704px -192px;
+}
+.med.iconsprite.lab {
+	background-position: -768px -192px;
+}
+.med.iconsprite.airplane {
+	background-position: -832px -192px;
+}
+.med.iconsprite.truck {
+	background-position: -896px -192px;
+}
+.med.iconsprite.lightning {
+	background-position: -960px -192px;
+}
+.med.iconsprite.switch {
+	background-position: 0 -256px;
+}
+.med.iconsprite.menu {
+	background-position: -64px -256px;
+}
+.med.iconsprite.cloud-download {
+	background-position: -128px -256px;
+}
+.med.iconsprite.cloud-upload {
+	background-position: -192px -256px;
+}
+.med.iconsprite.download {
+	background-position: -256px -256px;
+}
+.med.iconsprite.upload {
+	background-position: -320px -256px;
+}
+.med.iconsprite.globe {
+	background-position: -384px -256px;
+}
+.med.iconsprite.earth {
+	background-position: -448px -256px;
+}
+.med.iconsprite.link {
+	background-position: -512px -256px;
+}
+.med.iconsprite.flag {
+	background-position: -576px -256px;
+}
+.med.iconsprite.attachment {
+	background-position: -640px -256px;
+}
+.med.iconsprite.eye {
+	background-position: -704px -256px;
+}
+.med.iconsprite.bookmark {
+	background-position: -768px -256px;
+}
+.med.iconsprite.star {
+	background-position: -832px -256px;
+}
+.med.iconsprite.heart {
+	background-position: -896px -256px;
+}
+.med.iconsprite.heart-broken {
+	background-position: -960px -256px;
+}
+.med.iconsprite.info {
+	background-position: 0 -320px;
+}
+.med.iconsprite.cancel-circle {
+	background-position: -64px -320px;
+}
+.med.iconsprite.checkmark-circle {
+	background-position: -128px -320px;
+}
+.med.iconsprite.checkmark {
+	background-position: -192px -320px;
+}
+.med.iconsprite.thumbsup {
+	background-position: -256px -320px;
+}
+.med.iconsprite.minus {
+	background-position: -320px -320px;
+}
+.med.iconsprite.plus {
+	background-position: -384px -320px;
+}
+.med.iconsprite.play2 {
+	background-position: -448px -320px;
+}
+.med.iconsprite.pause {
+	background-position: -512px -320px;
+}
+.med.iconsprite.stop {
+	background-position: -576px -320px;
+}
+.med.iconsprite.backward {
+	background-position: -640px -320px;
+}
+.med.iconsprite.forward {
+	background-position: -704px -320px;
+}
+.med.iconsprite.first {
+	background-position: -768px -320px;
+}
+.med.iconsprite.last {
+	background-position: -832px -320px;
+}
+.med.iconsprite.previous {
+	background-position: -896px -320px;
+}
+.med.iconsprite.next {
+	background-position: -960px -320px;
+}
+.med.iconsprite.volume-high {
+	background-position: 0 -384px;
+	width: 34px;
+}
+.med.iconsprite.volume-medium {
+	background-position: -64px -384px;
+}
+.med.iconsprite.volume-low {
+	background-position: -128px -384px;
+}
+.med.iconsprite.volume-mute {
+	background-position: -192px -384px;
+}
+.med.iconsprite.volume-mute2 {
+	background-position: -256px -384px;
+}
+.med.iconsprite.volume-increase {
+	background-position: -320px -384px;
+}
+.med.iconsprite.loop {
+	background-position: -384px -384px;
+}
+.med.iconsprite.radio-checked {
+	background-position: -448px -384px;
+}
+.med.iconsprite.radio-unchecked {
+	background-position: -512px -384px;
+}
+.med.iconsprite.paragraph-justify {
+	background-position: -576px -384px;
+}
+.med.iconsprite.new-tab {
+	background-position: -640px -384px;
+}
+.med.iconsprite.wifi {
+	background-position: -704px -384px;
+}
+.med.iconsprite.basket {
+	background-position: -768px -384px;
+}
+.med.iconsprite.google-plus {
+	background-position: -832px -384px;
+}
+.med.iconsprite.facebook {
+	background-position: -896px -384px;
+}
+.med.iconsprite.twitter {
+	background-position: -960px -384px;
+}
+.med.iconsprite.feed {
+	background-position: 0 -448px;
+}
+.med.iconsprite.youtube {
+	background-position: -64px -448px;
+}
+.med.iconsprite.vimeo {
+	background-position: -128px -448px;
+}
+.med.iconsprite.flickr {
+	background-position: -192px -448px;
+}
+.med.iconsprite.flickr2 {
+	background-position: -256px -448px;
+}
+.med.iconsprite.skype {
+	background-position: -320px -448px;
+}
+.med.iconsprite.pinterest {
+	background-position: -384px -448px;
+}
+.med.iconsprite.paypal {
+	background-position: -448px -448px;
+}
+.med.iconsprite.directions {
+	background-position: -512px -448px;
+}
+.med.iconsprite.envelope {
+	background-position: -576px -448px;
+}
+.med.iconsprite.calendar3 {
+	background-position: -640px -448px;
+}
+.med.iconsprite.coffee {
+	background-position: -704px -448px;
+}

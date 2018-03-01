@@ -1,0 +1,1855 @@
+/*----------------------------------------------------
+
+IMPORTANT: REACT BASE STYLES. PLEASE USE OTHER METHODS TO EDIT CSS.
+SEE http://support.themecatcher.net/react-wordpress
+
+01: RESUABLE STYLES
+02: SHORTCODE
+03: RTL
+04: RESPONSIVE
+05: RETINA READY
+
+-------------------------------------------------------*/
+
+/*****************************************************
+	1: REUSABLE STYLES
+******************************************************/
+.tcp-clearfix:before,
+.tcp-clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+.tcp-clearfix:after {
+	clear: both;
+}
+#ie8 .tcp-clearfix {
+	zoom: 1;
+}
+
+.tcp-textcenter {
+	text-align: center;
+}
+.tcp-textright {
+	text-align: right;
+}
+.tcp-textleft {
+	text-align: left;
+}
+
+/*****************************************************
+	2: SHORTCODE
+******************************************************/
+.tcp-portfolio, .tcp-portfolio * {
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*.tcp-tiny-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+.tcp-portfolio.tcp-boxed .tcp-entry-meta {
+	max-width: none;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.tcp-portfolio-filter .tcp-filter-button:after {
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.tcp-portfolio-items, .tcp-portfolio-item {
+	max-width: 100%;
+}
+.tcp-portfolio-items {
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: scale(1);
+	animation-fill-mode: initial;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.tcp-portfolio p {
+	padding-bottom: 0;
+	margin: 3px 0;
+}
+.tcp-boxed .tcp-portfolio-details {
+	padding: 25px;
+	background: #fff;
+	margin-bottom:20px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.01) inset, 0 -3px 0 0 rgba(0, 0, 0, 0.05) inset, 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.01) inset, 0 -3px 0 0 rgba(0, 0, 0, 0.05) inset, 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+}
+.tcp-boxed .tcp-portfolio-item-image-above.portfolio-item-has-feat .tcp-portfolio-details {
+	border-top: none 0;
+	border-radius: 0 0 2px 2px;
+}
+.tcp-title-only .tcp-portfolio-item-image-above .tcp-portfolio-details {
+	padding-top: 15px;
+	padding-bottom: 0;
+}
+.tcp-has-height .tcp-portfolio-details,
+.tcp-has-height .tcp-portfolio-details .tcp-portfolio-item-description {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+.tcp-has-height .tcp-portfolio-details .tcp-portfolio-item-description {
+	height: 100%;
+	padding-bottom: 5px;
+	margin: 0;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+.tcp-portfolio-item .tcp-portfolio-details {margin: 0;}
+.tcp-portfolio-items-offset-parent {
+	position: relative;
+}
+.tcp-portfolio-items { font-size: 0; letter-spacing: -4px; width: 100% !important; position: relative; }
+.tcp-portfolio-items .tcp-portfolio-item {
+	letter-spacing: normal;
+	font-size: 13px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.widget .tcp-portfolio-items .tcp-portfolio-item {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	margin-bottom: 10px;
+}
+.tcp-portfolio-item-sizer {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 0 !important;
+}
+
+/* Portfolio column widths */
+.tcp-portfolio-1-column .tcp-portfolio-item, .tcp-portfolio-1-column .tcp-portfolio-item-sizer { width: 100%; }
+.tcp-portfolio-2-column .tcp-portfolio-item, .tcp-portfolio-2-column .tcp-portfolio-item-sizer { width: 50%; }
+.tcp-portfolio-3-column .tcp-portfolio-item, .tcp-portfolio-3-column .tcp-portfolio-item-sizer { width: 33.333332%; }
+.tcp-portfolio-4-column .tcp-portfolio-item, .tcp-portfolio-4-column .tcp-portfolio-item-sizer { width: 25%; }
+.tcp-portfolio-5-column .tcp-portfolio-item, .tcp-portfolio-5-column .tcp-portfolio-item-sizer { width: 20%; }
+.tcp-portfolio-6-column .tcp-portfolio-item, .tcp-portfolio-6-column .tcp-portfolio-item-sizer { width: 16.666665%; }
+.tcp-portfolio-7-column .tcp-portfolio-item, .tcp-portfolio-7-column .tcp-portfolio-item-sizer { width: 14.285714%; }
+.tcp-portfolio-8-column .tcp-portfolio-item, .tcp-portfolio-8-column .tcp-portfolio-item-sizer { width: 12.5%; }
+.tcp-portfolio-9-column .tcp-portfolio-item, .tcp-portfolio-9-column .tcp-portfolio-item-sizer { width: 11.111111%; }
+.tcp-portfolio-10-column .tcp-portfolio-item, .tcp-portfolio-10-column .tcp-portfolio-item-sizer { width: 10%; }
+
+/* Masonry multiple column items */
+.tcp-portfolio-2-column .tcp-portfolio-item-width-2 { width: 100%; }
+
+.tcp-portfolio-3-column .tcp-portfolio-item-width-2 { width: 66.666666%; }
+.tcp-portfolio-3-column .tcp-portfolio-item-width-3 { width: 100%; }
+
+.tcp-portfolio-4-column .tcp-portfolio-item-width-2 { width: 50%; }
+.tcp-portfolio-4-column .tcp-portfolio-item-width-3 { width: 75%; }
+.tcp-portfolio-4-column .tcp-portfolio-item-width-4 { width: 100%; }
+
+.tcp-portfolio-5-column .tcp-portfolio-item-width-2 { width: 40%; }
+.tcp-portfolio-5-column .tcp-portfolio-item-width-3 { width: 60%; }
+.tcp-portfolio-5-column .tcp-portfolio-item-width-4 { width: 80%; }
+.tcp-portfolio-5-column .tcp-portfolio-item-width-5 { width: 100%; }
+
+.tcp-portfolio-6-column .tcp-portfolio-item-width-2 { width: 33.333332%; }
+.tcp-portfolio-6-column .tcp-portfolio-item-width-3 { width: 50%; }
+.tcp-portfolio-6-column .tcp-portfolio-item-width-4 { width: 66.666666%; }
+.tcp-portfolio-6-column .tcp-portfolio-item-width-5 { width: 83.333333%; }
+.tcp-portfolio-6-column .tcp-portfolio-item-width-6 { width: 100%; }
+
+.tcp-portfolio-7-column .tcp-portfolio-item-width-2 { width: 28.571428%; }
+.tcp-portfolio-7-column .tcp-portfolio-item-width-3 { width: 42.857142%; }
+.tcp-portfolio-7-column .tcp-portfolio-item-width-4 { width: 57.142856%; }
+.tcp-portfolio-7-column .tcp-portfolio-item-width-5 { width: 71.42857%; }
+.tcp-portfolio-7-column .tcp-portfolio-item-width-6 { width: 85.714284%; }
+.tcp-portfolio-7-column .tcp-portfolio-item-width-7 { width: 100%; }
+
+.tcp-portfolio-8-column .tcp-portfolio-item-width-2 { width: 25%; }
+.tcp-portfolio-8-column .tcp-portfolio-item-width-3 { width: 37.5%; }
+.tcp-portfolio-8-column .tcp-portfolio-item-width-4 { width: 50%; }
+.tcp-portfolio-8-column .tcp-portfolio-item-width-5 { width: 62.5%; }
+.tcp-portfolio-8-column .tcp-portfolio-item-width-6 { width: 75%; }
+.tcp-portfolio-8-column .tcp-portfolio-item-width-7 { width: 87.5%; }
+.tcp-portfolio-8-column .tcp-portfolio-item-width-8 { width: 100%; }
+
+.tcp-portfolio-9-column .tcp-portfolio-item-width-2 { width: 22.222222%; }
+.tcp-portfolio-9-column .tcp-portfolio-item-width-3 { width: 33.333332%; }
+.tcp-portfolio-9-column .tcp-portfolio-item-width-4 { width: 44.444444%; }
+.tcp-portfolio-9-column .tcp-portfolio-item-width-5 { width: 55.555555%; }
+.tcp-portfolio-9-column .tcp-portfolio-item-width-6 { width: 66.666666%; }
+.tcp-portfolio-9-column .tcp-portfolio-item-width-7 { width: 77.777777%; }
+.tcp-portfolio-9-column .tcp-portfolio-item-width-8 { width: 88.888888%; }
+.tcp-portfolio-9-column .tcp-portfolio-item-width-9 { width: 100%; }
+
+.tcp-portfolio-10-column .tcp-portfolio-item-width-2 { width: 20%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-3 { width: 30%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-4 { width: 40%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-5 { width: 50%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-6 { width: 60%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-7 { width: 70%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-8 { width: 80%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-9 { width: 90%; }
+.tcp-portfolio-10-column .tcp-portfolio-item-width-10 { width: 100%; }
+
+/* Featured image */
+.tcp-featured-image-wrap {
+	overflow: hidden;
+	max-width: 100%;
+	line-height: 0;
+	border-radius: 2px;
+	max-height: 2000px;
+	text-align: center;
+}
+.tcp-featured-image-helper,
+.tcp-featured-video-helper {
+	position: relative;
+	z-index: 2;
+}
+.tcp-featured-image-left {
+	float: left;
+	margin: 0 20px 5px 0;
+	padding: 0;
+}
+.tcp-featured-image-right {
+	float: right;
+	margin: 0 0 5px 20px;
+	padding: 0;
+}
+.tcp-featured-video-left {
+	float: left;
+	margin: 5px 20px 5px 0;
+}
+.tcp-featured-video-right {
+	float: right;
+	margin: 5px 0 5px 20px;
+}
+.tcp-boxed .tcp-featured-image-left,
+.tcp-boxed .tcp-featured-video-left {
+	margin: 25px 25px 5px 25px;
+}
+.tcp-boxed .tcp-featured-image-right,
+.tcp-boxed .tcp-featured-video-right {
+	margin: 25px 25px 5px 25px;
+}
+/* ------ Featured Video --------- */
+.tcp-featured-video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0;
+	height: 0;
+	overflow: hidden;
+	border-radius: 2px;
+}
+.tcp-featured-video * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	max-width: none;
+}
+.tcp-featured-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none 0;
+}
+.tcp-fancybox-video .fancybox-inner {
+	overflow: hidden !important;
+}
+/* ------ Featured Image --------- */
+.tcp-featured-image-wrap, .tcp-featured-image-link:before {
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.tcp-featured-image {
+	display: block;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -4px;
+}
+.tcp-featured-image-below, .tcp-featured-image-on-hover, .tcp-featured-image-above,
+.tcp-featured-video-below, .tcp-featured-video-on-hover, .tcp-featured-video-above {margin: 0;}
+.tcp-featured-image-below, .tcp-featured-video-below {margin-top: 15px;}
+.tcp-boxed.tcp-portfolio .tcp-featured-image-above .tcp-featured-image,
+.tcp-boxed.tcp-portfolio .tcp-featured-image-above .tcp-portfolio-hover,
+.tcp-boxed.tcp-portfolio .tcp-featured-image-above .tcp-featured-image > img {
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+}
+.tcp-boxed.tcp-portfolio .tcp-featured-image-above .tcp-featured-image-wrap,
+.tcp-boxed.tcp-portfolio .tcp-featured-image-above .tcp-featured-image-wrap img {
+	border-bottom-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+.tcp-featured-image-wrap > span.tcp-featured-image,
+.tcp-featured-image-wrap > a > span.tcp-featured-image {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.tcp-featured-image-wrap > span.tcp-featured-image:hover,
+.tcp-featured-image-wrap > a > span.tcp-featured-image:hover {
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+/*Meta and date*/
+.tcp-entry-meta {
+	padding: 4px 0 4px 0;
+	margin-bottom: 5px;
+	font-size: 85%;
+	line-height: 30px;
+	color: #888;
+	position: relative;
+	border-bottom: 1px solid #eee;
+}
+.tcp-entry-meta > span {
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+.tcp-entry-meta > span > i.fa {
+	margin: 0 3px;
+}
+/* Post info */
+.tcp-entry-info {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: auto;
+	z-index: 15;
+}
+.tcp-entry-info .tcp-date {
+	text-align: center;
+	width: 55px;
+	height: 45px;
+	height: auto;
+	min-height: 40px;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 4px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 2px;
+}
+.tcp-entry-info .tcp-date a {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	color: #fff;
+}
+.tcp-entry-info .tcp-date .tcp-day {
+	font-weight: 700;
+	color: #fff;
+	font-size: 23px;
+	line-height: 28px;
+	padding: 5px 0 0 0;
+	margin: 0;
+	height: 30px;
+}
+.tcp-entry-info .tcp-date .tcp-month {
+	font-size: 12px;
+	height: 28px;
+	line-height: 22px;
+	display: block;
+}
+/*if has feat image and it's above.*/
+.tcp-portfolio .portfolio-item-has-feat.tcp-portfolio-item-image-above .tcp-entry-info {
+	right: 5px;
+	top: 7px;
+}
+.tcp-portfolio .portfolio-item-has-feat.tcp-portfolio-item-image-above .tcp-portfolio-item-title {
+	margin-right: 0;
+}
+.tcp-portfolio.tcp-date-like-left .tcp-entry-info {
+	right: auto;
+	left: 0;
+}
+/*if has feat image and it's above.*/
+.tcp-portfolio.tcp-date-like-left .portfolio-item-has-feat.tcp-portfolio-item-image-above .tcp-entry-info {
+	left: 5px;
+	top: 5px;
+}
+.tcp-portfolio.tcp-boxed .tcp-entry-info,
+.tcp-portfolio.tcp-boxed .portfolio-item-has-feat.tcp-portfolio-item-image-above .tcp-entry-info {
+	top: 0;
+	right: -6px;
+}
+.tcp-portfolio.tcp-boxed.tcp-date-like-left .tcp-entry-info,
+.tcp-portfolio.tcp-boxed.tcp-date-like-left .portfolio-item-has-feat.tcp-portfolio-item-image-above .tcp-entry-info {
+	right: auto;
+	left: -6px;
+}
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item-image-below .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item-image-below .tcp-portfolio-item-title a {
+	padding-top: 0;
+}
+
+.tcp-portfolio .tcp-portfolio-item-image-below .tcp-entry-meta {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	border-bottom: 0 none;
+}
+
+/*date and like above*/
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 44px;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-left .tcp-entry-info,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-right .tcp-entry-info {
+	top: 0;
+}
+.tcp-portfolio.tcp-date-like-above.tcp-boxed .tcp-portfolio-item .tcp-entry-info {
+	left: -6px;
+	top: -30px;
+	right: 0;
+	width: auto;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	max-width: none;
+}
+.tcp-portfolio.tcp-date-like-above.tcp-boxed.tcp-details-always .tcp-portfolio-item .tcp-entry-info {
+	top: 0;
+	right: 0;
+	width: auto;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	max-width: none;
+}
+
+.tcp-portfolio.tcp-date-like-above.tcp-details-always .tcp-portfolio-item > div {
+	padding-top: 35px;
+}
+.tcp-portfolio.tcp-date-like-above.tcp-details-always .tcp-portfolio-item.tcp-portfolio-item-image-left > div,
+.tcp-portfolio.tcp-date-like-above.tcp-details-always .tcp-portfolio-item.tcp-portfolio-item-image-right > div {
+	padding-top: 55px;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item > div,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item-image-above.tcp-portfolio-item > div {
+	padding-top: 0;
+}
+.tcp-portfolio.tcp-date-like-above.tcp-details-always .tcp-portfolio-item-image-above.tcp-portfolio-item > div,
+.tcp-portfolio.tcp-date-like-above.tcp-details-always.tcp-boxed .tcp-portfolio-item.tcp-portfolio-item-image-left > div,
+.tcp-portfolio.tcp-date-like-above.tcp-details-always.tcp-boxed .tcp-portfolio-item.tcp-portfolio-item-image-right > div,
+.tcp-portfolio.tcp-date-like-above.tcp-details-always .tcp-portfolio-item.tcp-portfolio-item-image-above:not(.portfolio-item-has-feat) > div {
+	padding-top: 35px;
+}
+
+.tcp-portfolio.tcp-date-like-above .tcp-entry-info .tcp-date {
+	width: 49%;
+	float: left;
+	height: 45px;
+	border-right: 1px solid rgba(255,255,255, 0.1);
+	border-bottom: none 0;
+	margin-right: 1%;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-entry-info .tcp-date {
+	width: 50%;
+	margin-right: 0;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-entry-info .react-vote {
+	float: right;
+	height: 45px;
+	width: 50%;
+	border-bottom: none 0;
+}
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > div, .tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > span {
+	border-radius: 0;
+	margin: 0;
+	border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+.tcp-portfolio.tcp-date-like-above .tcp-entry-info .react-vote:only-child,
+.tcp-portfolio.tcp-date-like-above .tcp-entry-info .tcp-date:only-child {
+	width: 100%;
+	border: none 0;
+}
+
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > div:after, .tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > span:after {
+	width: 0;
+	height: 0;
+	position: absolute;
+	right: 0;
+	bottom: -6px;
+	border-style: solid;
+	border-width: 6px 6px 0 0;
+	border-color: #000 transparent transparent transparent ;
+	content: "";
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
+}
+.tcp-portfolio.tcp-boxed.tcp-date-like-left .tcp-portfolio-item .tcp-entry-info > div:after, .tcp-portfolio.tcp-boxed.tcp-date-like-left .tcp-portfolio-item .tcp-entry-info > span:after {
+	left: 0;
+	right: auto;
+	border-width: 0 6px 6px 0;
+	border-color:  transparent #000 transparent transparent ;
+}
+.tcp-portfolio.tcp-boxed.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > div:after, .tcp-portfolio.tcp-boxed.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > span:after {
+	left: 0;
+	right: auto;
+	border-width: 0 6px 6px 0;
+	border-color:  transparent #000 transparent transparent ;
+}
+
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > div:first-child, .tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > span:first-child {
+	border-radius: 0 2px 0 0;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > div:first-child, .tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > span:first-child {
+	border-radius: 2px 0 0 0;
+	border-bottom: none 0;
+}
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > div:last-child, .tcp-portfolio.tcp-boxed .tcp-portfolio-item .tcp-entry-info > span:last-child {
+	border-bottom-left-radius: 2px;
+	margin-bottom: 0;
+	border-bottom: none 0;
+}
+.tcp-portfolio.tcp-boxed.tcp-date-like-left .tcp-portfolio-item .tcp-entry-info > div:last-child, .tcp-portfolio.tcp-boxed.tcp-date-like-left .tcp-portfolio-item .tcp-entry-info > span:last-child {
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 0;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > div:last-child, .tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > span:last-child {
+	border-radius: 0 2px 0 0;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > div:only-child, .tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info > span:only-child {
+	border-top-left-radius: 2px;
+}
+
+.tcp-portfolio.tcp-date-like-left.tcp-details-always .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-date-like-left.tcp-details-always .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-entry-meta,
+
+.tcp-portfolio.tcp-date-like-right.tcp-details-always.tcp-textcenter .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-date-like-right.tcp-details-always.tcp-textcenter .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-entry-meta {
+	padding-left: 60px;
+}
+.tcp-portfolio.tcp-date-like-right.tcp-details-always .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-date-like-right.tcp-details-always .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-entry-meta,
+
+.tcp-portfolio.tcp-date-like-left.tcp-details-always.tcp-textcenter .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-date-like-left.tcp-details-always.tcp-textcenter .tcp-portfolio-item.tcp-portfolio-item-image-below .tcp-entry-meta {
+	padding-right: 60px;
+}
+
+/* Show post details on hover */
+.tcp-details-on-hover .tcp-entry-info > div,
+.tcp-details-on-hover .tcp-entry-info > span  {
+	margin-top: 0;
+	min-height: 45px;
+}
+.tcp-details-on-hover .tcp-entry-info,
+.tcp-details-on-hover .tcp-entry-info > div,
+.tcp-details-on-hover .tcp-entry-info > span {
+	/*overflow: hidden; show*/
+	opacity: 0;
+	max-height: 0;
+	-webkit-transition: all 0.3s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	-moz-transition: all 0.3s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	-o-transition: all 0.3s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	transition: all 0.3s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+}
+.tcp-details-on-hover .tcp-portfolio-item:hover .tcp-entry-info > div,
+.tcp-details-on-hover .tcp-portfolio-item:hover .tcp-entry-info > span {
+	margin-top: 0;
+}
+.tcp-details-on-hover .tcp-portfolio-item:hover .tcp-entry-info,
+.tcp-details-on-hover .tcp-portfolio-item:hover .tcp-entry-info > div,
+.tcp-details-on-hover .tcp-portfolio-item:hover .tcp-entry-info > span  {
+	opacity: 1;
+	max-height: 600px;
+}
+
+/* Hover effects */
+
+.tcp-featured-image-link img {}
+.tcp-featured-image-link:hover img {}
+.tcp-portfolio-hover, .tcp-featured-image-link:before {
+	position: absolute;
+	top: 0;
+	bottom: 50%;
+	left: 0;
+	display: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #11c2cd;
+	opacity: 0;
+}
+.tcp-featured-image-link {padding: 5% 0;}
+.tcp-featured-image-link:before {
+	content: "";
+	/*font-family: "FontAwesome";*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	display: block;
+	color: #fff;
+}
+.tcp-portfolio-item {
+	vertical-align: top;
+	float: left;
+	position: relative;
+	/*display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	_height: 10px; might need this again for IE */
+}
+.tcp-portfolio-item .tcp-featured-image-wrap .tcp-portfolio-hover span.tcp-zoom {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 86px;
+	height: 86px;
+	line-height: 84Px;
+	font-size: 0;
+	margin-top: -43px;
+	margin-left: -43px;
+	background-repeat: no-repeat;
+	background-color: #000;
+	display: block;
+	text-align: center;
+	visibility: hidden;
+	vertical-align: middle;
+	opacity:0;
+	border-radius: 100%;
+	-webkit-transition: all 0.80s cubic-bezier(0, 1.2, 1, 1.2);
+	-moz-transition: all 0.80s cubic-bezier(0, 1.2, 1, 1.2);
+	-o-transition: all 0.80s cubic-bezier(0, 1.2, 1, 1.2);
+	transition: all 0.80s cubic-bezier(0, 1.2, 1, 1.2);
+	-webkit-backface-visibility: hidden;
+	-ms-transform: scale(2.2);
+	-webkit-transform: scale(2.2);
+	transform: scale(2.2);
+}
+.tcp-portfolio-item:hover .tcp-featured-image-wrap .tcp-portfolio-hover span.tcp-zoom,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover:hover .tcp-portfolio-hover span.tcp-zoom {
+	top: 50%;
+	visibility: visible;
+	opacity: 1;
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.tcp-portfolio-item .tcp-featured-image-link:hover:before {opacity: 0.3;}
+
+.tcp-med-hvr .tcp-portfolio-item .tcp-featured-image-wrap .tcp-portfolio-hover span.tcp-zoom {
+	width: 86px;
+	height: 86px;
+	line-height: 86Px;
+	margin-top: -43px;
+	margin-left: -43px;
+}
+.tcp-sml-hvr .tcp-portfolio-item .tcp-featured-image-wrap .tcp-portfolio-hover span.tcp-zoom {
+	width: 78px;
+	height: 78px;
+	line-height: 78Px;
+	line-height: 75px;
+	margin-top: -39px;
+	margin-left: -39px;
+}
+.tcp-lrg-hvr .tcp-portfolio-item .tcp-featured-image-wrap .tcp-portfolio-hover span.tcp-zoom {
+	height: 142px;
+	line-height: 142Px;
+	margin-left: -71px;
+	margin-top: -71px;
+	width: 142px;
+}
+.tcp-tiny-hvr .tcp-portfolio-item .tcp-featured-image-wrap .tcp-portfolio-hover span.tcp-zoom {
+	width: 34px;
+	height: 34px;
+	line-height: 34Px;
+	margin-top: -17px;
+	margin-left: -17px;
+}
+.tcp-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	vertical-align: middle;
+}
+/*Extras*/
+.tcp-featured-image-link {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	height: 100%;
+	letter-spacing: 0;
+	overflow: hidden;
+	border: none 0 !important;
+}
+.tcp-portfolio-item-title {
+	border-bottom: 1px solid #eee;
+	padding: 15px 0 10px 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	clear: none;
+}
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-boxed .portfolio-item-has-feat.tcp-portfolio-item-image-above .tcp-portfolio-item-title {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin: 0 -25px;
+	padding: 0 25px 15px;
+	max-width: none;
+}
+.tcp-portfolio.tcp-boxed .tcp-entry-meta {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin: 0 -25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	max-width: none;
+}
+.tcp-portfolio-item-title .tcp-portfolio-title-inner > a > i.fa,
+.tcp-portfolio-item-title .tcp-portfolio-title-inner > span.tcp-portfolio-title-text > i.fa {
+	margin-right: 10px;
+}
+.tcp-title-only .tcp-portfolio-item-title {
+	padding-bottom: 0;
+}
+.tcp-button-only .tcp-portfolio-read-more {
+	padding-top: 0;
+	margin-top: -6px;
+}
+.tcp-portfolio.tcp-boxed.tcp-title-only .tcp-portfolio-item-title {
+	padding: 3px 0;
+	margin: 0;
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tcp-portfolio .tcp-portfolio-item-image-left .tcp-portfolio-item-title,
+.tcp-portfolio .tcp-portfolio-item-image-right .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item-image-left .tcp-portfolio-item-title,
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item-image-right .tcp-portfolio-item-title {
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item-image-left .tcp-entry-meta,
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item-image-right .tcp-entry-meta {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+.tcp-no-border .tcp-featured-image-wrap {
+	border-bottom: none;
+}
+.tcp-portfolio-item-inner {
+	/*overflow: hidden;*/
+	position: relative;
+	line-height: inherit;
+	vertical-align: text-bottom;
+}
+.tcp-portfolio-item-title .tcp-portfolio-title-inner > a {
+	color: #888;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: text-bottom;
+}
+.tcp-portfolio-item-title span.tcp-portfolio-title-text {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: text-bottom;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover span.tcp-portfolio-title-text {
+	display: block;
+}
+.tcp-portfolio-item-title a:hover {
+	color: #11c2cd;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-item-title a,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-item-title a:hover,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-meta,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-meta a,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-meta a:hover {
+	color: #fff;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-meta {
+	padding-top: 0;
+	margin-top: -7px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none 0;
+}
+
+.tcp-portfolio-details {
+	padding: 10px 0 10px 0;
+}
+.tcp-title-only .tcp-portfolio-item-title {
+	border-bottom: 0 none;
+}
+.tcp-portfolio-details .tcp-portfolio-item-description {
+	margin-bottom: 0;
+	padding-top: 15px;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-item-description {
+	padding-top: 5px;
+}
+.tcp-portfolio-read-more {
+	padding: 15px 0 0 0;
+	margin-bottom: -5px;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info {
+	right: 4px;
+	top: auto;
+	bottom: 0;
+}
+/* Hide post with no images - for image hover */
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover:not(.portfolio-item-has-feat) {
+	display: none;
+}
+/* Basic button */
+a.tcp-basic-button {
+	padding: 11px 25px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	position: relative;
+	font-size: 14px;
+	max-width: 100%;
+	overflow: hidden;
+	background-color: #11c2cd;
+	color: #fff;
+	-webkit-box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+}
+#ie7 a.tcp-basic-button {
+	display: inline;
+	zoom: 1;
+	height: auto;
+}
+a.tcp-basic-button:hover {
+	color: #fff;
+	background-color: #0ab6c1;
+}
+a.tcp-basic-button.tcp-full {
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+	display: block;
+}
+
+.tcp-portfolio a.tcp-basic-button,
+.tcp-portfolio a.tcp-basic-button:hover {
+	border: 0 none;
+}
+
+
+a.tcp-subtle-link {
+	color: #888;
+	border-bottom: 1px solid #11c2cd;
+	position: relative;
+}
+
+a.tcp-subtle-link:after {
+	content: '';
+	display: block;
+	height: 1px;
+	background-color: #11c2cd;
+	position: absolute;
+	bottom: -1px;
+	right: -9px;
+	left: -9px;
+	opacity: 0;
+	max-width: 130%;
+	-webkit-transition: all 0.6s cubic-bezier(0.35, 0.07, 0.00, 0.98);
+	-moz-transition: all 0.6s cubic-bezier(0.35, 0.07, 0.00, 0.98);
+	-o-transition: all 0.6s cubic-bezier(0.35, 0.07, 0.00, 0.98);
+	transition: all 0.6s cubic-bezier(0.35, 0.07, 0.00, 0.98);
+}
+a.tcp-subtle-link:hover:after {
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	opacity: 1;
+}
+
+
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-hover {height: 100%; overflow: hidden;}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-featured-image-wrap .tcp-portfolio-hover span.tcp-zoom {
+	top: 35%;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover {overflow: hidden;}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details,
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details {
+	padding: 0 12px;
+	border-bottom: 0 none;
+	background: transparent;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	color: #fff;
+	z-index: 2;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: auto;
+	bottom: -100%;
+	top: auto;
+	overflow: hidden;
+	opacity: 0.3;
+	padding-bottom: 42px;
+	border-radius: 2px;
+	margin: 0 auto;
+	-webkit-transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	-moz-transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	-o-transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 0%,rgba(0,0,0,0.55) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 0%,rgba(0,0,0,0.55) 100%);
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details .tcp-portfolio-item-title {
+	margin: 0;
+	padding: 1px 0;
+	border-bottom: none;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-item-title .tcp-portfolio-item-title .tcp-portfolio-title-text > i.fa {display: none;}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details .tcp-portfolio-item-title,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details .tcp-portfolio-item-title a,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details .tcp-portfolio-item-title a:hover {
+	color: #fff;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-item-title .react-vote {
+	float: none;
+	top: auto;
+	line-height: 20px;
+	display: inline-block;
+	-webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+	background-color: #000;
+	color: #fff;
+	height: 28px;
+	display: block;
+	width: 60px;
+	margin: 8px auto 8px auto;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-item-title .react-vote .count {
+	color: #fff;
+	margin: 5px 0 0 5px;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-item-title .react-vote span span.like {margin: 0; font-size: 15px; line-height: 28px;}
+.tcp-portfolio.always .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details,
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover:hover .tcp-portfolio-details {
+	opacity: 1;
+	bottom: 0;
+}
+.tcp-portfolio-item-type-video_embed.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details {
+	width: 50%;
+	top: 0;
+	height: 100%;
+	min-height: 100%;
+	bottom: 0;
+	right: -100%;
+	left: auto;
+	overflow:hidden;
+	resize: horizontal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.tcp-portfolio-item-type-video_embed.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details * {
+	resize: none;
+}
+.tcp-portfolio-item-type-video_embed.tcp-portfolio-item.tcp-portfolio-item-image-on-hover:hover .tcp-portfolio-details {
+	width: 50%;
+	top: 0;
+	height: 100%;
+	min-height: 100%;
+	bottom: 0;
+	right: 0;
+	left: auto ;
+}
+
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-read-more,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info {
+	position: absolute;
+	bottom: -45px;
+	left: 0;
+	right: 0;
+	padding:0;
+	-webkit-transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	-moz-transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	-o-transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+	transition: all 0.5s cubic-bezier(0.835, 0.205, 0.280, 0.935);
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info {
+	bottom: 0;
+	top: auto;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-read-more {
+	left: auto;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-read-more,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info {
+	width: 50%;
+}
+
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info > div:only-child,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info > span:only-child {
+	width: 100%;
+}
+
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info > div,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info > span {
+	border-radius: 0 !important;
+	border-right: 1px solid rgba(255,255,255, 0.1);
+	max-height: 45px;
+	opacity: 1;
+	border-radius: 0 !important
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover:hover .tcp-portfolio-read-more,
+.tcp-portfolio.always .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-read-more,
+
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover:hover .tcp-entry-info,
+.tcp-portfolio.always.tcp-date-like-above .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info {
+	bottom: 0;
+	margin-bottom: 0;
+	opacity: 1;
+	max-height: 45px;
+}
+
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-read-more a.tcp-basic-button.tcp-dark-button {
+	margin: 0;
+	width: auto;
+	height: 44px;
+	line-height: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	display: block;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #333;
+	color: #fff;
+	border-radius: 0 !important;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-read-more a.tcp-basic-button.tcp-dark-button:hover {
+	background: #222;
+	color: #fff;
+}
+.tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-featured-image-wrap {margin: 0;}
+
+/*Filter*/
+.tcp-portfolio-filter {
+	padding: 5px 0 30px 0;
+	height: 33px;
+	height: auto;
+	min-height: 33px;
+	position: relative;
+}
+.tcp-portfolio-filter .tcp-filter-button {
+	margin: 4px 4px 8px 0;
+	text-align: center;
+	padding: 5px 18px;
+	display: inline-block;
+	cursor: pointer;
+	background: #eee;
+	color: #888;
+	border-radius: 2px;
+	position: relative;
+}
+.tcp-portfolio-filter .tcp-filter-button:hover {
+	text-decoration: none;
+	background: #e5e5e5;
+	color: #111;
+}
+.tcp-portfolio-filter .tcp-active-filter.tcp-filter-button {
+	text-decoration: none;
+	background: #11c2cd;
+	border: 0 none;
+	color: #fff;
+	padding: 7px 18px;
+	margin-top: 0;
+	position: relative;
+}
+.tcp-portfolio-filter .tcp-active-filter.tcp-filter-button:hover {
+	border: 0 none;
+}
+
+.tcp-portfolio-filter .tcp-filter-button:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	opacity: 0;
+}
+.tcp-portfolio-filter .tcp-active-filter.tcp-filter-button:after {
+	top: 100%;
+	opacity: 1;
+}
+.tcp-portfolio-filter .tcp-active-filter.tcp-filter-button:after {
+	border-color: rgba(130, 130, 130, 0);
+	border-top-color: #11c2cd;
+	border-width: 7px;
+	left: 50%;
+	margin-left: -7px;
+}
+#ie8 .tcp-portfolio-filter .tcp-active-filter.tcp-filter-button:after {margin-top: -1px;}
+.tcp-portfolio-captions {
+	display: none;
+}
+
+/* Grid */
+.tcp-grid .tcp-portfolio-items .tcp-portfolio-item {
+	border-left: 0 solid transparent;
+	border-right: 0 solid transparent;
+	margin-bottom: 0;
+}
+/* masonry needs some space */
+.tcp-grid .tcp-portfolio-items .tcp-portfolio-item {
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	margin-bottom: 2px;
+}
+.tcp-grid .tcp-portfolio-items .tcp-portfolio-item .tcp-featured-image-wrap,
+.tcp-grid .tcp-portfolio-items .tcp-portfolio-item .tcp-featured-image-wrap .tcp-portfolio-hover {
+	border: 0 none;
+	margin: 0 auto;
+	border-radius: 0!important;
+}
+.tcp-grid .tcp-portfolio-items .tcp-portfolio-item:not(.tcp-portfolio-item-image-on-hover) .tcp-portfolio-details {display: none;}
+
+/* Vote */
+.tcp-featured-image-wrap {
+	position: relative;
+	border-bottom: 5px solid #ddd;
+}
+.tcp-featured-image-wrap:hover {
+	border-bottom-color: #11c2cd;
+}
+.tcp-portfolio.tcp-boxed .tcp-portfolio-item.tcp-portfolio-item-image-above .tcp-featured-image-wrap {
+	border-bottom-right-radius:0 !important;
+	border-bottom-left-radius:0 !important;
+	border-bottom: 0 none;
+	margin: 0;
+}
+.tcp-entry-info .react-vote {
+	display: block;
+	width: 55px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	line-height: 17px;
+	height: 60px;
+}
+.tcp-featured-image-wrap .react-vote {
+	position: absolute;
+	left: -70px;
+	top: 117px;
+}
+
+.tcp-featured-image-wrap .react-vote .post-like { margin: 3px 0 0 0; padding: 0; display: inline-block; font-size: 18px; line-height: 23px;}
+.tcp-featured-image-wrap .react-vote .like {
+	color: #fff;
+	font-size: 19px;
+	line-height: 33px;
+	width: 55px;
+	height: 25px;
+	display: block;
+	text-align: center;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-o-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
+
+	-webkit-backface-visibility: hidden;
+
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+
+	-ms-transform-origin: center center;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+.tcp-portfolio-item-title .react-vote .like {
+	color: inherit;
+}
+.tcp-featured-image-wrap .react-vote a .like {
+	font-size: 17px;
+	height: 20px;
+	width: 22px;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info .tcp-date > div,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info .react-vote .like {
+	display: inline-block;
+	height: auto !important;
+	line-height: 42px;
+	margin: 0 3px;
+	padding: 0;
+	position: relative;
+	top: auto;
+	font-size: 16px;
+	width: auto;
+}
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info .react-vote .post-like,
+.tcp-portfolio.tcp-date-like-above .tcp-portfolio-item .tcp-entry-info .react-vote .count {
+	margin-top: 0;
+	margin-right: 0;
+}
+.tcp-featured-image-wrap .react-vote .count {
+	display: inline-block;
+	padding: 2px;
+	line-height: 15px;
+	height: 19px;
+	min-width: 19px;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 0;
+	color: #fff;
+	border-radius: 100%;
+	-webkit-transition: all 0.2s ease-out 0.1s;
+	-moz-transition: all 0.2s ease-out 0.1s;
+	-o-transition: all 0.2s ease-out 0.1s;
+	transition: all 0.2s ease-out 0.1s;
+}
+
+/*Vote - featured image*/
+.tcp-portfolio-item-title .react-vote {
+	float: right;
+	position: relative;
+	top: -2px;
+	left: auto;
+	height: 29px;
+}
+.tcp-portfolio.tcp-textcenter .tcp-portfolio-item-title .react-vote {
+	float: none;
+	display: block;
+	margin-bottom: 5px;
+	top: auto;
+	left: auto;
+}
+.tcp-portfolio.tcp-textcenter .tcp-portfolio-item-title .react-vote .count {
+	margin-right: 0;
+}
+.tcp-portfolio.tcp-textright .tcp-portfolio-item-title .react-vote {
+	float: left;
+}
+.tcp-portfolio.tcp-textleft .tcp-portfolio-item-title .react-vote {
+	float: right;
+}
+.tcp-featured-image-wrap .react-vote {
+	background: #000 !important;
+	z-index: 3;
+	height: 35px;
+	left: 22px;
+	right: auto;
+	top: auto;
+	bottom: -35px;
+	width: 69px;
+	opacity: 0;
+	padding-top: 4px;
+	white-space: nowrap;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+.tcp-featured-image-wrap .react-vote:after {
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	left: 15px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6px 6px 0 6px;
+	border-color: #000 transparent transparent transparent;
+}
+
+.tcp-featured-image-wrap:hover .react-vote {
+	left: 22px;
+	opacity: 0.9;
+	bottom: 10px;
+}
+.tcp-featured-image-wrap:hover .react-vote > span.post-like {
+	right: 0;
+	opacity: 0.8;
+}
+
+.tcp-featured-image-wrap .wait .react-vote {
+	-webkit-transition-delay: 0.7s !important;
+	-moz-transition-delay: 0.7s !important;
+	-o-transition-delay: 0.7s !important;
+	transition-delay: 0.7s !important;
+}
+.tcp-portfolio-item-title .react-vote {
+	width: auto;
+}
+.tcp-portfolio-item-title .react-vote .post-like,
+.tcp-featured-image-wrap .react-vote .post-like {
+	margin: 0;
+	height: auto;
+}
+.tcp-featured-image-on-hover .tcp-featured-image-wrap .react-vote {top: 10px; bottom: auto; left: 10px; right: auto;}
+.tcp-portfolio-item-title .react-vote span span.like,
+.tcp-featured-image-wrap .react-vote span span.like {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 0;
+	height: auto;
+	line-height: 24px;
+	margin: 1px 3px 1px 5px;
+	width: 25px;
+	letter-spacing: 1px;
+}
+.tcp-portfolio-item-title .react-vote span span.like {
+	width: 18px;
+	margin: 0;
+	line-height: 24px;
+}
+
+.tcp-portfolio-item-title .react-vote span > i {
+	padding: 0;
+	font-size: 15px;
+}
+.tcp-featured-image-wrap .react-vote span > i {
+	padding: 0;
+	font-size: 18px;
+	line-height: 25px;
+}
+.tcp-featured-image-wrap .react-vote span > i {
+	color: #fff !important;
+}
+.tcp-portfolio-item-title .react-vote .count {
+	color: #111;
+}
+.tcp-portfolio-item .tcp-featured-image-wrap,
+.tcp-portfolio-item .tcp-featured-video {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Iconsprite */
+.tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	display: inline-block;
+	vertical-align: top;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/icons/sprites-16-dark.png);
+	background-repeat: no-repeat;
+}
+.tcp-tiny-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {background-image: url(../images/icons/sprites-16-light.png);}
+.tcp-lrg-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {background-image: url(../images/icons/sprites-64-light.png);}
+.tcp-sml-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+.tcp-med-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {background-image: url(../images/icons/sprites-32-light.png);}
+.tcp-tiny-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	width: 16px;
+	height: 16px;
+}
+.tcp-lrg-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	width: 64px;
+	height: 64px;
+}
+.tcp-sml-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite, .tcp-med-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	width: 32px;
+	height: 32px;
+}
+.tcp-tiny-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -256px -128px;
+}
+.tcp-tiny-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -352px -128px;
+}
+.tcp-tiny-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -192px -160px;
+}
+.tcp-tiny-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -224px -160px;
+}
+.tcp-lrg-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -1024px -512px;
+}
+.tcp-lrg-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -1408px -512px;
+}
+.tcp-lrg-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -768px -640px;
+}
+.tcp-lrg-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -896px -640px;
+}
+.tcp-med-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite, .tcp-sml-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -512px -256px;
+}
+.tcp-sml-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite, .tcp-med-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -704px -256px;
+}
+.tcp-med-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite, .tcp-sml-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -384px -320px;
+}
+.tcp-sml-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite, .tcp-med-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+	background-position: -448px -320px;
+}
+
+/* WP-PageNavi styles */
+.tcp-portfolio .wp-pagenavi span {
+	padding: 5px 15px 5px 15px;
+	display: inline-block;
+	line-height: 13px;
+	height: 13px;
+	text-align: center;
+}
+.tcp-portfolio .wp-pagenavi span {
+	color: #888;
+}
+.tcp-portfolio .wp-pagenavi span,
+.tcp-portfolio .wp-pagenavi a {
+	padding: 8px 22px!important;
+	display: inline-block;
+	line-height: 25px !important;
+	height: auto !important;
+	text-align: center;
+	font-weight: normal!important;
+	margin: 0;
+	background: rgba(255,255,255, 0.1);
+	border: 1px solid #eee !important;
+	border-radius: 2px;
+}
+.tcp-portfolio .wp-pagenavi a:hover,
+.tcp-portfolio .wp-pagenavi span.current {
+	background: #fff;
+}
+.tcp-portfolio .wp-pagenavi span.current {
+	background: #11c2cd;
+	color: #fff;
+	border: transparent 0 none !important;
+	font-weight: bold !important;
+}
+.tcp-portfolio .wp-pagenavi span.pages {
+	float: right;
+	text-transform: uppercase;
+	font-size: 85%;
+	font-weight: 400;
+	border: none 0 !important;
+	background: transparent !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+}
+.tcp-portfolio .wp-pagenavi span.extend {
+	background: transparent !important;
+	border: 0 none transparent !important;
+	padding: 1px 5px !important;
+	font-size: 17px !important;
+}
+.tcp-portfolio .wp-pagenavi {
+	padding: 40px 0 0;
+	margin: 30px 0 0;
+	border-top: 1px solid #eee;
+	text-align: left;
+}
+.tcp-portfolio .wp-pagenavi > a,
+.tcp-portfolio .wp-pagenavi > span {
+	margin-right: 3px;
+}
+.tcp-portfolio .wp-pagenavi a {
+	line-height: 22px;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px 22px;
+	display: inline-block;
+}
+.tcp-portfolio .wp-pagenavi a:hover {
+	text-decoration: none;
+}
+
+/*****************************************************
+	3: RTL
+******************************************************/
+.rtl .tcp-portfolio-item {
+	float: right;
+}
+.rtl .tcp-portfolio-filter .tcp-filter-button {
+	float: right;
+	margin: 4px 0 0 2px;
+}
+.rtl .tcp-portfolio-item .tcp-featured-image-wrap .react-vote {
+	left: auto;
+	right: -70px;
+}
+.rtl .tcp-portfolio-item .tcp-featured-image-wrap .react-vote {
+	left: 5px;
+	right: auto;
+}
+.rtl .tcp-portfolio-item .tcp-featured-image-wrap .react-vote .count {
+	left: -10px;
+	right: auto;
+}
+
+/*Vote - Portfolio*/
+.rtl .tcp-portfolio-item-title .react-vote {
+	float: left;
+}
+.rtl .tcp-portfolio-item-title .react-vote span,
+.rtl .tcp-portfolio-item-title .react-vote span a {
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+/* WP-PageNavi styles */
+.rtl .tcp-portfolio .wp-pagenavi span.pages {
+	float: left;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 0 !important;
+	margin-left: 0 !important;
+}
+.rtl .tcp-portfolio .wp-pagenavi > a,
+.rtl .tcp-portfolio .wp-pagenavi > span {
+	margin-right: 0;
+	margin-left: 3px;
+}
+
+/*****************************************************
+	4: RESPONSIVE
+******************************************************/
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	/*Show on touch*/
+	.tcp-touchevents .tcp-details-on-hover .tcp-portfolio-item .tcp-entry-info,
+	.tcp-touchevents .tcp-details-on-hover .tcp-portfolio-item .tcp-entry-info > div,
+	.tcp-touchevents .tcp-details-on-hover .tcp-portfolio-item .tcp-entry-info > span {
+		opacity: 1;
+		max-height: 600px;
+	}
+	.tcp-touchevents .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-details {
+		opacity: 1;
+		bottom: 0;
+	}
+	.tcp-touchevents .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-portfolio-read-more,
+	.tcp-touchevents .tcp-portfolio-item.tcp-portfolio-item-image-on-hover .tcp-entry-info {
+		bottom: 0;
+		margin-bottom: 0;
+		opacity: 1;
+		max-height: 44px;
+	}
+
+	.tcp-touchevents .tcp-featured-image-wrap .react-vote {
+		left: 22px;
+		opacity: 0.9;
+		bottom: 10px;
+	}
+	.tcp-touchevents .tcp-featured-image-wrap .react-vote > span.post-like {
+		right: 0;
+		opacity: 0.8;
+	}
+	.tcp-touchevents .tcp-featured-image-wrap .react-vote {
+	}
+
+	.tcp-touchevents .tcp-featured-image-wrap .react-vote .count {
+		opacity: 1;
+	}
+}
+
+/* Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+	.tcp-portfolio-filter .tcp-filter-button, .tcp-portfolio-filter .tcp-active-filter.tcp-filter-button {
+		margin: 1% 2% 1% 0;
+		padding: 12px 18px;
+		width: 48%;
+	}
+	.tcp-portfolio-filter .tcp-active-filter.tcp-filter-button:after {
+		display: none;
+	}
+	a.tcp-basic-button {
+		display: block;
+		text-align: center;
+	}
+	.tcp-portfolio .wp-pagenavi span
+	.tcp-portfolio .wp-pagenavi a {
+		width: 31.33332%;
+		margin-right: 1%;
+		margin-bottom: 1%;
+	}
+	.tcp-portfolio .wp-pagenavi span:nth-child(3n+1),
+	.tcp-portfolio .wp-pagenavi a:nth-child(3n+1) {
+		margin-right: 0;
+	}
+	.tcp-portfolio .wp-pagenavi span.pages {
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 5px;
+		margin-right: 0;
+	}
+	.tcp-portfolio .wp-pagenavi span.pages {
+		padding: 5px 0 !important;
+		margin: 0 !important;
+	}
+}
+
+/* Columns responsive tablet and lower */
+@media only screen and (max-width: 1024px) {
+	.tcp-units-mobile-50.tcp-portfolio-1-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-2-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-3-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-4-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-5-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-6-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-7-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-8-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-9-column .tcp-portfolio-item,
+	.tcp-units-mobile-50.tcp-portfolio-10-column .tcp-portfolio-item {
+		width: 50% !important;
+	}
+	.tcp-mobile-width-100.tcp-portfolio-1-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-2-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-3-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-4-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-5-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-6-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-7-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-8-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-9-column .tcp-portfolio-item,
+	.tcp-mobile-width-100.tcp-portfolio-10-column .tcp-portfolio-item {
+		width: 100% !important;
+		border: none;
+	}
+
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-left,
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-right,
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-left,
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-right {
+		float: none;
+		margin: 0 auto;
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-left .tcp-portfolio-hover,
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-right .tcp-portfolio-hover,
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-portfolio-hover,
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-portfolio-hover {
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap,
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap,
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap img,
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap img,
+
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap,
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap,
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap img,
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap img {
+		width: 100% !important;
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-mobile-width-100 .tcp-portfolio-item .tcp-featured-image-helper .tcp-featured-image-wrap
+	.tcp-units-mobile-50 .tcp-portfolio-item .tcp-featured-image-helper .tcp-featured-image-wrap {
+		height: auto !important;
+	}
+
+}
+
+/* Columns responsive tablet */
+@media only screen and (min-width: 569px) and (max-width: 1024px) {
+	.tcp-units-tablet-50.tcp-portfolio-1-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-2-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-3-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-4-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-5-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-6-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-7-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-8-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-9-column .tcp-portfolio-item,
+	.tcp-units-tablet-50.tcp-portfolio-10-column .tcp-portfolio-item {
+		width: 50% !important;
+	}
+
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-left,
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-right {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-portfolio-hover,
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-portfolio-hover {
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap,
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap,
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap img,
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap img {
+		width: 100% !important;
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+
+	.tcp-units-tablet-50 .tcp-portfolio-item .tcp-featured-image-helper .tcp-featured-image-wrap {
+		height: auto !important;
+	}
+}
+
+/* Column responsive phone */
+@media only screen and (max-width: 568px) {
+	.tcp-units-phone-50.tcp-portfolio-1-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-2-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-3-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-4-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-5-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-6-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-7-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-8-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-9-column .tcp-portfolio-item,
+	.tcp-units-phone-50.tcp-portfolio-10-column .tcp-portfolio-item {
+		width: 50% !important;
+	}
+	.tcp-phone-width-100.tcp-portfolio-1-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-2-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-3-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-4-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-5-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-6-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-7-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-8-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-9-column .tcp-portfolio-item,
+	.tcp-phone-width-100.tcp-portfolio-10-column .tcp-portfolio-item {
+		width: 100% !important;
+		border: 0 none;
+	}
+
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-left,
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-right,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-left,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-right {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-left .tcp-portfolio-hover,
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-right .tcp-portfolio-hover,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-portfolio-hover,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-portfolio-hover {
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap,
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap,
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap img,
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap img,
+
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-left .tcp-featured-image-wrap img,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-right .tcp-featured-image-wrap img {
+		width: 100% !important;
+		border-bottom-left-radius: 0 !important;
+		border-bottom-right-radius: 0 !important;
+	}
+	.tcp-phone-width-100 .tcp-portfolio-item .tcp-featured-image-helper .tcp-featured-image-wrap,
+	.tcp-units-phone-50 .tcp-portfolio-item .tcp-featured-image-helper .tcp-featured-image-wrap {
+		height: auto !important;
+	}
+
+	.serene-bullets {
+		display: none;
+	}
+
+}
+
+/*****************************************************
+	5: RETINA READY
+******************************************************/
+@media
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+	.tcp-tiny-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-tiny-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-tiny-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-tiny-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+		background-size: 496px 240px;
+		width: 16px;
+		height: 16px;
+	}
+	.tcp-sml-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-sml-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-sml-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-sml-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite {
+		background-size: 992px 480px;
+		width: 32px;
+		height: 32px;
+	}
+	.tcp-sml-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-sml-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-sml-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-med-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-sml-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-lrg-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-lrg-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-lrg-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-lrg-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite
+	{background-image: url(../images/icons/sprites-64-light.png);background-size: 992px 480;}
+	.tcp-tiny-hvr .tcp-portfolio-item-type-video .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-tiny-hvr .tcp-portfolio-item-type-portfolio .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-tiny-hvr .tcp-portfolio-item-type-link .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite,
+	.tcp-tiny-hvr .tcp-portfolio-hover span.tcp-zoom .tcp-iconsprite
+	{background-image: url(../images/icons/sprites-32-light.png);background-size: 496px 240px;}
+}

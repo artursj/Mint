@@ -1,0 +1,3432 @@
+# Copyright (C) 2016 React Shortcodes
+# This file is distributed under the same license as the React Shortcodes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: React Shortcodes 1.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/react-shortcodes\n"
+"POT-Creation-Date: 2016-06-03 08:54:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/admin.php:79 admin/includes/shortcodes.php:229
+msgid "Close"
+msgstr ""
+
+#: admin/admin.php:80 admin/includes/shortcodes.php:228
+msgid "Insert"
+msgstr ""
+
+#: admin/admin.php:81 admin/includes/shortcodes.php:227
+msgid "Insert & Close"
+msgstr ""
+
+#: admin/admin.php:83
+msgid "On"
+msgstr ""
+
+#: admin/admin.php:84
+msgid "Off"
+msgstr ""
+
+#: admin/admin.php:85 admin/admin.php:390 admin/admin.php:564
+#: admin/admin.php:586 admin/admin.php:611 includes/shortcodes.php:834
+#: includes/shortcodes.php:4224 includes/shortcodes.php:6128
+msgid "Default"
+msgstr ""
+
+#: admin/admin.php:86
+msgid "Yes"
+msgstr ""
+
+#: admin/admin.php:87
+msgid "No"
+msgstr ""
+
+#: admin/admin.php:90 admin/admin.php:188 admin/admin.php:225
+#: admin/includes/shortcodes.php:180 includes/shortcodes.php:2697
+#: includes/shortcodes.php:4999 includes/shortcodes.php:5201
+#: includes/shortcodes.php:5475 includes/widget.php:86
+msgid "Content"
+msgstr ""
+
+#: admin/admin.php:91 admin/admin.php:214
+msgid "Remove tab"
+msgstr ""
+
+#: admin/admin.php:92 admin/includes/shortcodes.php:177
+msgid "Remove slide"
+msgstr ""
+
+#: admin/admin.php:94
+msgid "Select"
+msgstr ""
+
+#: admin/admin.php:95
+msgid "Select Image"
+msgstr ""
+
+#: admin/admin.php:96 admin/admin.php:776
+msgid "No icon selected"
+msgstr ""
+
+#: admin/admin.php:97
+msgid "Delete image"
+msgstr ""
+
+#: admin/admin.php:100
+msgid "Are you sure you want to reset the settings?"
+msgstr ""
+
+#: admin/admin.php:100
+msgid ""
+"The page will reload and the current settings will be replaced with the "
+"defaults."
+msgstr ""
+
+#: admin/admin.php:117
+msgid "Add / Edit Shortcode"
+msgstr ""
+
+#: admin/admin.php:136
+msgid "You do not have permission to perform this action. Are you logged in?"
+msgstr ""
+
+#: admin/admin.php:163
+msgid "Preview"
+msgstr ""
+
+#: admin/admin.php:163
+msgid "Refresh preview"
+msgstr ""
+
+#: admin/admin.php:177
+msgid "Remove toggle"
+msgstr ""
+
+#: admin/admin.php:180 admin/admin.php:217 includes/shortcodes.php:2333
+#: includes/widget.php:77
+msgid "Title"
+msgstr ""
+
+#: admin/admin.php:196
+msgid "Open by default"
+msgstr ""
+
+#: admin/admin.php:233 admin/includes/shortcodes.php:29
+#: admin/includes/shortcodes.php:62 includes/shortcodes.php:968
+#: includes/shortcodes.php:2913 includes/shortcodes.php:3847
+#: includes/shortcodes.php:5630
+msgid "Icon"
+msgstr ""
+
+#: admin/admin.php:279
+msgid "1 column"
+msgstr ""
+
+#: admin/admin.php:281
+msgid "100%"
+msgstr ""
+
+#: admin/admin.php:285
+msgid "2 columns"
+msgstr ""
+
+#: admin/admin.php:287
+msgid "50% - 50%"
+msgstr ""
+
+#: admin/admin.php:288
+msgid "60% - 40%"
+msgstr ""
+
+#: admin/admin.php:289
+msgid "40% - 60%"
+msgstr ""
+
+#: admin/admin.php:290
+msgid "66% - 33%"
+msgstr ""
+
+#: admin/admin.php:291
+msgid "33% - 66%"
+msgstr ""
+
+#: admin/admin.php:292
+msgid "70% - 30%"
+msgstr ""
+
+#: admin/admin.php:293
+msgid "30% - 70%"
+msgstr ""
+
+#: admin/admin.php:294
+msgid "75% - 25%"
+msgstr ""
+
+#: admin/admin.php:295
+msgid "25% - 75%"
+msgstr ""
+
+#: admin/admin.php:296
+msgid "80% - 20%"
+msgstr ""
+
+#: admin/admin.php:297
+msgid "20% - 80%"
+msgstr ""
+
+#: admin/admin.php:301
+msgid "3 columns"
+msgstr ""
+
+#: admin/admin.php:303
+msgid "33% - 33% - 33%"
+msgstr ""
+
+#: admin/admin.php:304
+msgid "50% - 40% - 33%"
+msgstr ""
+
+#: admin/admin.php:305
+msgid "25% - 50% - 25%"
+msgstr ""
+
+#: admin/admin.php:306
+msgid "25% - 25% - 50%"
+msgstr ""
+
+#: admin/admin.php:307
+msgid "50% - 30% - 20%"
+msgstr ""
+
+#: admin/admin.php:308
+msgid "50% - 20% - 30%"
+msgstr ""
+
+#: admin/admin.php:309
+msgid "20% - 50% - 30%"
+msgstr ""
+
+#: admin/admin.php:310
+msgid "30% - 50% - 20%"
+msgstr ""
+
+#: admin/admin.php:311
+msgid "30% - 20% - 50%"
+msgstr ""
+
+#: admin/admin.php:312
+msgid "20% - 30% - 50%"
+msgstr ""
+
+#: admin/admin.php:313
+msgid "60% - 20% - 20%"
+msgstr ""
+
+#: admin/admin.php:314
+msgid "20% - 60% - 20%"
+msgstr ""
+
+#: admin/admin.php:315
+msgid "20% - 20% - 60%"
+msgstr ""
+
+#: admin/admin.php:316
+msgid "30% - 30% - 40%"
+msgstr ""
+
+#: admin/admin.php:317
+msgid "30% - 40% - 30%"
+msgstr ""
+
+#: admin/admin.php:318
+msgid "40% - 30% - 30%"
+msgstr ""
+
+#: admin/admin.php:322
+msgid "4 columns"
+msgstr ""
+
+#: admin/admin.php:324
+msgid "25% - 25% - 25% - 25%"
+msgstr ""
+
+#: admin/admin.php:325
+msgid "20% - 20% - 20% - 40%"
+msgstr ""
+
+#: admin/admin.php:326
+msgid "20% - 20% - 40% - 20%"
+msgstr ""
+
+#: admin/admin.php:327
+msgid "20% - 40% - 20% - 20%"
+msgstr ""
+
+#: admin/admin.php:328
+msgid "40% - 20% - 20% - 20%"
+msgstr ""
+
+#: admin/admin.php:329
+msgid "30% - 30% - 20% - 20%"
+msgstr ""
+
+#: admin/admin.php:330
+msgid "30% - 20% - 30% - 20%"
+msgstr ""
+
+#: admin/admin.php:331
+msgid "30% - 20% - 20% - 30%"
+msgstr ""
+
+#: admin/admin.php:332
+msgid "20% - 30% - 20% - 30%"
+msgstr ""
+
+#: admin/admin.php:333
+msgid "20% - 20% - 30% - 30%"
+msgstr ""
+
+#: admin/admin.php:337
+msgid "5 columns"
+msgstr ""
+
+#: admin/admin.php:339
+msgid "20% - 20% - 20% - 20% - 20%"
+msgstr ""
+
+#: admin/admin.php:356
+msgid "Select a menu"
+msgstr ""
+
+#: admin/admin.php:361
+msgid "No nav menus found"
+msgstr ""
+
+#: admin/admin.php:381 admin/admin.php:408 admin/admin.php:469
+#: includes/shortcodes.php:192 includes/shortcodes.php:207
+#: includes/shortcodes.php:389 includes/shortcodes.php:410
+#: includes/shortcodes.php:529 includes/shortcodes.php:562
+#: includes/shortcodes.php:576 includes/shortcodes.php:857
+#: includes/shortcodes.php:924 includes/shortcodes.php:938
+#: includes/shortcodes.php:1104 includes/shortcodes.php:1754
+#: includes/shortcodes.php:1790 includes/shortcodes.php:1805
+#: includes/shortcodes.php:2267 includes/shortcodes.php:2380
+#: includes/shortcodes.php:2392 includes/shortcodes.php:2457
+#: includes/shortcodes.php:2615 includes/shortcodes.php:2686
+#: includes/shortcodes.php:2985 includes/shortcodes.php:2998
+#: includes/shortcodes.php:3537 includes/shortcodes.php:3813
+#: includes/shortcodes.php:3828 includes/shortcodes.php:4212
+#: includes/shortcodes.php:4242 includes/shortcodes.php:4255
+#: includes/shortcodes.php:4269 includes/shortcodes.php:4280
+#: includes/shortcodes.php:4298 includes/shortcodes.php:4319
+#: includes/shortcodes.php:4346 includes/shortcodes.php:4360
+#: includes/shortcodes.php:4988 includes/shortcodes.php:5190
+#: includes/shortcodes.php:5400 includes/shortcodes.php:5411
+#: includes/shortcodes.php:6353
+msgid "None"
+msgstr ""
+
+#: admin/admin.php:383
+msgid "inactive"
+msgstr ""
+
+#: admin/admin.php:386
+msgid "No forms found"
+msgstr ""
+
+#: admin/admin.php:393
+msgid "Quform is not installed"
+msgstr ""
+
+#: admin/admin.php:409
+msgid "Vertical thin lines dark"
+msgstr ""
+
+#: admin/admin.php:410
+msgid "Vertical thick lines dark"
+msgstr ""
+
+#: admin/admin.php:411 includes/shortcodes.php:2626
+msgid "Diagonal lines dark"
+msgstr ""
+
+#: admin/admin.php:412
+msgid "Diagonal reversed dark"
+msgstr ""
+
+#: admin/admin.php:413
+msgid "Squares dark"
+msgstr ""
+
+#: admin/admin.php:414
+msgid "Dots dark"
+msgstr ""
+
+#: admin/admin.php:415
+msgid "Crosses dark 2"
+msgstr ""
+
+#: admin/admin.php:416
+msgid "Crosses dark"
+msgstr ""
+
+#: admin/admin.php:418
+msgid "Vertical thin lines light"
+msgstr ""
+
+#: admin/admin.php:419
+msgid "Vertical thick lines light"
+msgstr ""
+
+#: admin/admin.php:420
+msgid "Diagonal lines light"
+msgstr ""
+
+#: admin/admin.php:421
+msgid "Diagonal reversed light"
+msgstr ""
+
+#: admin/admin.php:422
+msgid "Squares light"
+msgstr ""
+
+#: admin/admin.php:423
+msgid "Dots light"
+msgstr ""
+
+#: admin/admin.php:424
+msgid "Crosses light 2"
+msgstr ""
+
+#: admin/admin.php:425
+msgid "Crosses light"
+msgstr ""
+
+#: admin/admin.php:427
+msgid "Congruent pentagon light"
+msgstr ""
+
+#: admin/admin.php:428
+msgid "Congruent pentagon dark"
+msgstr ""
+
+#: admin/admin.php:429
+msgid "Dark wood"
+msgstr ""
+
+#: admin/admin.php:430
+msgid "Diagonal striped bricks"
+msgstr ""
+
+#: admin/admin.php:431
+msgid "Diamond upholstery"
+msgstr ""
+
+#: admin/admin.php:432
+msgid "Escheresque"
+msgstr ""
+
+#: admin/admin.php:433
+msgid "Fake brick"
+msgstr ""
+
+#: admin/admin.php:434
+msgid "Pinstriped suit"
+msgstr ""
+
+#: admin/admin.php:435
+msgid "PhotoShop Neutral"
+msgstr ""
+
+#: admin/admin.php:436
+msgid "Light wood"
+msgstr ""
+
+#: admin/admin.php:437
+msgid "Shattered dark"
+msgstr ""
+
+#: admin/admin.php:438
+msgid "Shattered light"
+msgstr ""
+
+#: admin/admin.php:439
+msgid "Fantasy"
+msgstr ""
+
+#: admin/admin.php:440
+msgid "Noise"
+msgstr ""
+
+#: admin/admin.php:441
+msgid "Use your illusion"
+msgstr ""
+
+#: admin/admin.php:443
+msgid "White wave"
+msgstr ""
+
+#: admin/admin.php:444
+msgid "Pixel weave"
+msgstr ""
+
+#: admin/admin.php:445
+msgid "Alternate triangles"
+msgstr ""
+
+#: admin/admin.php:446
+msgid "Hexagon"
+msgstr ""
+
+#: admin/admin.php:447
+msgid "Squared metal"
+msgstr ""
+
+#: admin/admin.php:448
+msgid "Multiple dots"
+msgstr ""
+
+#: admin/admin.php:449
+msgid "Thin stripes"
+msgstr ""
+
+#: admin/admin.php:450
+msgid "Fat stripes"
+msgstr ""
+
+#: admin/admin.php:454 admin/admin.php:516
+msgid "Default (inherited from Theme Options)"
+msgstr ""
+
+#: admin/admin.php:471 admin/admin.php:490 includes/shortcodes.php:2625
+msgid "Diagonal lines"
+msgstr ""
+
+#: admin/admin.php:472 admin/admin.php:491
+msgid "Bottom diagonal lines"
+msgstr ""
+
+#: admin/admin.php:474
+msgid "Top 1px Highlight"
+msgstr ""
+
+#: admin/admin.php:475
+msgid "Bottom 1px Highlight"
+msgstr ""
+
+#: admin/admin.php:477
+msgid "Top 6px Highlight"
+msgstr ""
+
+#: admin/admin.php:478
+msgid "Bottom 6px Highlight"
+msgstr ""
+
+#: admin/admin.php:480
+msgid "Medium gradient, light, top"
+msgstr ""
+
+#: admin/admin.php:481
+msgid "Medium gradient, light, bottom"
+msgstr ""
+
+#: admin/admin.php:483
+msgid "Large gradient, light, top"
+msgstr ""
+
+#: admin/admin.php:484
+msgid "Large gradient, light, bottom"
+msgstr ""
+
+#: admin/admin.php:486
+msgid "Solid outline light"
+msgstr ""
+
+#: admin/admin.php:487
+msgid "Lighter to edges small"
+msgstr ""
+
+#: admin/admin.php:488
+msgid "Lighter to edges large"
+msgstr ""
+
+#: admin/admin.php:493
+msgid "Top 1px shadow"
+msgstr ""
+
+#: admin/admin.php:494
+msgid "Bottom 1px shadow"
+msgstr ""
+
+#: admin/admin.php:496
+msgid "Top 3px shadow"
+msgstr ""
+
+#: admin/admin.php:497
+msgid "Bottom 3px shadow"
+msgstr ""
+
+#: admin/admin.php:499
+msgid "Medium gradient, dark, top"
+msgstr ""
+
+#: admin/admin.php:500
+msgid "Medium gradient, dark, bottom"
+msgstr ""
+
+#: admin/admin.php:502
+msgid "Large gradient, dark, top"
+msgstr ""
+
+#: admin/admin.php:503
+msgid "Large gradient, dark, bottom"
+msgstr ""
+
+#: admin/admin.php:505
+msgid "Solid outline dark"
+msgstr ""
+
+#: admin/admin.php:506
+msgid "Darker to edges small"
+msgstr ""
+
+#: admin/admin.php:507
+msgid "Darker to edges large"
+msgstr ""
+
+#: admin/admin.php:509
+msgid "Shadow left"
+msgstr ""
+
+#: admin/admin.php:510
+msgid "Shadow center"
+msgstr ""
+
+#: admin/admin.php:511
+msgid "Shadow center split"
+msgstr ""
+
+#: admin/admin.php:512
+msgid "Shadow sides"
+msgstr ""
+
+#: admin/admin.php:530
+msgid "Nothing (keep full size image above always)"
+msgstr ""
+
+#: admin/admin.php:531
+msgid "Use the above image at 50%"
+msgstr ""
+
+#: admin/admin.php:532
+msgid "Select a new image to use"
+msgstr ""
+
+#: admin/admin.php:533
+msgid "Use this image but change position"
+msgstr ""
+
+#: admin/admin.php:534
+msgid "Show no image at break point"
+msgstr ""
+
+#: admin/admin.php:560 admin/admin.php:607
+msgid "Custom"
+msgstr ""
+
+#: admin/admin.php:601 includes/shortcodes.php:411 includes/shortcodes.php:563
+#: includes/shortcodes.php:925 includes/shortcodes.php:1806
+#: includes/shortcodes.php:3814 includes/shortcodes.php:4361
+msgid "Phone Portrait"
+msgstr ""
+
+#: admin/admin.php:602 includes/shortcodes.php:412 includes/shortcodes.php:564
+#: includes/shortcodes.php:926 includes/shortcodes.php:1807
+#: includes/shortcodes.php:3815 includes/shortcodes.php:4362
+msgid "Phone Landscape"
+msgstr ""
+
+#: admin/admin.php:603 includes/shortcodes.php:413 includes/shortcodes.php:565
+#: includes/shortcodes.php:927 includes/shortcodes.php:1808
+#: includes/shortcodes.php:3816 includes/shortcodes.php:4363
+msgid "Tablet Portrait"
+msgstr ""
+
+#: admin/admin.php:604 includes/shortcodes.php:414 includes/shortcodes.php:566
+#: includes/shortcodes.php:928 includes/shortcodes.php:1809
+#: includes/shortcodes.php:3817 includes/shortcodes.php:4364
+msgid "Tablet Landscape"
+msgstr ""
+
+#: admin/admin.php:605
+msgid "Site box width (if set)"
+msgstr ""
+
+#: admin/admin.php:606
+msgid "Only on Retina devices"
+msgstr ""
+
+#: admin/admin.php:729
+msgid "Search"
+msgstr ""
+
+#: admin/admin.php:731
+msgid "FontAwesome Icons"
+msgstr ""
+
+#: admin/admin.php:739
+msgid "Mixed Icons"
+msgstr ""
+
+#: admin/admin.php:747
+msgid "Image Icons"
+msgstr ""
+
+#: admin/admin.php:783
+msgid "Choose Icon"
+msgstr ""
+
+#: admin/admin.php:784
+msgid "Clear"
+msgstr ""
+
+#: admin/admin.php:795 admin/includes/settings.php:9
+msgid "Shortcode Settings"
+msgstr ""
+
+#. #-#-#-#-#  react-shortcodes.pot (React Shortcodes 1.0.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin.php:796
+msgid "React Shortcodes"
+msgstr ""
+
+#: admin/includes/OptionsGenerator.php:123
+msgid "Browse"
+msgstr ""
+
+#: admin/includes/OptionsGenerator.php:221
+#: admin/includes/ShortcodeOptionsGenerator.php:84
+#: admin/includes/ShortcodeOptionsGenerator.php:170
+msgid "This option is only available with the React theme active."
+msgstr ""
+
+#: admin/includes/ShortcodeOptionsGenerator.php:57
+#: admin/includes/ShortcodeOptionsGenerator.php:148
+msgid "(optional)"
+msgstr ""
+
+#: admin/includes/settings.php:10
+msgid "Please enable JavaScript to use the settings page."
+msgstr ""
+
+#: admin/includes/settings.php:11
+msgid "Settings saved"
+msgstr ""
+
+#: admin/includes/settings.php:17
+msgid "Performance settings"
+msgstr ""
+
+#: admin/includes/settings.php:21
+msgid "When to load scripts and styles"
+msgstr ""
+
+#: admin/includes/settings.php:25 includes/shortcodes.php:3818
+msgid "Always"
+msgstr ""
+
+#: admin/includes/settings.php:26
+msgid "Only on specific pages"
+msgstr ""
+
+#: admin/includes/settings.php:28
+msgid ""
+"Choose which pages to load the plugin scripts and styles, these are required "
+"for the shortcodes to work properly, so you can choose only the pages "
+"containing the shortcodes to speed up the other pages on your site."
+msgstr ""
+
+#: admin/includes/settings.php:33 admin/includes/settings.php:35
+msgid "Choose pages"
+msgstr ""
+
+#: admin/includes/settings.php:47 admin/includes/settings.php:81
+msgid "Save all settings"
+msgstr ""
+
+#: admin/includes/settings.php:50
+msgid "Disable script output"
+msgstr ""
+
+#: admin/includes/settings.php:54
+msgid "CSS"
+msgstr ""
+
+#: admin/includes/settings.php:62
+msgid "You can disable the plugin CSS output using the boxes above."
+msgstr ""
+
+#: admin/includes/settings.php:68
+msgid "JavaScript"
+msgstr ""
+
+#: admin/includes/settings.php:76
+msgid "You can disable the plugin JS output using the boxes above."
+msgstr ""
+
+#: admin/includes/settings.php:82
+msgid "Reset settings"
+msgstr ""
+
+#: admin/includes/shortcode-preview.php:24
+msgid "The shortcode string could not be found."
+msgstr ""
+
+#: admin/includes/shortcodes.php:11
+msgid "Shortcode generator"
+msgstr ""
+
+#: admin/includes/shortcodes.php:15
+msgid "Insert a new shortcode"
+msgstr ""
+
+#: admin/includes/shortcodes.php:16
+msgid "Accordion"
+msgstr ""
+
+#: admin/includes/shortcodes.php:17 admin/includes/shortcodes.php:64
+#: includes/shortcodes.php:1563
+msgid "Animated Number"
+msgstr ""
+
+#: admin/includes/shortcodes.php:18
+msgid "Animated Progress Bar"
+msgstr ""
+
+#: admin/includes/shortcodes.php:19 admin/includes/shortcodes.php:52
+msgid "Block"
+msgstr ""
+
+#: admin/includes/shortcodes.php:20 admin/includes/shortcodes.php:65
+msgid "Blockquote"
+msgstr ""
+
+#: admin/includes/shortcodes.php:21 admin/includes/shortcodes.php:60
+msgid "Box"
+msgstr ""
+
+#: admin/includes/shortcodes.php:22 admin/includes/shortcodes.php:50
+msgid "Button"
+msgstr ""
+
+#: admin/includes/shortcodes.php:23 admin/includes/shortcodes.php:66
+msgid "Column Layout"
+msgstr ""
+
+#: admin/includes/shortcodes.php:24 admin/includes/shortcodes.php:67
+msgid "Cycle"
+msgstr ""
+
+#: admin/includes/shortcodes.php:25
+msgid "Dropcap"
+msgstr ""
+
+#: admin/includes/shortcodes.php:26 admin/includes/shortcodes.php:53
+msgid "Fancy Header"
+msgstr ""
+
+#: admin/includes/shortcodes.php:27 includes/shortcodes.php:4663
+#: includes/shortcodes.php:4881 includes/shortcodes.php:4936
+msgid "Fixed"
+msgstr ""
+
+#: admin/includes/shortcodes.php:28 includes/shortcodes.php:5882
+msgid "Flag"
+msgstr ""
+
+#: admin/includes/shortcodes.php:30 admin/includes/shortcodes.php:51
+msgid "Image"
+msgstr ""
+
+#: admin/includes/shortcodes.php:31 admin/includes/shortcodes.php:59
+msgid "Image Carousel"
+msgstr ""
+
+#: admin/includes/shortcodes.php:32 admin/includes/shortcodes.php:55
+msgid "Impact Header"
+msgstr ""
+
+#: admin/includes/shortcodes.php:33 admin/includes/shortcodes.php:61
+msgid "Lightbox Popup"
+msgstr ""
+
+#: admin/includes/shortcodes.php:34
+msgid "List"
+msgstr ""
+
+#: admin/includes/shortcodes.php:35 admin/includes/shortcodes.php:54
+#: includes/shortcodes.php:1217
+msgid "Menu"
+msgstr ""
+
+#: admin/includes/shortcodes.php:36 admin/includes/shortcodes.php:58
+msgid "Opening Times"
+msgstr ""
+
+#: admin/includes/shortcodes.php:37
+msgid "Pullquote"
+msgstr ""
+
+#: admin/includes/shortcodes.php:38 admin/includes/shortcodes.php:63
+msgid "Section Break"
+msgstr ""
+
+#: admin/includes/shortcodes.php:39
+msgid "Table"
+msgstr ""
+
+#: admin/includes/shortcodes.php:40 admin/includes/shortcodes.php:57
+msgid "Tabs"
+msgstr ""
+
+#: admin/includes/shortcodes.php:41 admin/includes/shortcodes.php:56
+msgid "Toggle"
+msgstr ""
+
+#: admin/includes/shortcodes.php:43
+msgid "Edit existing shortcode"
+msgstr ""
+
+#: admin/includes/shortcodes.php:48
+msgid "Popular"
+msgstr ""
+
+#: admin/includes/shortcodes.php:73
+msgid "Paste a shortcode in the box below and click Edit."
+msgstr ""
+
+#: admin/includes/shortcodes.php:76
+msgid "Edit"
+msgstr ""
+
+#: admin/includes/shortcodes.php:78
+msgid "Please note:"
+msgstr ""
+
+#: admin/includes/shortcodes.php:80
+msgid ""
+"After adding the edited Shortcode ensure the closing tag has not been added "
+"twice."
+msgstr ""
+
+#: admin/includes/shortcodes.php:81
+msgid "You must remove the number on nested items before editing."
+msgstr ""
+
+#: admin/includes/shortcodes.php:82
+msgid "You may need to remove Shortcode content prior to editing."
+msgstr ""
+
+#: admin/includes/shortcodes.php:89
+msgid "Variation"
+msgstr ""
+
+#: admin/includes/shortcodes.php:99
+msgid "Column %d content"
+msgstr ""
+
+#: admin/includes/shortcodes.php:146
+msgid "Add a new tab"
+msgstr ""
+
+#: admin/includes/shortcodes.php:155
+msgid "Add a new toggle"
+msgstr ""
+
+#: admin/includes/shortcodes.php:164
+msgid "Add a new accordion toggle"
+msgstr ""
+
+#: admin/includes/shortcodes.php:172
+msgid "Add a new slide"
+msgstr ""
+
+#: includes/shortcodes.php:110
+msgid "Layout options"
+msgstr ""
+
+#: includes/shortcodes.php:116 includes/shortcodes.php:4428
+#: includes/shortcodes.php:5352
+msgid "Padding"
+msgstr ""
+
+#: includes/shortcodes.php:117
+msgid "Adds a small amount of padding inside each column"
+msgstr ""
+
+#: includes/shortcodes.php:123 includes/shortcodes.php:3043
+msgid "Top padding"
+msgstr ""
+
+#: includes/shortcodes.php:124 includes/shortcodes.php:132
+#: includes/shortcodes.php:322 includes/shortcodes.php:330
+#: includes/shortcodes.php:2638 includes/shortcodes.php:2646
+#: includes/shortcodes.php:3026 includes/shortcodes.php:3035
+#: includes/shortcodes.php:3044 includes/shortcodes.php:3053
+#: includes/shortcodes.php:3793 includes/shortcodes.php:3801
+#: includes/shortcodes.php:4413 includes/shortcodes.php:4421
+msgid "Enter a value in pixels"
+msgstr ""
+
+#: includes/shortcodes.php:131 includes/shortcodes.php:3052
+msgid "Bottom padding"
+msgstr ""
+
+#: includes/shortcodes.php:139
+msgid "Gaps"
+msgstr ""
+
+#: includes/shortcodes.php:140
+msgid "Adds a gap between each column"
+msgstr ""
+
+#: includes/shortcodes.php:146
+msgid "Border left"
+msgstr ""
+
+#: includes/shortcodes.php:147 includes/shortcodes.php:155
+msgid "Adds a border between each column"
+msgstr ""
+
+#: includes/shortcodes.php:148
+msgid "Not recommended when Gaps is On"
+msgstr ""
+
+#: includes/shortcodes.php:154
+msgid "Border bottom"
+msgstr ""
+
+#: includes/shortcodes.php:161 includes/shortcodes.php:162
+msgid "Remove bottom margin"
+msgstr ""
+
+#: includes/shortcodes.php:168
+msgid "Minimum height"
+msgstr ""
+
+#: includes/shortcodes.php:169
+msgid "Makes all columns starting height equal"
+msgstr ""
+
+#: includes/shortcodes.php:170
+msgid "The CSS min-height of the columns, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:178
+msgid "Additional class(es)"
+msgstr ""
+
+#: includes/shortcodes.php:179
+msgid "Adds a custom class to the layout wrapper"
+msgstr ""
+
+#: includes/shortcodes.php:187
+msgid "Convert to full width"
+msgstr ""
+
+#: includes/shortcodes.php:188
+msgid "At which screen size should the column layout adjust to full width"
+msgstr ""
+
+#: includes/shortcodes.php:193
+msgid "Phone 1 column"
+msgstr ""
+
+#: includes/shortcodes.php:194
+msgid "Phone 2 columns"
+msgstr ""
+
+#: includes/shortcodes.php:195
+msgid "Tablet and phone 1 column"
+msgstr ""
+
+#: includes/shortcodes.php:196
+msgid "Tablet and phone 2 columns"
+msgstr ""
+
+#: includes/shortcodes.php:197
+msgid "Tablet 2 columns, phone 1 column"
+msgstr ""
+
+#: includes/shortcodes.php:202 includes/shortcodes.php:571
+#: includes/shortcodes.php:933 includes/shortcodes.php:2681
+#: includes/shortcodes.php:3532 includes/shortcodes.php:3823
+#: includes/shortcodes.php:4983 includes/shortcodes.php:5185
+msgid "Hide on device(s)"
+msgstr ""
+
+#: includes/shortcodes.php:203 includes/shortcodes.php:572
+#: includes/shortcodes.php:934 includes/shortcodes.php:2682
+#: includes/shortcodes.php:3533 includes/shortcodes.php:3824
+#: includes/shortcodes.php:4984 includes/shortcodes.php:5186
+msgid "Choose to hide this shortcode on device(s)"
+msgstr ""
+
+#: includes/shortcodes.php:208 includes/shortcodes.php:577
+#: includes/shortcodes.php:939 includes/shortcodes.php:2687
+#: includes/shortcodes.php:3538 includes/shortcodes.php:3829
+#: includes/shortcodes.php:4989 includes/shortcodes.php:5191
+msgid "Phone portrait"
+msgstr ""
+
+#: includes/shortcodes.php:209 includes/shortcodes.php:578
+#: includes/shortcodes.php:940 includes/shortcodes.php:2688
+#: includes/shortcodes.php:3539 includes/shortcodes.php:3830
+#: includes/shortcodes.php:4990 includes/shortcodes.php:5192
+msgid "Phone landscape"
+msgstr ""
+
+#: includes/shortcodes.php:210 includes/shortcodes.php:579
+#: includes/shortcodes.php:941 includes/shortcodes.php:2689
+#: includes/shortcodes.php:3540 includes/shortcodes.php:3831
+#: includes/shortcodes.php:4991 includes/shortcodes.php:5193
+msgid "Tablet portrait"
+msgstr ""
+
+#: includes/shortcodes.php:211 includes/shortcodes.php:580
+#: includes/shortcodes.php:942 includes/shortcodes.php:2690
+#: includes/shortcodes.php:3541 includes/shortcodes.php:3832
+#: includes/shortcodes.php:4992 includes/shortcodes.php:5194
+msgid "Tablet landscape"
+msgstr ""
+
+#: includes/shortcodes.php:212 includes/shortcodes.php:581
+#: includes/shortcodes.php:943 includes/shortcodes.php:2691
+#: includes/shortcodes.php:3542 includes/shortcodes.php:3833
+#: includes/shortcodes.php:4596 includes/shortcodes.php:4993
+#: includes/shortcodes.php:5195
+msgid "Desktop"
+msgstr ""
+
+#: includes/shortcodes.php:213 includes/shortcodes.php:582
+#: includes/shortcodes.php:822 includes/shortcodes.php:944
+#: includes/shortcodes.php:1765 includes/shortcodes.php:1923
+#: includes/shortcodes.php:2031 includes/shortcodes.php:2692
+#: includes/shortcodes.php:2948 includes/shortcodes.php:3543
+#: includes/shortcodes.php:3834 includes/shortcodes.php:4994
+#: includes/shortcodes.php:5196 includes/shortcodes.php:5650
+msgid "Large"
+msgstr ""
+
+#: includes/shortcodes.php:291
+msgid "Blockquote options"
+msgstr ""
+
+#: includes/shortcodes.php:297 includes/shortcodes.php:419
+msgid "Quote"
+msgstr ""
+
+#: includes/shortcodes.php:303 includes/shortcodes.php:425
+msgid "Cite"
+msgstr ""
+
+#: includes/shortcodes.php:304 includes/shortcodes.php:426
+msgid "Cite is the reference to the source"
+msgstr ""
+
+#: includes/shortcodes.php:312 includes/shortcodes.php:434
+msgid "Cite URL"
+msgstr ""
+
+#: includes/shortcodes.php:313 includes/shortcodes.php:435
+msgid "Add a link to the source, including http://"
+msgstr ""
+
+#: includes/shortcodes.php:321 includes/shortcodes.php:1458
+#: includes/shortcodes.php:1634 includes/shortcodes.php:2637
+#: includes/shortcodes.php:3025 includes/shortcodes.php:3792
+#: includes/shortcodes.php:4412
+msgid "Top margin"
+msgstr ""
+
+#: includes/shortcodes.php:329 includes/shortcodes.php:1466
+#: includes/shortcodes.php:1642 includes/shortcodes.php:2645
+#: includes/shortcodes.php:3034 includes/shortcodes.php:3800
+#: includes/shortcodes.php:4420
+msgid "Bottom margin"
+msgstr ""
+
+#: includes/shortcodes.php:378
+msgid "Pullquote options"
+msgstr ""
+
+#: includes/shortcodes.php:384 includes/shortcodes.php:525
+#: includes/shortcodes.php:1614 includes/shortcodes.php:2263
+msgid "Alignment"
+msgstr ""
+
+#: includes/shortcodes.php:385
+msgid "Choose how the quote is aligned within the content."
+msgstr ""
+
+#: includes/shortcodes.php:390 includes/shortcodes.php:530
+#: includes/shortcodes.php:542 includes/shortcodes.php:845
+#: includes/shortcodes.php:858 includes/shortcodes.php:902
+#: includes/shortcodes.php:1619 includes/shortcodes.php:2269
+#: includes/shortcodes.php:2314 includes/shortcodes.php:2613
+#: includes/shortcodes.php:2667 includes/shortcodes.php:2934
+#: includes/shortcodes.php:2968 includes/shortcodes.php:2999
+#: includes/shortcodes.php:3298 includes/shortcodes.php:3317
+#: includes/shortcodes.php:4213 includes/shortcodes.php:4225
+#: includes/shortcodes.php:4256 includes/shortcodes.php:4459
+#: includes/shortcodes.php:4502 includes/shortcodes.php:4545
+#: includes/shortcodes.php:5120 includes/shortcodes.php:5159
+#: includes/shortcodes.php:5383 includes/shortcodes.php:5741
+#: includes/shortcodes.php:5777
+msgid "Left"
+msgstr ""
+
+#: includes/shortcodes.php:391 includes/shortcodes.php:531
+#: includes/shortcodes.php:543 includes/shortcodes.php:846
+#: includes/shortcodes.php:859 includes/shortcodes.php:1620
+#: includes/shortcodes.php:2268 includes/shortcodes.php:2666
+#: includes/shortcodes.php:2969 includes/shortcodes.php:3000
+#: includes/shortcodes.php:3297 includes/shortcodes.php:3316
+#: includes/shortcodes.php:4214 includes/shortcodes.php:4226
+#: includes/shortcodes.php:4257 includes/shortcodes.php:5742
+msgid "Center"
+msgstr ""
+
+#: includes/shortcodes.php:392 includes/shortcodes.php:532
+#: includes/shortcodes.php:544 includes/shortcodes.php:847
+#: includes/shortcodes.php:860 includes/shortcodes.php:886
+#: includes/shortcodes.php:1621 includes/shortcodes.php:2270
+#: includes/shortcodes.php:2298 includes/shortcodes.php:2614
+#: includes/shortcodes.php:2668 includes/shortcodes.php:2970
+#: includes/shortcodes.php:3001 includes/shortcodes.php:3299
+#: includes/shortcodes.php:3315 includes/shortcodes.php:4215
+#: includes/shortcodes.php:4227 includes/shortcodes.php:4258
+#: includes/shortcodes.php:4441 includes/shortcodes.php:4484
+#: includes/shortcodes.php:4527 includes/shortcodes.php:5104
+#: includes/shortcodes.php:5143 includes/shortcodes.php:5365
+#: includes/shortcodes.php:5743 includes/shortcodes.php:5761
+msgid "Right"
+msgstr ""
+
+#: includes/shortcodes.php:397 includes/shortcodes.php:549
+#: includes/shortcodes.php:1315 includes/shortcodes.php:1814
+#: includes/shortcodes.php:1892 includes/shortcodes.php:2000
+#: includes/shortcodes.php:2653 includes/shortcodes.php:3278
+#: includes/shortcodes.php:3440 includes/shortcodes.php:4382
+#: includes/shortcodes.php:4730 includes/shortcodes.php:4772
+#: includes/shortcodes.php:5169 includes/shortcodes.php:5336
+msgid "Width"
+msgstr ""
+
+#: includes/shortcodes.php:398
+msgid "The CSS width of the pullquote, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:405 includes/shortcodes.php:557
+msgid "Convert to fullwidth"
+msgstr ""
+
+#: includes/shortcodes.php:406 includes/shortcodes.php:558
+msgid "At which screen size to swap layout to fullwidth"
+msgstr ""
+
+#: includes/shortcodes.php:500
+msgid "Box options"
+msgstr ""
+
+#: includes/shortcodes.php:506 includes/shortcodes.php:1198
+#: includes/shortcodes.php:2560 includes/shortcodes.php:2890
+#: includes/shortcodes.php:3691
+msgid "Type"
+msgstr ""
+
+#: includes/shortcodes.php:507 includes/shortcodes.php:920
+#: includes/shortcodes.php:1100 includes/shortcodes.php:1225
+#: includes/shortcodes.php:2554 includes/shortcodes.php:2555
+#: includes/shortcodes.php:2620 includes/shortcodes.php:2891
+msgid "Choose a style"
+msgstr ""
+
+#: includes/shortcodes.php:511 includes/shortcodes.php:2565
+#: includes/shortcodes.php:2895
+msgid "Blank"
+msgstr ""
+
+#: includes/shortcodes.php:512 includes/shortcodes.php:2588
+msgid "Background blend"
+msgstr ""
+
+#: includes/shortcodes.php:513 includes/shortcodes.php:2433
+msgid "Primary color"
+msgstr ""
+
+#: includes/shortcodes.php:514 includes/shortcodes.php:2435
+msgid "Light color"
+msgstr ""
+
+#: includes/shortcodes.php:515 includes/shortcodes.php:2434
+msgid "Dark color"
+msgstr ""
+
+#: includes/shortcodes.php:516 includes/shortcodes.php:2396
+msgid "Information"
+msgstr ""
+
+#: includes/shortcodes.php:517
+msgid "Warning"
+msgstr ""
+
+#: includes/shortcodes.php:518
+msgid "Error"
+msgstr ""
+
+#: includes/shortcodes.php:519
+msgid "Success"
+msgstr ""
+
+#: includes/shortcodes.php:537 includes/shortcodes.php:841
+#: includes/shortcodes.php:2963 includes/shortcodes.php:4220
+msgid "Text align"
+msgstr ""
+
+#: includes/shortcodes.php:541 includes/shortcodes.php:2967
+msgid "Inherit"
+msgstr ""
+
+#: includes/shortcodes.php:550
+msgid "The CSS width of the box, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:587
+msgid "Message"
+msgstr ""
+
+#: includes/shortcodes.php:792
+msgid "Button options"
+msgstr ""
+
+#: includes/shortcodes.php:798 includes/shortcodes.php:3748
+msgid "Button text"
+msgstr ""
+
+#: includes/shortcodes.php:804
+msgid "Button dropbox content"
+msgstr ""
+
+#: includes/shortcodes.php:805
+msgid "Add a dropdown box with extra content related to your button"
+msgstr ""
+
+#: includes/shortcodes.php:809
+msgid "Drop down color palette"
+msgstr ""
+
+#: includes/shortcodes.php:809 includes/shortcodes.php:4325
+msgid ""
+"Choose a color palette. You can create these at Theme Options &rarr; Design "
+"&rarr; Colors"
+msgstr ""
+
+#: includes/shortcodes.php:814 includes/shortcodes.php:1760
+#: includes/shortcodes.php:1918 includes/shortcodes.php:2026
+#: includes/shortcodes.php:2572 includes/shortcodes.php:2940
+#: includes/shortcodes.php:5644 includes/shortcodes.php:5656
+#: includes/shortcodes.php:5889
+msgid "Size"
+msgstr ""
+
+#: includes/shortcodes.php:815 includes/shortcodes.php:2941
+msgid "Choose a size"
+msgstr ""
+
+#: includes/shortcodes.php:819
+msgid "Tiny"
+msgstr ""
+
+#: includes/shortcodes.php:820 includes/shortcodes.php:1763
+#: includes/shortcodes.php:1921 includes/shortcodes.php:2029
+#: includes/shortcodes.php:2577 includes/shortcodes.php:2946
+#: includes/shortcodes.php:5648
+msgid "Small"
+msgstr ""
+
+#: includes/shortcodes.php:821 includes/shortcodes.php:1764
+#: includes/shortcodes.php:1922 includes/shortcodes.php:2030
+#: includes/shortcodes.php:2947 includes/shortcodes.php:5649
+msgid "Medium"
+msgstr ""
+
+#: includes/shortcodes.php:823
+msgid "Full small (use all width)"
+msgstr ""
+
+#: includes/shortcodes.php:824
+msgid "Full medium (use all width)"
+msgstr ""
+
+#: includes/shortcodes.php:825
+msgid "Full large (use all width)"
+msgstr ""
+
+#: includes/shortcodes.php:830
+msgid "Corner radius"
+msgstr ""
+
+#: includes/shortcodes.php:835 includes/shortcodes.php:4265
+msgid "Rounded"
+msgstr ""
+
+#: includes/shortcodes.php:836
+msgid "Square"
+msgstr ""
+
+#: includes/shortcodes.php:852 includes/shortcodes.php:2662
+#: includes/shortcodes.php:3293 includes/shortcodes.php:5090
+#: includes/shortcodes.php:5735
+msgid "Position"
+msgstr ""
+
+#: includes/shortcodes.php:853
+msgid "Choose the position of the button within the container"
+msgstr ""
+
+#: includes/shortcodes.php:865 includes/shortcodes.php:2277
+msgid "Custom margin"
+msgstr ""
+
+#: includes/shortcodes.php:866 includes/shortcodes.php:2278
+msgid "You can override the default margins with your own values."
+msgstr ""
+
+#: includes/shortcodes.php:873 includes/shortcodes.php:2285
+#: includes/shortcodes.php:5130 includes/shortcodes.php:5748
+msgid "Margin"
+msgstr ""
+
+#: includes/shortcodes.php:874
+msgid "The CSS margin values of the button in pixels."
+msgstr ""
+
+#: includes/shortcodes.php:878 includes/shortcodes.php:2290
+#: includes/shortcodes.php:4432 includes/shortcodes.php:4475
+#: includes/shortcodes.php:4518 includes/shortcodes.php:5096
+#: includes/shortcodes.php:5135 includes/shortcodes.php:5356
+#: includes/shortcodes.php:5753
+msgid "Top"
+msgstr ""
+
+#: includes/shortcodes.php:894 includes/shortcodes.php:2306
+#: includes/shortcodes.php:4450 includes/shortcodes.php:4493
+#: includes/shortcodes.php:4536 includes/shortcodes.php:5112
+#: includes/shortcodes.php:5151 includes/shortcodes.php:5374
+#: includes/shortcodes.php:5769
+msgid "Bottom"
+msgstr ""
+
+#: includes/shortcodes.php:912 includes/shortcodes.php:5719
+msgid "Gradient"
+msgstr ""
+
+#: includes/shortcodes.php:913 includes/shortcodes.php:5720
+msgid "Add gradient style (CSS3)"
+msgstr ""
+
+#: includes/shortcodes.php:919 includes/shortcodes.php:1800
+#: includes/shortcodes.php:3808
+msgid "Convert point"
+msgstr ""
+
+#: includes/shortcodes.php:949 includes/shortcodes.php:2360
+#: includes/shortcodes.php:5787 includes/shortcodes.php:5908
+msgid "Link URL"
+msgstr ""
+
+#: includes/shortcodes.php:954 includes/shortcodes.php:5801
+msgid "Additional classes"
+msgstr ""
+
+#: includes/shortcodes.php:955
+msgid "Add any additional class names to the button"
+msgstr ""
+
+#: includes/shortcodes.php:961
+msgid "Open link in new tab/window"
+msgstr ""
+
+#: includes/shortcodes.php:974 includes/shortcodes.php:2929
+msgid "Icon location"
+msgstr ""
+
+#: includes/shortcodes.php:975
+msgid "Choose a location for the icon"
+msgstr ""
+
+#: includes/shortcodes.php:979
+msgid "Fixed left"
+msgstr ""
+
+#: includes/shortcodes.php:980
+msgid "Fixed right"
+msgstr ""
+
+#: includes/shortcodes.php:981
+msgid "After text"
+msgstr ""
+
+#: includes/shortcodes.php:982
+msgid "Before text"
+msgstr ""
+
+#: includes/shortcodes.php:983
+msgid "Above text"
+msgstr ""
+
+#: includes/shortcodes.php:988
+msgid "Icon style"
+msgstr ""
+
+#: includes/shortcodes.php:989 includes/shortcodes.php:5683
+msgid "Choose a light or dark style for the image icon"
+msgstr ""
+
+#: includes/shortcodes.php:993 includes/shortcodes.php:3783
+#: includes/shortcodes.php:5674 includes/shortcodes.php:5687
+msgid "Light"
+msgstr ""
+
+#: includes/shortcodes.php:994 includes/shortcodes.php:1445
+#: includes/shortcodes.php:3784 includes/shortcodes.php:5675
+#: includes/shortcodes.php:5688
+msgid "Dark"
+msgstr ""
+
+#: includes/shortcodes.php:1000
+msgid "Reveal icon on hover"
+msgstr ""
+
+#: includes/shortcodes.php:1007 includes/shortcodes.php:3777
+msgid "Color / style"
+msgstr ""
+
+#: includes/shortcodes.php:1008
+msgid "3 styles with 3 theme colors and 4 generic colors"
+msgstr ""
+
+#: includes/shortcodes.php:1013
+msgid "Plain buttons"
+msgstr ""
+
+#: includes/shortcodes.php:1015
+msgid "Primary Plain"
+msgstr ""
+
+#: includes/shortcodes.php:1016
+msgid "Light Plain"
+msgstr ""
+
+#: includes/shortcodes.php:1017
+msgid "Dark Plain"
+msgstr ""
+
+#: includes/shortcodes.php:1018
+msgid "Red Plain"
+msgstr ""
+
+#: includes/shortcodes.php:1019
+msgid "Orange Plain"
+msgstr ""
+
+#: includes/shortcodes.php:1020
+msgid "Blue Plain"
+msgstr ""
+
+#: includes/shortcodes.php:1021
+msgid "Green Plain"
+msgstr ""
+
+#: includes/shortcodes.php:1025
+msgid "Shadow buttons"
+msgstr ""
+
+#: includes/shortcodes.php:1027
+msgid "Primary Shadow"
+msgstr ""
+
+#: includes/shortcodes.php:1028
+msgid "Light Shadow"
+msgstr ""
+
+#: includes/shortcodes.php:1029
+msgid "Dark Shadow"
+msgstr ""
+
+#: includes/shortcodes.php:1030 includes/shortcodes.php:5670
+msgid "Red"
+msgstr ""
+
+#: includes/shortcodes.php:1031 includes/shortcodes.php:5671
+msgid "Orange"
+msgstr ""
+
+#: includes/shortcodes.php:1032 includes/shortcodes.php:5672
+msgid "Blue"
+msgstr ""
+
+#: includes/shortcodes.php:1033 includes/shortcodes.php:5673
+msgid "Green"
+msgstr ""
+
+#: includes/shortcodes.php:1037
+msgid "Hollow buttons"
+msgstr ""
+
+#: includes/shortcodes.php:1039
+msgid "Primary Hollow"
+msgstr ""
+
+#: includes/shortcodes.php:1040
+msgid "Dark Hollow"
+msgstr ""
+
+#: includes/shortcodes.php:1041
+msgid "Light Hollow"
+msgstr ""
+
+#: includes/shortcodes.php:1045
+msgid "Primary on hover buttons"
+msgstr ""
+
+#: includes/shortcodes.php:1047
+msgid "Light plain"
+msgstr ""
+
+#: includes/shortcodes.php:1048
+msgid "Dark plain"
+msgstr ""
+
+#: includes/shortcodes.php:1049
+msgid "Light shadow"
+msgstr ""
+
+#: includes/shortcodes.php:1050
+msgid "Dark shadow"
+msgstr ""
+
+#: includes/shortcodes.php:1093
+msgid "List options"
+msgstr ""
+
+#: includes/shortcodes.php:1099 includes/shortcodes.php:1224
+#: includes/shortcodes.php:1900 includes/shortcodes.php:2008
+#: includes/shortcodes.php:2594 includes/shortcodes.php:5682
+msgid "Style"
+msgstr ""
+
+#: includes/shortcodes.php:1105
+msgid "Bullet"
+msgstr ""
+
+#: includes/shortcodes.php:1106
+msgid "Tick"
+msgstr ""
+
+#: includes/shortcodes.php:1107
+msgid "Plain tick"
+msgstr ""
+
+#: includes/shortcodes.php:1108 includes/shortcodes.php:4294
+msgid "Arrow"
+msgstr ""
+
+#: includes/shortcodes.php:1109
+msgid "Hand written arrow"
+msgstr ""
+
+#: includes/shortcodes.php:1110
+msgid "Question"
+msgstr ""
+
+#: includes/shortcodes.php:1115 includes/shortcodes.php:1236
+#: includes/shortcodes.php:1770
+msgid "Layout"
+msgstr ""
+
+#: includes/shortcodes.php:1116 includes/shortcodes.php:1237
+msgid "Side by side (inline) or new line for each (stacked)"
+msgstr ""
+
+#: includes/shortcodes.php:1120 includes/shortcodes.php:1241
+msgid "Stacked"
+msgstr ""
+
+#: includes/shortcodes.php:1121 includes/shortcodes.php:1242
+#: includes/shortcodes.php:1618 includes/shortcodes.php:5740
+msgid "Inline"
+msgstr ""
+
+#: includes/shortcodes.php:1126
+msgid "List HTML"
+msgstr ""
+
+#: includes/shortcodes.php:1127
+msgid "Enter the content for your list, using the %s tags. Example below."
+msgstr ""
+
+#: includes/shortcodes.php:1191
+msgid "Menu options"
+msgstr ""
+
+#: includes/shortcodes.php:1199
+msgid "Choose to show a created WP menu or custom menu HTML."
+msgstr ""
+
+#: includes/shortcodes.php:1203
+msgid "Custom menu HTML"
+msgstr ""
+
+#: includes/shortcodes.php:1204
+msgid "Created WP menu"
+msgstr ""
+
+#: includes/shortcodes.php:1209
+msgid "Menu HTML"
+msgstr ""
+
+#: includes/shortcodes.php:1210
+msgid ""
+"Enter the content for your menu, using the %1$s and %2$s tags. Example below."
+msgstr ""
+
+#: includes/shortcodes.php:1229
+msgid "Button primary color"
+msgstr ""
+
+#: includes/shortcodes.php:1230
+msgid "Button light color"
+msgstr ""
+
+#: includes/shortcodes.php:1231
+msgid "Vertical separator"
+msgstr ""
+
+#: includes/shortcodes.php:1247
+msgid "Number of levels"
+msgstr ""
+
+#: includes/shortcodes.php:1248
+msgid "Choose to show or hide submenus"
+msgstr ""
+
+#: includes/shortcodes.php:1252
+msgid "Show all"
+msgstr ""
+
+#: includes/shortcodes.php:1253
+msgid "Show top level only"
+msgstr ""
+
+#: includes/shortcodes.php:1254
+msgid "Show top and second"
+msgstr ""
+
+#: includes/shortcodes.php:1255
+msgid "Show top, second and third"
+msgstr ""
+
+#: includes/shortcodes.php:1260
+msgid "Grouped"
+msgstr ""
+
+#: includes/shortcodes.php:1261
+msgid "Choose to group buttons so there is no spacing between each"
+msgstr ""
+
+#: includes/shortcodes.php:1293
+msgid "Table options"
+msgstr ""
+
+#: includes/shortcodes.php:1299
+msgid "Table HTML"
+msgstr ""
+
+#: includes/shortcodes.php:1300
+msgid ""
+"Enter the full content for your table, using the %s tags. Example below."
+msgstr ""
+
+#: includes/shortcodes.php:1307 includes/shortcodes.php:2342
+msgid "ID"
+msgstr ""
+
+#: includes/shortcodes.php:1308
+msgid "Set the table wrapper ID for CSS/JavaScript purposes"
+msgstr ""
+
+#: includes/shortcodes.php:1316
+msgid "Enter a CSS width for your table e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:1357
+msgid "Dropcap options"
+msgstr ""
+
+#: includes/shortcodes.php:1363
+msgid "Highlight"
+msgstr ""
+
+#: includes/shortcodes.php:1364
+msgid "Highlight the letter with a background color."
+msgstr ""
+
+#: includes/shortcodes.php:1370
+msgid "Classes"
+msgstr ""
+
+#: includes/shortcodes.php:1371
+msgid "Enter extra classes"
+msgstr ""
+
+#: includes/shortcodes.php:1377
+msgid "Dropcap character"
+msgstr ""
+
+#: includes/shortcodes.php:1378
+msgid "Enter the character you want to have as the dropcap"
+msgstr ""
+
+#: includes/shortcodes.php:1434
+msgid "Animated Progress"
+msgstr ""
+
+#: includes/shortcodes.php:1440 includes/shortcodes.php:2583
+msgid "Color"
+msgstr ""
+
+#: includes/shortcodes.php:1444 includes/shortcodes.php:2589
+#: includes/shortcodes.php:3782 includes/shortcodes.php:5669
+msgid "Primary"
+msgstr ""
+
+#: includes/shortcodes.php:1450 includes/shortcodes.php:1576
+msgid "End number"
+msgstr ""
+
+#: includes/shortcodes.php:1451
+msgid "Choose the final percentage of the bar"
+msgstr ""
+
+#: includes/shortcodes.php:1459 includes/shortcodes.php:1467
+#: includes/shortcodes.php:1635 includes/shortcodes.php:1643
+msgid "Choose a value in pixels"
+msgstr ""
+
+#: includes/shortcodes.php:1474
+msgid "Animate bar"
+msgstr ""
+
+#: includes/shortcodes.php:1569
+msgid "Start number"
+msgstr ""
+
+#: includes/shortcodes.php:1582
+msgid "Label"
+msgstr ""
+
+#: includes/shortcodes.php:1586
+msgid "Text"
+msgstr ""
+
+#: includes/shortcodes.php:1594 includes/shortcodes.php:2879
+#: includes/shortcodes.php:3715 includes/shortcodes.php:3737
+msgid "Tag"
+msgstr ""
+
+#: includes/shortcodes.php:1595
+msgid "Choose which HTML tag to use for the label"
+msgstr ""
+
+#: includes/shortcodes.php:1605
+msgid "Font Size"
+msgstr ""
+
+#: includes/shortcodes.php:1606
+msgid "Use the value slider to enter a pixel value for the font size."
+msgstr ""
+
+#: includes/shortcodes.php:1607
+msgid "Choose 0 to inherit value from CSS."
+msgstr ""
+
+#: includes/shortcodes.php:1626 includes/shortcodes.php:3106
+msgid "Bold text"
+msgstr ""
+
+#: includes/shortcodes.php:1627 includes/shortcodes.php:3107
+msgid "Use bold text"
+msgstr ""
+
+#: includes/shortcodes.php:1650
+msgid "Fade in"
+msgstr ""
+
+#: includes/shortcodes.php:1651 includes/shortcodes.php:6156
+#: includes/shortcodes.php:6192
+msgid "Add a subtle animation when the item comes into view"
+msgstr ""
+
+#: includes/shortcodes.php:1744
+msgid "Tabs options"
+msgstr ""
+
+#: includes/shortcodes.php:1750 includes/shortcodes.php:6155
+#: includes/shortcodes.php:6160 includes/shortcodes.php:6191
+#: includes/shortcodes.php:6234
+msgid "Animation"
+msgstr ""
+
+#: includes/shortcodes.php:1751
+msgid "Choose the animation of the tab transition"
+msgstr ""
+
+#: includes/shortcodes.php:1755
+msgid "Sliding"
+msgstr ""
+
+#: includes/shortcodes.php:1773
+msgid "Horizontal"
+msgstr ""
+
+#: includes/shortcodes.php:1774
+msgid "Vertical"
+msgstr ""
+
+#: includes/shortcodes.php:1779
+msgid "Boxed style"
+msgstr ""
+
+#: includes/shortcodes.php:1780
+msgid "Display a box around tab content"
+msgstr ""
+
+#: includes/shortcodes.php:1786
+msgid "Fill to full width"
+msgstr ""
+
+#: includes/shortcodes.php:1787
+msgid ""
+"Tabs will now use 100% of the area they are in. Select the number of tabs "
+"you have if you wish to use this feature."
+msgstr ""
+
+#: includes/shortcodes.php:1791
+msgid "2"
+msgstr ""
+
+#: includes/shortcodes.php:1792
+msgid "3"
+msgstr ""
+
+#: includes/shortcodes.php:1793
+msgid "4"
+msgstr ""
+
+#: includes/shortcodes.php:1794
+msgid "5"
+msgstr ""
+
+#: includes/shortcodes.php:1795
+msgid "6"
+msgstr ""
+
+#: includes/shortcodes.php:1801
+msgid ""
+"When to swap the tabs to a stacked layout for better usability on smaller "
+"screens"
+msgstr ""
+
+#: includes/shortcodes.php:1815
+msgid ""
+"Enter a CSS width for your tabs e.g. %s or %s. Leave blank for full width"
+msgstr ""
+
+#: includes/shortcodes.php:1886
+msgid "Toggle options"
+msgstr ""
+
+#: includes/shortcodes.php:1893
+msgid ""
+"Enter a CSS width for your toggles e.g. %s or %s. Leave blank for full width"
+msgstr ""
+
+#: includes/shortcodes.php:1904 includes/shortcodes.php:2012
+msgid "Boxed"
+msgstr ""
+
+#: includes/shortcodes.php:1905 includes/shortcodes.php:2013
+msgid "Underlined (text width)"
+msgstr ""
+
+#: includes/shortcodes.php:1906 includes/shortcodes.php:2014
+msgid "Underlined (full width)"
+msgstr ""
+
+#: includes/shortcodes.php:1911 includes/shortcodes.php:2019
+msgid "Hide the trigger when clicked"
+msgstr ""
+
+#: includes/shortcodes.php:1994
+msgid "Accordion options"
+msgstr ""
+
+#: includes/shortcodes.php:2001
+msgid ""
+"Enter a CSS width for your accordion e.g. %s or %s. Leave blank for full "
+"width"
+msgstr ""
+
+#: includes/shortcodes.php:2230
+msgid "Image options"
+msgstr ""
+
+#: includes/shortcodes.php:2236 includes/shortcodes.php:4721
+msgid "Image URL"
+msgstr ""
+
+#: includes/shortcodes.php:2245
+msgid "Image width"
+msgstr ""
+
+#: includes/shortcodes.php:2254
+msgid "Image height"
+msgstr ""
+
+#: includes/shortcodes.php:2286
+msgid "The CSS margin values of the image in pixels."
+msgstr ""
+
+#: includes/shortcodes.php:2324
+msgid "Alt"
+msgstr ""
+
+#: includes/shortcodes.php:2325
+msgid "The alt attribute of the img tag"
+msgstr ""
+
+#: includes/shortcodes.php:2334
+msgid "The title attribute of the img tag"
+msgstr ""
+
+#: includes/shortcodes.php:2343
+msgid "The id attribute of the img tag"
+msgstr ""
+
+#: includes/shortcodes.php:2351
+msgid "Class"
+msgstr ""
+
+#: includes/shortcodes.php:2352
+msgid "The class attribute of the img tag"
+msgstr ""
+
+#: includes/shortcodes.php:2361
+msgid "Link the image to this URL"
+msgstr ""
+
+#: includes/shortcodes.php:2369
+msgid "Open link in new tab"
+msgstr ""
+
+#: includes/shortcodes.php:2376
+msgid "Image hover effect"
+msgstr ""
+
+#: includes/shortcodes.php:2381
+msgid "Slide up"
+msgstr ""
+
+#: includes/shortcodes.php:2382
+msgid "Zoom"
+msgstr ""
+
+#: includes/shortcodes.php:2387
+msgid "Link icon"
+msgstr ""
+
+#: includes/shortcodes.php:2388
+msgid "Icon shown if image has an link"
+msgstr ""
+
+#: includes/shortcodes.php:2393
+msgid "Arrow right"
+msgstr ""
+
+#: includes/shortcodes.php:2394
+msgid "Link"
+msgstr ""
+
+#: includes/shortcodes.php:2395
+msgid "Mail"
+msgstr ""
+
+#: includes/shortcodes.php:2397
+msgid "Play"
+msgstr ""
+
+#: includes/shortcodes.php:2398
+msgid "Map"
+msgstr ""
+
+#: includes/shortcodes.php:2403
+msgid "Use caption overlay"
+msgstr ""
+
+#: includes/shortcodes.php:2410
+msgid "Caption icon"
+msgstr ""
+
+#: includes/shortcodes.php:2417
+msgid "Caption title"
+msgstr ""
+
+#: includes/shortcodes.php:2423
+msgid "Caption subtitle"
+msgstr ""
+
+#: includes/shortcodes.php:2429
+msgid "Caption overlay"
+msgstr ""
+
+#: includes/shortcodes.php:2440
+msgid "Caption type"
+msgstr ""
+
+#: includes/shortcodes.php:2444
+msgid "Slide out on hover"
+msgstr ""
+
+#: includes/shortcodes.php:2445
+msgid "Slide in on hover"
+msgstr ""
+
+#: includes/shortcodes.php:2446
+msgid "Fade out on hover"
+msgstr ""
+
+#: includes/shortcodes.php:2447
+msgid "Fade in on hover"
+msgstr ""
+
+#: includes/shortcodes.php:2452
+msgid "Image frame style"
+msgstr ""
+
+#: includes/shortcodes.php:2453
+msgid "The image will be displayed in a frame"
+msgstr ""
+
+#: includes/shortcodes.php:2458
+msgid "Frame"
+msgstr ""
+
+#: includes/shortcodes.php:2459
+msgid "Shadow style one"
+msgstr ""
+
+#: includes/shortcodes.php:2460
+msgid "Shadow style two"
+msgstr ""
+
+#: includes/shortcodes.php:2461
+msgid "Shadow style three"
+msgstr ""
+
+#: includes/shortcodes.php:2462
+msgid "Circle"
+msgstr ""
+
+#: includes/shortcodes.php:2463
+msgid "No gaps"
+msgstr ""
+
+#: includes/shortcodes.php:2548
+msgid "Section break options"
+msgstr ""
+
+#: includes/shortcodes.php:2566
+msgid "CSS line"
+msgstr ""
+
+#: includes/shortcodes.php:2567
+msgid "Image lines"
+msgstr ""
+
+#: includes/shortcodes.php:2578
+msgid "Thick"
+msgstr ""
+
+#: includes/shortcodes.php:2599
+msgid "Solid"
+msgstr ""
+
+#: includes/shortcodes.php:2600
+msgid "Dashed"
+msgstr ""
+
+#: includes/shortcodes.php:2601
+msgid "Dotted"
+msgstr ""
+
+#: includes/shortcodes.php:2602
+msgid "Double"
+msgstr ""
+
+#: includes/shortcodes.php:2607
+msgid "Details"
+msgstr ""
+
+#: includes/shortcodes.php:2612
+msgid "Both"
+msgstr ""
+
+#: includes/shortcodes.php:2627
+msgid "Diagonal lines more opacity"
+msgstr ""
+
+#: includes/shortcodes.php:2628
+msgid "Diagonal lines dark more opacity"
+msgstr ""
+
+#: includes/shortcodes.php:2629
+msgid "Indent light"
+msgstr ""
+
+#: includes/shortcodes.php:2630
+msgid "Indent dark"
+msgstr ""
+
+#: includes/shortcodes.php:2673 includes/shortcodes.php:3008
+#: includes/shortcodes.php:3839
+msgid "Stretched"
+msgstr ""
+
+#: includes/shortcodes.php:2674 includes/shortcodes.php:3009
+#: includes/shortcodes.php:3840
+msgid "Element width stretched to the edges of the page content area"
+msgstr ""
+
+#: includes/shortcodes.php:2862
+msgid "Fancy header options"
+msgstr ""
+
+#: includes/shortcodes.php:2867 includes/shortcodes.php:3703
+msgid "Heading"
+msgstr ""
+
+#: includes/shortcodes.php:2871 includes/shortcodes.php:3707
+msgid "Heading text"
+msgstr ""
+
+#: includes/shortcodes.php:2880 includes/shortcodes.php:3716
+msgid "Choose which HTML tag to use for the heading"
+msgstr ""
+
+#: includes/shortcodes.php:2896
+msgid "Underline full width."
+msgstr ""
+
+#: includes/shortcodes.php:2897
+msgid "Underline text width."
+msgstr ""
+
+#: includes/shortcodes.php:2898
+msgid "Underline fixed width."
+msgstr ""
+
+#: includes/shortcodes.php:2899
+msgid "Underline full width, primary line text width."
+msgstr ""
+
+#: includes/shortcodes.php:2900
+msgid "Primary line text width."
+msgstr ""
+
+#: includes/shortcodes.php:2901
+msgid "Primary line fixed width."
+msgstr ""
+
+#: includes/shortcodes.php:2902
+msgid "Animated, underline full width and primary line text width."
+msgstr ""
+
+#: includes/shortcodes.php:2903
+msgid "Animated, underline full width and primary line fixed width."
+msgstr ""
+
+#: includes/shortcodes.php:2904
+msgid "Animated, primary line text width."
+msgstr ""
+
+#: includes/shortcodes.php:2905
+msgid "Animated, primary line fixed width."
+msgstr ""
+
+#: includes/shortcodes.php:2906
+msgid "Color box"
+msgstr ""
+
+#: includes/shortcodes.php:2907
+msgid "Bubble"
+msgstr ""
+
+#: includes/shortcodes.php:2920 includes/shortcodes.php:6229
+#: includes/shortcodes.php:6257
+msgid "Letter animation"
+msgstr ""
+
+#: includes/shortcodes.php:2921
+msgid "Animation for text entrance"
+msgstr ""
+
+#: includes/shortcodes.php:2930
+msgid "Where to show the icon in relation to the header text"
+msgstr ""
+
+#: includes/shortcodes.php:2935
+msgid "Above"
+msgstr ""
+
+#: includes/shortcodes.php:2945
+msgid "Inherit from tag"
+msgstr ""
+
+#: includes/shortcodes.php:2949
+msgid "Huge"
+msgstr ""
+
+#: includes/shortcodes.php:2954
+msgid "Font size"
+msgstr ""
+
+#: includes/shortcodes.php:2955
+msgid "Set a custom font size in px"
+msgstr ""
+
+#: includes/shortcodes.php:2956
+msgid ""
+"Using this method to set font sizes may be time consuming. You can increase "
+"global header sizes in the Options Panel."
+msgstr ""
+
+#: includes/shortcodes.php:2975 includes/shortcodes.php:4232
+msgid "Mobile text align"
+msgstr ""
+
+#: includes/shortcodes.php:2976 includes/shortcodes.php:4233
+msgid "Change the text alignment for smaller devices."
+msgstr ""
+
+#: includes/shortcodes.php:2980 includes/shortcodes.php:4237
+msgid "Device"
+msgstr ""
+
+#: includes/shortcodes.php:2986 includes/shortcodes.php:4243
+#: includes/shortcodes.php:4615
+msgid "Phone"
+msgstr ""
+
+#: includes/shortcodes.php:2987 includes/shortcodes.php:4244
+#: includes/shortcodes.php:4605
+msgid "Tablet"
+msgstr ""
+
+#: includes/shortcodes.php:2988 includes/shortcodes.php:4245
+msgid "All mobile devices"
+msgstr ""
+
+#: includes/shortcodes.php:2993 includes/shortcodes.php:4208
+#: includes/shortcodes.php:4250
+msgid "Align"
+msgstr ""
+
+#: includes/shortcodes.php:3016
+msgid "Max width"
+msgstr ""
+
+#: includes/shortcodes.php:3027 includes/shortcodes.php:3036
+msgid "For default margins based on Size, use -1."
+msgstr ""
+
+#: includes/shortcodes.php:3045 includes/shortcodes.php:3054
+msgid "For default padding based on Size, use -1."
+msgstr ""
+
+#: includes/shortcodes.php:3060
+msgid "Letter spacing"
+msgstr ""
+
+#: includes/shortcodes.php:3062
+msgid ""
+"For better accuracy, em are used to set the letter spacing. If you need a "
+"larger space use px. The value 0 will inherit from the theme styles."
+msgstr ""
+
+#: includes/shortcodes.php:3066
+msgid "Value"
+msgstr ""
+
+#: includes/shortcodes.php:3067
+msgid "Enter a value in a hundredth of an em or px"
+msgstr ""
+
+#: includes/shortcodes.php:3075
+msgid "Unit"
+msgstr ""
+
+#: includes/shortcodes.php:3076
+msgid "Switch between pixels and em"
+msgstr ""
+
+#: includes/shortcodes.php:3089
+msgid "Font weight"
+msgstr ""
+
+#: includes/shortcodes.php:3090
+msgid "Enter a font weight, the lower the number the thinner the text."
+msgstr ""
+
+#: includes/shortcodes.php:3091
+msgid ""
+"You must make sure you link to the Google font files required for each "
+"weight you use in your site. The value 0 will inherit from the theme styles."
+msgstr ""
+
+#: includes/shortcodes.php:3098
+msgid "Uppercase"
+msgstr ""
+
+#: includes/shortcodes.php:3099
+msgid "Use uppercase text"
+msgstr ""
+
+#: includes/shortcodes.php:3114 includes/shortcodes.php:3855
+msgid "Header ID"
+msgstr ""
+
+#: includes/shortcodes.php:3115 includes/shortcodes.php:3856
+msgid ""
+"This will set the id attribute to allow you to make anchor links to this "
+"header."
+msgstr ""
+
+#: includes/shortcodes.php:3121 includes/shortcodes.php:4192
+msgid "Custom classes"
+msgstr ""
+
+#: includes/shortcodes.php:3122
+msgid "Add additional classes to the header"
+msgstr ""
+
+#: includes/shortcodes.php:3227
+msgid "Cycle options"
+msgstr ""
+
+#: includes/shortcodes.php:3231
+msgid "\"In\" animation"
+msgstr ""
+
+#: includes/shortcodes.php:3231
+msgid "The animation to use when a slide becomes visible."
+msgstr ""
+
+#: includes/shortcodes.php:3232
+msgid "\"Out\" animation"
+msgstr ""
+
+#: includes/shortcodes.php:3232
+msgid "The animation to use when a slide hides."
+msgstr ""
+
+#: includes/shortcodes.php:3235 includes/shortcodes.php:3473
+msgid "Speed"
+msgstr ""
+
+#: includes/shortcodes.php:3236
+msgid ""
+"The speed of the animation in milliseconds, 1000 = 1 second. Note: this only "
+"affects the Default animation."
+msgstr ""
+
+#: includes/shortcodes.php:3243 includes/shortcodes.php:3481
+msgid "Autoplay"
+msgstr ""
+
+#: includes/shortcodes.php:3249 includes/shortcodes.php:3488
+msgid "Autoplay timeout"
+msgstr ""
+
+#: includes/shortcodes.php:3250
+msgid "How long in milliseconds to display each slide when Autoplay is active."
+msgstr ""
+
+#: includes/shortcodes.php:3257 includes/shortcodes.php:3496
+msgid "Autoplay hover pause"
+msgstr ""
+
+#: includes/shortcodes.php:3258 includes/shortcodes.php:3497
+msgid "Pause autoplay on mouse hover."
+msgstr ""
+
+#: includes/shortcodes.php:3264 includes/shortcodes.php:3504
+msgid "Dots"
+msgstr ""
+
+#: includes/shortcodes.php:3265 includes/shortcodes.php:3505
+msgid "Dots navigation below slides."
+msgstr ""
+
+#: includes/shortcodes.php:3271 includes/shortcodes.php:3511
+msgid "Loop"
+msgstr ""
+
+#: includes/shortcodes.php:3272 includes/shortcodes.php:3512
+msgid "Infinity loop."
+msgstr ""
+
+#: includes/shortcodes.php:3279
+msgid "Container width, set to 0 for full width"
+msgstr ""
+
+#: includes/shortcodes.php:3286 includes/shortcodes.php:4591
+#: includes/shortcodes.php:4739 includes/shortcodes.php:4781
+#: includes/shortcodes.php:5177 includes/shortcodes.php:5344
+msgid "Height"
+msgstr ""
+
+#: includes/shortcodes.php:3287
+msgid "Container height"
+msgstr ""
+
+#: includes/shortcodes.php:3304
+msgid "Controls"
+msgstr ""
+
+#: includes/shortcodes.php:3305
+msgid "Prev/Next navigation controls."
+msgstr ""
+
+#: includes/shortcodes.php:3311
+msgid "Controls position"
+msgstr ""
+
+#: includes/shortcodes.php:3322 includes/shortcodes.php:3518
+msgid "Mouse drag"
+msgstr ""
+
+#: includes/shortcodes.php:3323 includes/shortcodes.php:3519
+msgid "Mouse drag enabled."
+msgstr ""
+
+#: includes/shortcodes.php:3329 includes/shortcodes.php:3525
+msgid "Touch drag"
+msgstr ""
+
+#: includes/shortcodes.php:3330 includes/shortcodes.php:3526
+msgid "Touch drag enabled."
+msgstr ""
+
+#: includes/shortcodes.php:3336
+msgid "Auto height"
+msgstr ""
+
+#: includes/shortcodes.php:3337
+msgid "Animate the height of the container if the slide height changes."
+msgstr ""
+
+#: includes/shortcodes.php:3434
+msgid "Image carousel options"
+msgstr ""
+
+#: includes/shortcodes.php:3441
+msgid "The CSS width of the carousel, e.g. %s or %s."
+msgstr ""
+
+#: includes/shortcodes.php:3448
+msgid "Space"
+msgstr ""
+
+#: includes/shortcodes.php:3449
+msgid "The amount of space between each image in percent."
+msgstr ""
+
+#: includes/shortcodes.php:3450
+msgid "Enter a value in percent"
+msgstr ""
+
+#: includes/shortcodes.php:3457
+msgid "Visible items"
+msgstr ""
+
+#: includes/shortcodes.php:3458
+msgid "The number of items that are visible at once."
+msgstr ""
+
+#: includes/shortcodes.php:3465
+msgid "Responsive item settings"
+msgstr ""
+
+#: includes/shortcodes.php:3466
+msgid "See %sthe documentation%s for more information."
+msgstr ""
+
+#: includes/shortcodes.php:3474 includes/shortcodes.php:5417
+#: includes/shortcodes.php:5425
+msgid "The speed of the animation in milliseconds, 1000 = 1 second."
+msgstr ""
+
+#: includes/shortcodes.php:3489
+msgid ""
+"How long the carousel should pause before scrolling again in milliseconds, "
+"1000 = 1 second."
+msgstr ""
+
+#: includes/shortcodes.php:3548
+msgid "Images"
+msgstr ""
+
+#: includes/shortcodes.php:3685
+msgid "Impact header options"
+msgstr ""
+
+#: includes/shortcodes.php:3692
+msgid "Choose a layout"
+msgstr ""
+
+#: includes/shortcodes.php:3696
+msgid "Only Heading"
+msgstr ""
+
+#: includes/shortcodes.php:3697
+msgid "Heading & Button"
+msgstr ""
+
+#: includes/shortcodes.php:3698
+msgid "Heading & Sub-heading"
+msgstr ""
+
+#: includes/shortcodes.php:3699
+msgid "Heading, Sub-heading & Button"
+msgstr ""
+
+#: includes/shortcodes.php:3725
+msgid "Sub-heading"
+msgstr ""
+
+#: includes/shortcodes.php:3729
+msgid "Sub-heading text"
+msgstr ""
+
+#: includes/shortcodes.php:3738
+msgid "Choose which HTML tag to use for the sub-heading"
+msgstr ""
+
+#: includes/shortcodes.php:3754
+msgid "Button link"
+msgstr ""
+
+#: includes/shortcodes.php:3755
+msgid "Add the link URL including http://"
+msgstr ""
+
+#: includes/shortcodes.php:3756
+msgid "The URL that the button should link to"
+msgstr ""
+
+#: includes/shortcodes.php:3762
+msgid "Button link opens new tab/window"
+msgstr ""
+
+#: includes/shortcodes.php:3770
+msgid "Link button to Quform popup form"
+msgstr ""
+
+#: includes/shortcodes.php:3778
+msgid "Choose a color"
+msgstr ""
+
+#: includes/shortcodes.php:3785
+msgid "Primary with no 3D effect"
+msgstr ""
+
+#: includes/shortcodes.php:3786
+msgid "Light with no 3D effect"
+msgstr ""
+
+#: includes/shortcodes.php:3787
+msgid "Dark with no 3D effect"
+msgstr ""
+
+#: includes/shortcodes.php:3809
+msgid "When to swap to a more optimum layout for smaller screens"
+msgstr ""
+
+#: includes/shortcodes.php:4179
+msgid "Block options"
+msgstr ""
+
+#: includes/shortcodes.php:4185
+msgid "Block ID"
+msgstr ""
+
+#: includes/shortcodes.php:4186
+msgid ""
+"This will set the id attribute to allow you to make anchor links to this "
+"block."
+msgstr ""
+
+#: includes/shortcodes.php:4193
+msgid "Add additional classes to the Block outer wrapper"
+msgstr ""
+
+#: includes/shortcodes.php:4200
+msgid "Styles and color"
+msgstr ""
+
+#: includes/shortcodes.php:4270
+msgid "Page Rounded (page radius)"
+msgstr ""
+
+#: includes/shortcodes.php:4271
+msgid "Rounded (element radius)"
+msgstr ""
+
+#: includes/shortcodes.php:4276
+msgid "Shadow"
+msgstr ""
+
+#: includes/shortcodes.php:4281
+msgid "Drop shadow"
+msgstr ""
+
+#: includes/shortcodes.php:4282
+msgid "Drop shadow off on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4283
+msgid "Drop shadow on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4284
+msgid "Bottom drop shadow"
+msgstr ""
+
+#: includes/shortcodes.php:4285
+msgid "Bottom drop shadow off on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4286
+msgid "Bottom drop shadow on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4287
+msgid "Spread drop shadow"
+msgstr ""
+
+#: includes/shortcodes.php:4288
+msgid "Spread drop shadow off on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4289
+msgid "Spread drop shadow on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4299
+msgid "Top Center"
+msgstr ""
+
+#: includes/shortcodes.php:4300
+msgid "Top Left"
+msgstr ""
+
+#: includes/shortcodes.php:4301
+msgid "Top Right"
+msgstr ""
+
+#: includes/shortcodes.php:4302
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/shortcodes.php:4303
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/shortcodes.php:4304
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/shortcodes.php:4305
+msgid "Left Center"
+msgstr ""
+
+#: includes/shortcodes.php:4306
+msgid "Left Top"
+msgstr ""
+
+#: includes/shortcodes.php:4307
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/shortcodes.php:4308
+msgid "Right Center"
+msgstr ""
+
+#: includes/shortcodes.php:4309
+msgid "Right Top"
+msgstr ""
+
+#: includes/shortcodes.php:4310
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/shortcodes.php:4315
+msgid "Border"
+msgstr ""
+
+#: includes/shortcodes.php:4320
+msgid "Full"
+msgstr ""
+
+#: includes/shortcodes.php:4321
+msgid "Left / right only"
+msgstr ""
+
+#: includes/shortcodes.php:4322
+msgid "Top / bottom only"
+msgstr ""
+
+#: includes/shortcodes.php:4325
+msgid "Color palette"
+msgstr ""
+
+#: includes/shortcodes.php:4332
+msgid "Animations"
+msgstr ""
+
+#: includes/shortcodes.php:4342
+msgid "Show nested block on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4347
+msgid "I am the parent Block"
+msgstr ""
+
+#: includes/shortcodes.php:4348
+msgid "Fade me in"
+msgstr ""
+
+#: includes/shortcodes.php:4349
+msgid "Fade me in down"
+msgstr ""
+
+#: includes/shortcodes.php:4350
+msgid "Fade me in up"
+msgstr ""
+
+#: includes/shortcodes.php:4355
+msgid "Convert nested block on hover"
+msgstr ""
+
+#: includes/shortcodes.php:4356
+msgid "Touch devices can not hover"
+msgstr ""
+
+#: includes/shortcodes.php:4373
+msgid "Dimensions"
+msgstr ""
+
+#: includes/shortcodes.php:4385
+msgid "Default (fills the content area)"
+msgstr ""
+
+#: includes/shortcodes.php:4386
+msgid "Stretched to the edges of the content area"
+msgstr ""
+
+#: includes/shortcodes.php:4387
+msgid "Stretched to the edges of the viewport"
+msgstr ""
+
+#: includes/shortcodes.php:4388
+msgid ""
+"Stretched to the outer edges of the content on Fluid and Box Inner layouts"
+msgstr ""
+
+#: includes/shortcodes.php:4389 includes/shortcodes.php:4395
+msgid "Custom width"
+msgstr ""
+
+#: includes/shortcodes.php:4391
+msgid "The stretched options require the React theme."
+msgstr ""
+
+#: includes/shortcodes.php:4396
+msgid "The CSS width of the block, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:4403
+msgid "Use page max width"
+msgstr ""
+
+#: includes/shortcodes.php:4404
+msgid ""
+"Adds the page max width to the content of the block. This will allow the "
+"Block to be fluid but with a fixed width content area."
+msgstr ""
+
+#: includes/shortcodes.php:4470
+msgid "Padding on tablets"
+msgstr ""
+
+#: includes/shortcodes.php:4471 includes/shortcodes.php:4514
+msgid "An empty value will inherit the padding from the value above."
+msgstr ""
+
+#: includes/shortcodes.php:4513
+msgid "Padding on phones"
+msgstr ""
+
+#: includes/shortcodes.php:4556
+msgid "Use screen height as min height"
+msgstr ""
+
+#: includes/shortcodes.php:4557
+msgid "The minimum height of the block will be set to the screen height"
+msgstr ""
+
+#: includes/shortcodes.php:4565
+msgid "Custom min height"
+msgstr ""
+
+#: includes/shortcodes.php:4566
+msgid "Add a min-height attribute to a value of your choice, e.g. %s"
+msgstr ""
+
+#: includes/shortcodes.php:4575
+msgid "Fixed height"
+msgstr ""
+
+#: includes/shortcodes.php:4576
+msgid "Set a fixed height and content inside will be scrollable"
+msgstr ""
+
+#: includes/shortcodes.php:4583
+msgid "Use screen height as height"
+msgstr ""
+
+#: includes/shortcodes.php:4584
+msgid "The height of the block will be set to the screen height"
+msgstr ""
+
+#: includes/shortcodes.php:4606 includes/shortcodes.php:4616
+msgid "If left blank the value will be inherited from the value on the left."
+msgstr ""
+
+#: includes/shortcodes.php:4627
+msgid "Vertically align middle"
+msgstr ""
+
+#: includes/shortcodes.php:4628
+msgid ""
+"This will make the content align in the middle of the fixed height block"
+msgstr ""
+
+#: includes/shortcodes.php:4639
+msgid "Background textures"
+msgstr ""
+
+#: includes/shortcodes.php:4643
+msgid "Background texture"
+msgstr ""
+
+#: includes/shortcodes.php:4644 includes/shortcodes.php:4686
+msgid ""
+"Choose a style to be applied to this section or add your own in the options "
+"further down"
+msgstr ""
+
+#: includes/shortcodes.php:4656 includes/shortcodes.php:4698
+msgid "Opacity level"
+msgstr ""
+
+#: includes/shortcodes.php:4670
+msgid "Use double size for non retina displays"
+msgstr ""
+
+#: includes/shortcodes.php:4671
+msgid ""
+"By default the background image will be the same size for both hand held "
+"devices and for laptops / desktops. By selecting Yes here the background "
+"image will be double the size for screens larger than tablets."
+msgstr ""
+
+#: includes/shortcodes.php:4681
+msgid "Background details"
+msgstr ""
+
+#: includes/shortcodes.php:4685
+msgid "Background detail"
+msgstr ""
+
+#: includes/shortcodes.php:4708
+msgid "Custom background"
+msgstr ""
+
+#: includes/shortcodes.php:4712
+msgid "Background image"
+msgstr ""
+
+#: includes/shortcodes.php:4713
+msgid ""
+"Add your own image background for this block. By adding a background image "
+"here you can now only use either the Texture or the Detail. Texture has "
+"priority if both are selected."
+msgstr ""
+
+#: includes/shortcodes.php:4751
+msgid "What would you like to do for smaller screens and/or Retina devices?"
+msgstr ""
+
+#: includes/shortcodes.php:4752
+msgid "Choose an option for smaller screens and/or Retina devices"
+msgstr ""
+
+#: includes/shortcodes.php:4763
+msgid "Alternative or Retina image URL"
+msgstr ""
+
+#: includes/shortcodes.php:4799
+msgid "Is this a retina ready image?"
+msgstr ""
+
+#: includes/shortcodes.php:4800
+msgid ""
+"The Retina ready image will be used at 50% size, so the image you upload "
+"must be double the actual size required. If you do not require a Retina "
+"ready image and are using this as an alternative device image, select NO."
+msgstr ""
+
+#: includes/shortcodes.php:4814
+msgid "When would you like to start using this image?"
+msgstr ""
+
+#: includes/shortcodes.php:4815
+msgid "Choose which viewport size to start showing the new image"
+msgstr ""
+
+#: includes/shortcodes.php:4838
+msgid "Manage the display settings for this background image"
+msgstr ""
+
+#: includes/shortcodes.php:4850
+msgid "Main image"
+msgstr ""
+
+#: includes/shortcodes.php:4873 includes/shortcodes.php:4928
+msgid "Custom value"
+msgstr ""
+
+#: includes/shortcodes.php:4876 includes/shortcodes.php:4931
+msgid ""
+"The background-position property specifies the position of the background "
+"image. Examples: \"95% 95%\" or \"300px 500px\""
+msgstr ""
+
+#: includes/shortcodes.php:4888 includes/shortcodes.php:4943
+msgid "Background size"
+msgstr ""
+
+#: includes/shortcodes.php:4889 includes/shortcodes.php:4944
+msgid ""
+"The background-size property specifies the size of the background image. "
+"Examples: \"100% auto\" or \"300px 500px\""
+msgstr ""
+
+#: includes/shortcodes.php:4905
+msgid "Device image"
+msgstr ""
+
+#: includes/shortcodes.php:4959
+msgid "Parallax ratio"
+msgstr ""
+
+#: includes/shortcodes.php:4960
+msgid ""
+"If you set this to anything other than 1, the background image will scroll "
+"at a different speed than the page, creating a parallax effect. Setting it "
+"to 0.5 will make it scroll at half the speed, setting it to 2 will make it "
+"scroll at twice the speed."
+msgstr ""
+
+#: includes/shortcodes.php:4968
+msgid "Parallax offset"
+msgstr ""
+
+#: includes/shortcodes.php:4969
+msgid ""
+"This number determines when the background image will be visible, it is the "
+"number of pixels from the top of the viewport that the top of background "
+"image should be at the top of the block. Experiment with different numbers."
+msgstr ""
+
+#: includes/shortcodes.php:5083
+msgid "Fixed options"
+msgstr ""
+
+#: includes/shortcodes.php:5092
+msgid "The CSS position values of the fixed block, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:5131
+msgid "The CSS margin values of the fixed block, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:5170
+msgid "The CSS width of the fixed block, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:5178
+msgid "The CSS height of the fixed block, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:5203 includes/shortcodes.php:5455
+#: includes/shortcodes.php:5476
+msgid "Text, HTML and shortcodes can be used here."
+msgstr ""
+
+#: includes/shortcodes.php:5330
+msgid "Lightbox options"
+msgstr ""
+
+#: includes/shortcodes.php:5337
+msgid ""
+"The numeric width of the lightbox in pixels, for example %s. If empty the "
+"lightbox will automatically fit the content."
+msgstr ""
+
+#: includes/shortcodes.php:5345
+msgid ""
+"The numeric height of the lightbox in pixels, for example %s. If empty the "
+"lightbox will automatically fit the content."
+msgstr ""
+
+#: includes/shortcodes.php:5394
+msgid "Open animation"
+msgstr ""
+
+#: includes/shortcodes.php:5398 includes/shortcodes.php:5409
+msgid "Fade"
+msgstr ""
+
+#: includes/shortcodes.php:5399 includes/shortcodes.php:5410
+msgid "Elastic"
+msgstr ""
+
+#: includes/shortcodes.php:5405
+msgid "Close animation"
+msgstr ""
+
+#: includes/shortcodes.php:5416
+msgid "Open animation speed"
+msgstr ""
+
+#: includes/shortcodes.php:5424
+msgid "Close animation speed"
+msgstr ""
+
+#: includes/shortcodes.php:5432
+msgid "Close on overlay click"
+msgstr ""
+
+#: includes/shortcodes.php:5433
+msgid "The lightbox will close when the user clicks on the overlay."
+msgstr ""
+
+#: includes/shortcodes.php:5440
+msgid "Close button"
+msgstr ""
+
+#: includes/shortcodes.php:5441
+msgid "Adds a close button to the lightbox."
+msgstr ""
+
+#: includes/shortcodes.php:5447
+msgid "Trigger on page load"
+msgstr ""
+
+#: includes/shortcodes.php:5448
+msgid "Triggers the popup when the user enters the page."
+msgstr ""
+
+#: includes/shortcodes.php:5454
+msgid "Trigger text"
+msgstr ""
+
+#: includes/shortcodes.php:5461
+msgid "Extra trigger classes"
+msgstr ""
+
+#: includes/shortcodes.php:5462
+msgid "Add any extra classes to the trigger."
+msgstr ""
+
+#: includes/shortcodes.php:5468
+msgid "Extra content classes"
+msgstr ""
+
+#: includes/shortcodes.php:5469
+msgid "Add any extra classes to the lightbox content. EG: subtle-link"
+msgstr ""
+
+#: includes/shortcodes.php:5624
+msgid "Icon options"
+msgstr ""
+
+#: includes/shortcodes.php:5636
+msgid "Character"
+msgstr ""
+
+#: includes/shortcodes.php:5637
+msgid "Add text to show instead of an icon"
+msgstr ""
+
+#: includes/shortcodes.php:5664
+msgid "Color / Style"
+msgstr ""
+
+#: includes/shortcodes.php:5665
+msgid "Choose a style and color"
+msgstr ""
+
+#: includes/shortcodes.php:5676
+msgid "Color Inherited"
+msgstr ""
+
+#: includes/shortcodes.php:5694
+msgid "Box style"
+msgstr ""
+
+#: includes/shortcodes.php:5695
+msgid "Display a box around the icon"
+msgstr ""
+
+#: includes/shortcodes.php:5702
+msgid "Round style"
+msgstr ""
+
+#: includes/shortcodes.php:5703
+msgid "This will create a circular icon background"
+msgstr ""
+
+#: includes/shortcodes.php:5710
+msgid "Hollow style"
+msgstr ""
+
+#: includes/shortcodes.php:5711
+msgid "Background will be transparent until hovered"
+msgstr ""
+
+#: includes/shortcodes.php:5728 includes/shortcodes.php:5900
+msgid "Description"
+msgstr ""
+
+#: includes/shortcodes.php:5729
+msgid "Add text to show when user hovers the icon."
+msgstr ""
+
+#: includes/shortcodes.php:5736
+msgid "Choose the position of the icon"
+msgstr ""
+
+#: includes/shortcodes.php:5749
+msgid "The CSS margin values, e.g. %s or %s"
+msgstr ""
+
+#: includes/shortcodes.php:5788
+msgid "Links the icon to a page or website"
+msgstr ""
+
+#: includes/shortcodes.php:5794
+msgid "Link opens in a new tab/window"
+msgstr ""
+
+#: includes/shortcodes.php:5802
+msgid "Add additional classes to the icon"
+msgstr ""
+
+#: includes/shortcodes.php:5876
+msgid "Flag options"
+msgstr ""
+
+#: includes/shortcodes.php:5901
+msgid "Add text to show when user hovers the flag."
+msgstr ""
+
+#: includes/shortcodes.php:5909
+msgid "Links the flag to a page or website"
+msgstr ""
+
+#: includes/shortcodes.php:5926 includes/shortcodes.php:5966
+#: includes/shortcodes.php:5972
+msgid "Monday"
+msgstr ""
+
+#: includes/shortcodes.php:5927 includes/shortcodes.php:5986
+#: includes/shortcodes.php:5992
+msgid "Tuesday"
+msgstr ""
+
+#: includes/shortcodes.php:5928 includes/shortcodes.php:6006
+#: includes/shortcodes.php:6012
+msgid "Wednesday"
+msgstr ""
+
+#: includes/shortcodes.php:5929 includes/shortcodes.php:6026
+#: includes/shortcodes.php:6032
+msgid "Thursday"
+msgstr ""
+
+#: includes/shortcodes.php:5930 includes/shortcodes.php:6046
+#: includes/shortcodes.php:6052
+msgid "Friday"
+msgstr ""
+
+#: includes/shortcodes.php:5931 includes/shortcodes.php:6066
+#: includes/shortcodes.php:6072
+msgid "Saturday"
+msgstr ""
+
+#: includes/shortcodes.php:5932 includes/shortcodes.php:6086
+#: includes/shortcodes.php:6092
+msgid "Sunday"
+msgstr ""
+
+#: includes/shortcodes.php:5960
+msgid "Opening times"
+msgstr ""
+
+#: includes/shortcodes.php:5970 includes/shortcodes.php:5990
+#: includes/shortcodes.php:6010 includes/shortcodes.php:6030
+#: includes/shortcodes.php:6050 includes/shortcodes.php:6070
+#: includes/shortcodes.php:6090
+msgid "Name"
+msgstr ""
+
+#: includes/shortcodes.php:5977 includes/shortcodes.php:5997
+#: includes/shortcodes.php:6017 includes/shortcodes.php:6037
+#: includes/shortcodes.php:6057 includes/shortcodes.php:6077
+#: includes/shortcodes.php:6097
+msgid "Time"
+msgstr ""
+
+#: includes/shortcodes.php:6168
+msgid "Delay"
+msgstr ""
+
+#: includes/shortcodes.php:6169
+msgid ""
+"The animation will not start until this number of milliseconds after the "
+"element comes into view (1000 milliseconds = 1 second)"
+msgstr ""
+
+#: includes/shortcodes.php:6178
+msgid "Offset"
+msgstr ""
+
+#: includes/shortcodes.php:6179
+msgid ""
+"If the number is positive, the animation will start when the element is this "
+"number of pixels below the viewport."
+msgstr ""
+
+#: includes/shortcodes.php:6179
+msgid ""
+"If the number is negative, the animation will not start until the element is "
+"this number of pixels inside the viewport."
+msgstr ""
+
+#: includes/shortcodes.php:6230 includes/shortcodes.php:6258
+msgid "Add a subtle letter animation when the item comes into view"
+msgstr ""
+
+#: includes/shortcodes.php:6242
+msgid "Animation type"
+msgstr ""
+
+#: includes/shortcodes.php:6288 includes/shortcodes.php:6297
+msgid "Hover animation"
+msgstr ""
+
+#: includes/shortcodes.php:6289 includes/shortcodes.php:6298
+#: includes/shortcodes.php:6318 includes/shortcodes.php:6327
+msgid "Add a subtle animation when the item is hovered"
+msgstr ""
+
+#: includes/shortcodes.php:6317 includes/shortcodes.php:6326
+msgid "Background animation"
+msgstr ""
+
+#: includes/widget.php:27
+msgid "Arbitrary text, HTML or shortcodes."
+msgstr ""
+
+#: includes/widget.php:29
+msgid "Shortcode"
+msgstr ""
+
+#: includes/widget.php:90
+msgid "Enter the widget content HTML and/or shortcodes"
+msgstr ""
+
+#: react-shortcodes.php:778 react-shortcodes.php:785 react-shortcodes.php:792
+msgid "Used by several shortcodes to display icons"
+msgstr ""
+
+#: react-shortcodes.php:799 react-shortcodes.php:850
+msgid "Used by the %s shortcode to show content in a popup"
+msgstr ""
+
+#: react-shortcodes.php:806
+msgid "Used by the %s and %s shortcodes"
+msgstr ""
+
+#: react-shortcodes.php:842
+msgid "Used by the %s[image_carousel] and %s[cycle] shortcodes"
+msgstr ""
+
+#: react-shortcodes.php:858
+msgid "Used by the %s shortcode to display tabbed content"
+msgstr ""
+
+#. #-#-#-#-#  react-shortcodes.pot (React Shortcodes 1.0.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  react-shortcodes.pot (React Shortcodes 1.0.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.themecatcher.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A lot of shortcodes with a lot of options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeCatcher"
+msgstr ""

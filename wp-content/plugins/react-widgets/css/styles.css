@@ -1,0 +1,458 @@
+/*----------------------------------------------------
+
+IMPORTANT: REACT BASE STYLES. PLEASE USE OTHER METHODS TO EDIT CSS.
+SEE http://support.themecatcher.net/react-wordpress
+
+01: RESUABLE STYLES
+02: CONTACT DETAILS
+03: OPENING TIMES
+04: POST LISTS
+05: TWITTER
+06: SOCIAL ICONS
+
+-------------------------------------------------------*/
+
+/*****************************************************
+	1: REUSABLE STYLES
+******************************************************/
+.tcw-clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*****************************************************
+	2: CONTACT DETAILS
+******************************************************/
+.tcw-contact-details-wrap {
+	padding: 5px 0;
+	margin: 10px 0;
+}
+.tcw-contact-details {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 90%;
+	min-height: 20px;
+	line-height: 20px;
+	border-bottom: 1px solid #eee;
+}
+.tcw-contact-details .tcw-contact-method {
+	float: left;
+	max-width: 35%;
+	font-weight: 700;
+}
+.tcw-contact-details .tcw-contact-method > i {
+	margin-right: 5px;
+	opacity: 0.9;
+	-webkit-transition: opacity ease-in 0.6s;
+	-moz-transition: opacity ease-in 0.6s;
+	-o-transition: opacity ease-in 0.6s;
+	transition: opacity ease-in 0.6s;
+	width: 12px;
+}
+.tcw-contact-details:hover .tcw-contact-method > i {
+	opacity: 1;
+}
+.tcw-contact-details .tcw-contact-detail {
+	float: right;
+	max-width: 65%;
+	text-align: right;
+	color: #888;
+}
+
+.rtl .tcw-contact-details .tcw-contact-method {
+	float: right;
+}
+.rtl .tcw-contact-details .tcw-contact-method > i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.rtl .tcw-contact-details .tcw-contact-detail {
+	float: left;
+	text-align: left;
+}
+
+/*****************************************************
+	3: OPENING TIMES
+******************************************************/
+.tcw-opening-times-wrap {
+	padding: 5px 0;
+	margin: 10px 0;
+}
+.tcw-opening-times {
+	padding: 12px 0;
+	font-size: 90%;
+	line-height: 150%;
+	border-bottom: 1px dashed #eee;
+}
+.tcw-one-day {
+	float: left;
+	min-width: 85px;
+	font-weight: 700;
+}
+.tcw-open-time {
+	float: right;
+	min-width: 50px;
+	text-align: right;
+	color: #888;
+}
+
+.rtl .tcw-one-day {
+	float: right;
+}
+.rtl .tcw-open-time {
+	float: left;
+	text-align: left;
+}
+
+/*****************************************************
+	4: POST LISTS
+******************************************************/
+/* Popular / Recent / Related Posts */
+.tcw-widget-post {
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+.tcw-widget-post:last-child {
+	border-bottom: none 0;
+}
+.tcw-widget-post h4 {
+	margin: 0;
+	padding: 0 0 3px 0;
+	line-height: normal;
+	clear: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.tcw-widget-post-thumb {
+	float: left;
+	position: relative;
+	width: 70px;
+	min-height: 50px;
+	margin-right: 10px;
+}
+.tcw-widget-post-thumb-link {
+	float: left;
+	line-height: 0;
+}
+.tcw-widget-post-thumb-link img {
+	max-width: 100%;
+	border-radius: 2px;
+	border: 1px solid rgba(255,255,255, 0.2);
+	-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+.tcw-widget-post-date {
+	font-size: 11px;
+	font-style: italic;
+	padding-bottom: 5px;
+}
+.tcw-widget-post-info {
+	height: 40px;
+	height: auto;
+	min-height: 40px;
+}
+.tcw-widget-post-info a {
+	font-weight: 700;
+}
+.tcw-widget-post-info .tcw-widget-post-date {
+	color: #888;
+}
+.tcw-widget-post-description {
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 90%;
+}
+
+.rtl .tcw-widget-post-thumb {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+.rtl .tcw-widget-post-thumb-link {
+	float: right;
+}
+
+/*****************************************************
+	5: TWITTER
+******************************************************/
+.tcw-twitter-error {
+	padding: 10px;
+	background-color: #F2DEDE;
+	color: #B94A48;
+	border-bottom: 3px solid #EED3D7;
+}
+.tcw-widget-twitter {
+	line-height: 150%;
+	position: relative;
+}
+.tcw-tweet-list {
+	padding: 0;
+	margin: 0;
+}
+.tcw-tweet-list li {
+	margin: 0 0 3px 0;
+	padding: 15px 0;
+	list-style: none;
+	border-top: 1px solid #eee;
+}
+.tcw-tweet-list li > i.fa {
+	margin: 0 5px;
+}
+.tcw-tweet-underlined li:first-child {
+	border-top: none 0;
+}
+.tcw-tweet-light li,
+.tcw-tweet-dark li {
+	margin: 0 0 10px 0;
+	padding: 25px;
+}
+.tcw-tweet-light li {
+	background: #f8f8f8;
+	color: #111;
+	border-bottom: 1px solid #eee;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.2) inset, inset 0px 0px 15px 0px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+	box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.2) inset, inset 0px 0px 15px 0px rgba(0, 0, 0, 0.02), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+}
+.tcw-tweet-light li a {
+	color: #111;
+	border-bottom: 1px dotted rgba(0,0,0,0.3);
+}
+.tcw-tweet-light li a:hover {
+	color: #111;
+	border-bottom: 1px solid #11c2cd;
+}
+.tcw-tweet-dark li {
+	background: #111;
+	color: #fff;
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.6);
+	border: 1px solid #000;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0px 0px 15px 0px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0px 0px 15px 0px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+}
+.tcw-tweet-dark li a {
+	color: #fff;
+	border-bottom: 1px dotted rgba(255,255,255,0.3);
+}
+.tcw-tweet-dark li a:hover {
+	color: #e8e642;
+	border-bottom: 1px solid #11c2cd;
+}
+.tcw-follow-me-button a {
+	padding: 11px 25px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	position: relative;
+	font-size: 14px;
+	max-width: 100%;
+	overflow: hidden;
+	background-color: #11c2cd;
+	color: #fff;
+	-webkit-box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 -3px 0 0 #007e8c, 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+}
+.tcw-follow-me-button a:hover {
+	color: #fff;
+	background-color: #0ab6c1;
+}
+.tcw-follow-me-button a > i.fa {
+	font-size: 17px;
+	margin: 0 2px;
+}
+.tcw-tweet-time {
+	font-size: 90%;
+	display: block;
+	padding-top: 5px;
+}
+
+/*****************************************************
+	6: SOCIAL ICONS
+******************************************************/
+.tcw-widget-social-inner {
+	padding: 0 0 5px 0;
+}
+.tcw-social-icon {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	z-index: 1;
+	padding: 6px 0 0;
+	margin-left: 5px;
+}
+.tcw-social-icon a {
+	min-height: 20px;
+	display: inline-block;
+	border-radius: 2px;
+}
+.tcw-social-icon a, .tcw-social-icon i, .tcw-social-icon .webicon {
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.tcw-social-icon i {
+	font-size: 21px;
+	line-height: 35px;
+	vertical-align: top;
+	color: #ccc;
+	margin: 0 10px 0 0;
+	position: relative;
+	left: 0;
+}
+.tcw-social-icon i:hover {
+	color:#333;
+}
+.tcw-social-icon .webicon {
+	text-indent: 100%;
+	white-space: nowrap;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	width: 28px;
+	height: 28px;
+}
+.tcw-social-icon .webicon:hover {
+	margin: 0;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a {
+	width: 32px;
+	height: 32px;
+	padding: 3px;
+	text-align: center;
+	margin: 0 1px;
+}
+.tcw-widget-social .tcw-type-3.tcw-rounded .tcw-social-icon a,
+.tcw-widget-social .tcw-type-4.tcw-rounded .tcw-social-icon a {
+	border-radius: 100% !important;
+}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a {
+	width: 45px;
+	height: 47px;
+	padding: 3px;
+	text-align: center;
+}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a i,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a i {
+	margin: 0;
+	line-height: 40px;
+	font-size: 22px;
+}
+
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a {
+	background: #fff;
+	color: #000;
+	box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a:hover {
+	background: #fff;
+	color: #000;
+	box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.15) inset;
+}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a i {
+	color: #fff;
+}
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a i {
+	color: #ddd;
+}
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a:hover i {
+	color: #fff;
+}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.facebook,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.facebook:hover {background: #3b5998;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.twitter,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.twitter:hover {background: #00aced;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.skype,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.skype:hover {background: #00AFF0;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.flickr,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.flickr:hover {background: #ff0084;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.youtube,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.youtube:hover {background: #bb0000;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.googleplus,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.googleplus:hover {background: #dd4b39;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.pinterest,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.pinterest:hover {background: #cb2027;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.linkedin,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.linkedin:hover {background: #007bb6;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.xing,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.xing:hover {background: #046767;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.lastfm,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.lastfm:hover {background: #c3000d;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.dropbox,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.dropbox:hover {background: #2281CF;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.dribbble,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.dribbble:hover {background: #EA4C89;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.tumblr,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.tumblr:hover {background: #32506d;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.foursquare,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.foursquare:hover {background: #0072b1;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.instagram,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.instagram:hover {background: #3f729b;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.github,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.github:hover {background: #171515;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.android,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.android:hover {background: #a4c639;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.windows,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.windows:hover {background: #000;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.bitcoin,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.bitcoin:hover {background: #000;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.apple,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.apple:hover {background: #000;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.stackoverflow,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.stackoverflow:hover {background: #e5701f;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.linux,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.linux:hover {background: #1d375b;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.rss,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.rss:hover {background: #fa9b39;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.vimeo,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.vimeo:hover {background: #1ab7ea;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.spotify,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.spotify:hover {background: #81b71a;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.wordpress,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.wordpress:hover {background: #21759b;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.soundcloud,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.soundcloud:hover {background: #ff7700;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.steam,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.steam:hover {background: #171a21;}
+.tcw-widget-social .tcw-type-3 .tcw-social-icon a.deviantart,
+.tcw-widget-social .tcw-type-4 .tcw-social-icon a.deviantart:hover {background: #05cc47;}
+
+.rtl .tcw-widget-social i {
+	margin: 0 0 0 10px;
+}
+.rtl .tcw-widget-social .tcw-social-icon {
+	margin-right: 2px;
+	margin-left: 0;
+}
+
+/* Responsive */
+@media only screen and (max-width: 479px) {
+	.tcw-follow-me-button a {
+		display: block;
+		text-align: center;
+	 }
+	.tcw-widget-social i {
+		font-size: 28px;
+		line-height: 40px;
+		margin: 0 15px 0 0;
+	}
+
+	.rtl .tcw-widget-social i {
+		margin: 0 0 0 15px;
+	}
+}

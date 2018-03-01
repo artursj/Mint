@@ -1,0 +1,325 @@
+/*****************************************************
+ REUSABLE STYLES
+******************************************************/
+/* slightly enhanced, universal clearfix hack */
+.tcaw-clearfix:after {
+	 visibility: hidden;
+	 display: block;
+	 font-size: 0;
+	 content: " ";
+	 clear: both;
+	 height: 0;
+}
+.tcaw-clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .tcaw-clearfix { height: 1%; }
+.tcaw-clearfix { display: block; }
+/* close commented backslash hack */
+
+.tcaw-hidden {
+	display: none;
+}
+
+.tcw-width-25 { width: 25px; }
+.tcw-width-50 { width: 50px; }
+.tcw-width-100p { width: 100%; }
+.tcw-width-150 { width: 150px; }
+.tcw-width-200 { width: 200px; }
+.tcw-width-300 { width: 300px; }
+
+/* Buttons */
+.tcaw-button {
+	text-decoration: none;
+	line-height: 16px;
+	height: 16px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	margin: 1px 7px 1px  3px;
+	padding: 4px 17px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+button.tcaw-button {
+	text-decoration: none;
+	line-height: 15px;
+	height: auto;
+	display: inline-block;
+	float: none;
+	cursor: pointer;
+	margin: 4px 5px 0 0;
+	padding: 4px 17px;
+}
+.tcaw-button.tcaw-blue {
+	background: #0f97c9; /* Old browsers */
+	background: #0f97c9; /* Old browsers */
+	background: -moz-linear-gradient(top, #43abd6 0%, #0f97c9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#43abd6), color-stop(100%,#0f97c9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #43abd6 0%,#0f97c9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #43abd6 0%,#0f97c9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #43abd6 0%,#0f97c9 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #43abd6 0%,#0f97c9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43abd6', endColorstr='#0f97c9',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #0d87b4;
+	color: #fff;
+	text-shadow: -1px -1px 0px #0d87b4;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.tcaw-button.tcaw-blue:hover {
+	background: -moz-linear-gradient(top, #3a99c9 0%, #0f97c9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a99c9), color-stop(100%,#0f97c9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #3a99c9 0%,#0f97c9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #3a99c9 0%,#0f97c9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #3a99c9 0%,#0f97c9 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #3a99c9 0%,#0f97c9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a99c9', endColorstr='#0f97c9',GradientType=0 ); /* IE6-9 */
+	text-shadow: -1px -1px 0px #0d87b4;
+}
+.tcaw-button.tcaw-light {
+	background: #f8f8f8 url(../images/button-light.png) repeat-x left top;
+	border: 1px solid #ddd;
+	color: #aaa;
+	text-shadow: 1px 1px #fff;
+}
+.tcaw-button.tcaw-light:hover {
+	background: #fff url(../images/button-light-hover.png) repeat-x left top;
+	color: #666;
+}
+/*****************************************************
+ WIDGET FORM STYLES
+******************************************************/
+.tcw-widgetfield-wrap,
+.tcw-widgetfield-table {
+	margin-bottom: 10px;
+}
+.tcw-widgetfield-label {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.tcw-widgetfield-table th {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.tcw-widgetfield-optional {
+	font-size: 9px;
+	color: #989898;
+	font-style: italic;
+	font-weight: normal;
+}
+.widget .widget-inside .tcw-widgetfield-description {
+	font-size: 11px;
+	margin: 3px 0 0 0;
+}
+.tcw-widget-social-extra {
+	margin-left: 4px;
+	font-size: 11px;
+	color: #989898;
+}
+.tcw-widgetfield-input textarea {
+	height: 100px;
+}
+.tcw-widgetfield-input select {
+	max-width: 100%;
+}
+.tcw-widgetfield-input select[multiple] {
+	width: 100%;
+	height: 125px;
+	resize: vertical;
+}
+/* Customizer icons */
+#available-widgets [class*=tcw_popular] .widget-title:before {
+	content: "\f529";
+}
+#available-widgets [class*=tcw_recent] .widget-title:before,
+#available-widgets [class*=tcw_related] .widget-title:before {
+	content: "\f109";
+}
+#available-widgets [class*=tcw_contact] .widget-title:before {
+	content: "\f525";
+}
+#available-widgets [class*=tcw_opening] .widget-title:before {
+	content: "\f469";
+}
+
+/* Tooltips */
+.tcaw-tip-icon {
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin: 10px 0 0 0;
+	background: url(../images/icon-info-tool-tip.png) no-repeat left top;
+	opacity: 0.3;
+	cursor: pointer;
+}
+.tcaw-mini-label .tcaw-tip-icon,
+.tcaw-meta-multi-label .tcaw-tip-icon {
+	margin: 0 0 0 6px;
+	vertical-align: bottom;
+	background: none;
+	font-style: normal;
+	width: auto;
+	height: auto;
+	font-weight: bold;
+}
+.tcaw-tip-icon:hover {
+	opacity: 1;
+	color: #0F83CA;
+}
+.tcaw-tooltip-text {
+	display: none !important;
+}
+.qtip-tcaw {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	color:white!important;
+	border:0px none #000!important;
+	background:rgba(0,0,0, 0.8)!important;
+	min-width: 10px;
+	z-index: 999999 !important;
+}
+.qtip-tcaw .qtip-content {
+	font-size: 10.5px;
+	line-height: 15px;
+}
+
+/* Settings page */
+div.tcaw-settings-heading {
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 36px;
+	border-bottom: 1px solid #d7d7d7;
+	font-weight: bold;
+	padding: 40px 0 20px 0;
+	color: #111;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 0 #fff;
+	margin: 0 0 40px 0;
+}
+.tcaw-setting {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 0 20px 20px;
+}
+.tcaw-setting-label {
+	float: left;
+	margin-bottom: 3px;
+	width: 250px;
+	position: relative;
+}
+.tcaw-setting-label label {
+	padding: 0 30px 5px 5px;
+	font-size: 14px;
+	color: #0f83ca;
+	text-shadow: 1px 1px 0 #fff;
+	margin: 3px 0 0 0;
+	font-weight: 600;
+	display: inline-block;
+}
+.tcaw-description {
+	margin: 0;
+	color: #444;
+	font-size: 13px;
+	font-style: italic;
+	background: #f0f0f0;
+	padding: 10px 0;
+	margin-top: 0;
+	margin-left: 250px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	clear: both;
+}
+.tcaw-settings-buttons {
+	margin-top: -20px;
+	position: relative;
+	background-color: #f9f9f9;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+	padding:20px;
+}
+.tcaw-setting-label .tcaw-tip-icon {
+	position: absolute;
+	margin: 0;
+	left: 210px;
+	top: 4px;
+}
+.tcaw-settings-saved {
+	position: fixed;
+	width: auto;
+	height: 80px;
+	padding: 0;
+	left: auto;
+	right: 0;
+	top: 47px;
+	font-size: 15px;
+	text-align: left;
+	display: none;
+	z-index: 10;
+}
+.tcaw-settings-saved > span {
+	background: rgba(0,0,0,0.8);
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+	border-left: 8px solid #85c14b;
+	padding: 20px 5px 20px 85px;
+	height:30px;
+	line-height: 30px;
+	width: 270px;
+	float: left;
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	position: relative;
+}
+.tcaw-settings-saved > span span.tcaw-save-icon {
+	background: url(../images/success.png) no-repeat center center;
+	float: left;
+	position: absolute;
+	left: 10px;
+	top: 0;
+	height: 70px;
+	width: 70px;
+}
+.tcaw-settings-reset {
+	float: right;
+}
+.tcaw-settings-reset > span {
+	background: url(../images/reset.png) left center no-repeat;
+	padding-left: 25px;
+}
+/* Disable script output */
+.tcaw-script {
+	margin: 10px 0 10px 250px;
+}
+.tcaw-script .tcaw-tip-icon {
+	margin: 0 0 0 5px;
+	vertical-align: middle;
+}
+.tcaw-script-name {
+	margin-left: 5px;
+}
+.tcaw-script-version {
+	margin-left: 5px;
+	padding: 3px;
+	background: #DADADA;
+	border-radius: 5px;
+	font-size: 10px;
+}
+
+/* Stop transition on close button */
+.tcaw-setting-inner .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+	transition: none;
+}
+/* Make the styles consistent with the other fields */
+.tcaw-setting-inner .chosen-container-multi .chosen-choices {
+	border-color: #ddd;
+}
+.tcaw-setting-inner .chosen-container-active .chosen-choices {
+	border-color: #5b9dd9;
+	-webkit-box-shadow: 0 0 2px rgba(30,140,190,.8);
+	box-shadow: 0 0 2px rgba(30,140,190,.8);
+}

@@ -1,0 +1,86 @@
+/*****************************************************
+	 SHORTCODE EDITOR
+******************************************************/
+#tcap-insert-shortcode,
+#tcap-insert-close-shortcode {
+	float: left;
+}
+#tcap-close-shortcode {
+	float: right;
+}
+.tcap-shortcode-field-label {
+	float: right;
+}
+.tcap-shortcode-field-label h4 {
+	padding: 5px 5px 5px 30px;
+}
+.tcap-sc-option label {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+}
+.tcap-shortcode-field-outer .tcap-tooltip-wrap {
+	left: auto;
+	right: 145px;
+}
+.tcap-mini-label .tcap-tip-icon {
+	margin: 0 6px 0 0;
+}
+/*****************************************************
+ WIDGET FORM STYLES
+******************************************************/
+.tcap-widget-insert-shortcode {
+	right: auto;
+	left: 0;
+}
+/*****************************************************
+ METABOX STYLES
+******************************************************/
+#_tcp_image_uploaded .tcap-uploaded-image-hover .tcap-uploaded-image-hover-inner .tcap-delete-uploaded-image {
+	margin-left: 0;
+	margin-right: 2px;
+}
+/*****************************************************
+ BULK UPLOADER
+******************************************************/
+#tcap-pbu-message-wrap > span {
+	padding: 25px 50px 25px 5px;
+}
+#tcap-pbu-message-wrap > span span.tcap-save-icon {
+	left: 35px;
+	right: auto;
+}
+.tcap-pbu-status-wrap {
+	padding-left: 0;
+	padding-right: 5px;
+}
+.tcap-pbu-upload-button {
+	float: right;
+}
+#tcap-pbu-upload {
+	left: auto;
+	right: 0;
+}
+.tcap-pbu-item-left {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+.tcap-pbu-item-right {
+	float: left;
+}
+.tcap-pbu-item-delete-wrap {
+	text-align: left;
+}
+#tcap-pbu-message-wrap > span  {
+	background: #81c53e url(../images/success.png) no-repeat 97% 14px;
+	float: right;
+	left: auto;
+	right: 1px;
+	border-right: 0 none;
+	border-left: 1px solid #70ac35;
+}
+.tcap-progress-bar > span:after {
+	left: auto;
+	right: 10px;
+}

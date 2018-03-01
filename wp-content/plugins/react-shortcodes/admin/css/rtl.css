@@ -1,0 +1,107 @@
+/*****************************************************
+	 SHORTCODE EDITOR
+******************************************************/
+#tcas-insert-shortcode,
+#tcas-insert-close-shortcode {
+	float: left;
+}
+#tcas-close-shortcode {
+	float: right;
+}
+.tcas-sc-tab-remove {
+	float: left;
+}
+.tcas-shortcode-field-label, .tcas-sc-pane-label {
+	float: right;
+}
+
+.tcas-preview-refresh {
+	margin: 0 5px 0 0;
+	float: right;
+}
+
+.tcas-preview-label h4 {
+	float: right;
+}
+.tcas-shortcode-field-label h4, .tcas-sc-pane label, .tcas-preview-label, .tcas-sc-pane-label h4 {
+	padding: 5px 5px 5px 30px;
+}
+.tcas-sc-option label {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.tcas-shortcode-field-outer .tcas-tooltip-wrap {
+	left: auto;
+	right: 145px;
+}
+.tcas-sc-pane-remove {
+	right: auto;
+	left: 10px;
+}
+.tcas-mini-label .tcas-tip-icon {
+	margin: 0 6px 0 0;
+}
+.tcas-shortcode-field-inner .tcas-icon-selector {
+	margin-right: ;
+	margin-left: 0;
+}
+.tcas-media-button {
+	float: right;
+}
+/** Texture selector **/
+.tcas-texture-selector {
+	margin-right: 0;
+	margin-left: -20px;
+}
+.tcas-texture-selector > div {
+	float: right;
+	margin: 0 0 8px 8px;
+}
+/** Detail selector **/
+.tcas-detail-selector {
+	margin-right: 0;
+	margin-left: -20px;
+}
+.tcas-detail-selector > div {
+	float: right;
+	margin: 0 0 8px 8px;
+}
+.tcas-select-active:after {
+	right: auto;
+	left: 5px;
+}
+/** Background repeat selector **/
+.tcas-bg-repeat-selector {
+	margin-right: ;
+	margin-left: 0;
+}
+.tcas-bg-repeat-selector > div {
+	float: right;
+}
+/*****************************************************
+ WIDGET FORM STYLES
+******************************************************/
+.tcas-widget-insert-shortcode {
+	right: auto;
+	left: 0;
+}
+/** Icon selector **/
+.tcas-icon-selector > div {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+}
+.tcas-icon-selector-current > .tcas-chosen-icon {
+	float: right;
+	margin: 8px 5px 5px 10px;
+}
+.tcas-icon-selector-current .tcas-choose-no-icon {
+	float: right;
+	border-left: 0 none #eee;
+	border-right: 1px solid #eee;
+	margin: 7px 5px 0 0;
+	padding-left: 0;
+	padding-right: 5px;
+}

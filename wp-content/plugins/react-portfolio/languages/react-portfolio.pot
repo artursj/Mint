@@ -1,0 +1,1713 @@
+# Copyright (C) 2017 React Portfolio
+# This file is distributed under the same license as the React Portfolio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: React Portfolio 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/react-portfolio\n"
+"POT-Creation-Date: 2017-03-28 10:16:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/admin.php:95 admin/includes/shortcode.php:31
+msgid "Close"
+msgstr ""
+
+#: admin/admin.php:96 admin/includes/shortcode.php:30
+msgid "Insert"
+msgstr ""
+
+#: admin/admin.php:97 admin/includes/shortcode.php:29
+msgid "Insert & Close"
+msgstr ""
+
+#: admin/admin.php:99
+msgid "On"
+msgstr ""
+
+#: admin/admin.php:100
+msgid "Off"
+msgstr ""
+
+#: admin/admin.php:101 admin/includes/metabox.php:73
+msgid "Default"
+msgstr ""
+
+#: admin/admin.php:102
+msgid "Yes"
+msgstr ""
+
+#: admin/admin.php:103
+msgid "No"
+msgstr ""
+
+#: admin/admin.php:104
+msgid "Select"
+msgstr ""
+
+#: admin/admin.php:105
+msgid "Select Image"
+msgstr ""
+
+#: admin/admin.php:109
+msgid "Are you sure you want to delete the created portfolio item?"
+msgstr ""
+
+#: admin/admin.php:112
+msgid "Are you sure you want to reset the settings?"
+msgstr ""
+
+#: admin/admin.php:112
+msgid ""
+"The page will reload and the current settings will be replaced with the "
+"defaults."
+msgstr ""
+
+#: admin/admin.php:119
+msgid "Select posts"
+msgstr ""
+
+#: admin/admin.php:120
+msgid "Select categories"
+msgstr ""
+
+#: admin/admin.php:121
+msgid "Select authors"
+msgstr ""
+
+#: admin/admin.php:139
+msgid "Add / Edit Portfolio"
+msgstr ""
+
+#: admin/admin.php:158
+msgid "You do not have permission to perform this action. Are you logged in?"
+msgstr ""
+
+#: admin/admin.php:288
+msgid "Remove image"
+msgstr ""
+
+#: admin/admin.php:365
+msgid "Description"
+msgstr ""
+
+#: admin/admin.php:366
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/admin.php:405 admin/includes/bulk-upload.php:9
+msgid "Portfolio Bulk Upload"
+msgstr ""
+
+#: admin/admin.php:406
+msgid "Bulk Upload"
+msgstr ""
+
+#: admin/admin.php:414 admin/includes/settings.php:9
+msgid "Portfolio Settings"
+msgstr ""
+
+#: admin/admin.php:415
+msgid "Settings"
+msgstr ""
+
+#: admin/admin.php:488
+msgid "An unknown file upload error occurred"
+msgstr ""
+
+#: admin/admin.php:494
+msgid "$_FILES data is not set"
+msgstr ""
+
+#: admin/admin.php:500
+msgid "No permission or failed nonce check"
+msgstr ""
+
+#: admin/admin.php:518
+msgid "Error retrieving portfolio category list."
+msgstr ""
+
+#: admin/admin.php:521 includes/shortcode.php:667 react-portfolio.php:848
+msgid "Categories"
+msgstr ""
+
+#: admin/admin.php:530 admin/admin.php:549
+msgid "No portfolio categories found."
+msgstr ""
+
+#: admin/admin.php:537
+msgid "Error retrieving portfolio tag list."
+msgstr ""
+
+#: admin/admin.php:540 react-portfolio.php:876
+msgid "Tags"
+msgstr ""
+
+#: admin/admin.php:555
+msgid "Delete this portfolio item"
+msgstr ""
+
+#: admin/admin.php:555
+msgid "Delete"
+msgstr ""
+
+#: admin/admin.php:562 includes/shortcode.php:920 includes/widget.php:76
+msgid "Title"
+msgstr ""
+
+#: admin/admin.php:564 includes/widget.php:85
+msgid "Content"
+msgstr ""
+
+#: admin/admin.php:650
+msgid "Portfolio items saved."
+msgstr ""
+
+#: admin/includes/OptionsGenerator.php:197
+msgid "Browse"
+msgstr ""
+
+#: admin/includes/OptionsGenerator.php:207
+msgid "This option is only available with the React theme active."
+msgstr ""
+
+#: admin/includes/bulk-upload.php:10
+msgid "Please enable JavaScript to use the portfolio bulk uploader."
+msgstr ""
+
+#: admin/includes/bulk-upload.php:18
+msgid ""
+"Using this tool you can upload multiple portfolio images at once. First "
+"select if you want the portfolio items to be a Draft or Published. Click the "
+"Choose Files buttons to add files from your computer, use Ctrl+Click or Shift"
+"+Click to select multiple files. When the images have been uploaded you can "
+"set the title, content and categories. Click the Save Items button at the "
+"bottom of the page to save the data. You can edit individual items by going "
+"to Portfolio &rarr; All Items on the WordPress menu."
+msgstr ""
+
+#: admin/includes/bulk-upload.php:19
+msgid ""
+"We recommend that uploaded portfolio images are at least 1024px wide, so "
+"that the images will fit neatly into most column layouts and on devices. "
+"Images will not be scaled up, so the larger the original image the better it "
+"will look when fit into the theme. If the original image is larger than "
+"1920px x 1080px we recommend resizing it to this size or smaller before "
+"uploading."
+msgstr ""
+
+#: admin/includes/bulk-upload.php:24
+msgid "Upload as"
+msgstr ""
+
+#: admin/includes/bulk-upload.php:26
+msgid "Published"
+msgstr ""
+
+#: admin/includes/bulk-upload.php:27
+msgid "Draft"
+msgstr ""
+
+#: admin/includes/bulk-upload.php:30
+msgid ""
+"Posts in WordPress have a status of \"Published\" (which are shown on the "
+"site) or \"Draft\" (work in progress) and some others.  Uploading images in "
+"the portfolio bulk uploader creates a portfolio item for each image, a "
+"portfolio item is also a post so it also has a status. This option lets you "
+"choose the status before you upload the image, so the created portfolio "
+"items will have the status that you choose in this field."
+msgstr ""
+
+#: admin/includes/bulk-upload.php:33
+msgid "Choose Files"
+msgstr ""
+
+#: admin/includes/bulk-upload.php:40
+msgid "Clear Items"
+msgstr ""
+
+#: admin/includes/bulk-upload.php:40
+msgid "Clears the list of items, but does not delete them."
+msgstr ""
+
+#: admin/includes/bulk-upload.php:41
+msgid "Save Items"
+msgstr ""
+
+#: admin/includes/metabox.php:14
+msgid "Portfolio Options"
+msgstr ""
+
+#: admin/includes/metabox.php:24 admin/includes/metabox.php:40
+#: includes/shortcode.php:614
+msgid "Type"
+msgstr ""
+
+#: admin/includes/metabox.php:25 admin/includes/metabox.php:41
+msgid ""
+"Choose a type of content that you want to display in the portfolio for this "
+"item."
+msgstr ""
+
+#: admin/includes/metabox.php:30 admin/includes/metabox.php:46
+msgid "Featured image linking to image in lightbox"
+msgstr ""
+
+#: admin/includes/metabox.php:31 admin/includes/metabox.php:47
+msgid "Featured image linking to video in lightbox"
+msgstr ""
+
+#: admin/includes/metabox.php:32 admin/includes/metabox.php:48
+msgid "Embedded video"
+msgstr ""
+
+#: admin/includes/metabox.php:33 admin/includes/metabox.php:49
+msgid "Featured image linking to the post"
+msgstr ""
+
+#: admin/includes/metabox.php:34 admin/includes/metabox.php:50
+msgid "Featured image linking to another URL"
+msgstr ""
+
+#: admin/includes/metabox.php:35 admin/includes/metabox.php:51
+msgid "Featured image with no link"
+msgstr ""
+
+#: admin/includes/metabox.php:56
+msgid "Alternative lightbox image"
+msgstr ""
+
+#: admin/includes/metabox.php:57
+msgid ""
+"Choose an image to display in the lightbox. If not set, the Featured Image "
+"will be used."
+msgstr ""
+
+#: admin/includes/metabox.php:58
+msgid ""
+"You can choose another image to show in the lightbox, instead of the post "
+"Featured Image."
+msgstr ""
+
+#: admin/includes/metabox.php:64
+msgid "Image title"
+msgstr ""
+
+#: admin/includes/metabox.php:65
+msgid ""
+"The title is shown when hovering the bullet navigation in Serene (Full "
+"Screen) gallery and also sets the \"alt\" attribute for the FancyBox gallery "
+"images."
+msgstr ""
+
+#: admin/includes/metabox.php:70 admin/includes/settings.php:288
+msgid "Caption position"
+msgstr ""
+
+#: admin/includes/metabox.php:74 admin/includes/settings.php:293
+#: includes/shortcode.php:924
+msgid "Random"
+msgstr ""
+
+#: admin/includes/metabox.php:75 admin/includes/settings.php:294
+msgid "left top"
+msgstr ""
+
+#: admin/includes/metabox.php:76 admin/includes/settings.php:295
+msgid "left center"
+msgstr ""
+
+#: admin/includes/metabox.php:77 admin/includes/settings.php:296
+msgid "left bottom"
+msgstr ""
+
+#: admin/includes/metabox.php:78 admin/includes/settings.php:297
+msgid "center top"
+msgstr ""
+
+#: admin/includes/metabox.php:79 admin/includes/settings.php:298
+msgid "center center"
+msgstr ""
+
+#: admin/includes/metabox.php:80 admin/includes/settings.php:299
+msgid "center bottom"
+msgstr ""
+
+#: admin/includes/metabox.php:81 admin/includes/settings.php:300
+msgid "right top"
+msgstr ""
+
+#: admin/includes/metabox.php:82 admin/includes/settings.php:301
+msgid "right center"
+msgstr ""
+
+#: admin/includes/metabox.php:83 admin/includes/settings.php:302
+msgid "right bottom"
+msgstr ""
+
+#: admin/includes/metabox.php:85
+msgid "Only applies to Serene (Full Screen) gallery"
+msgstr ""
+
+#: admin/includes/metabox.php:86
+msgid ""
+"Choosing Default will inherit the setting from the Portfolio &rarr; Settings "
+"page."
+msgstr ""
+
+#: admin/includes/metabox.php:90
+msgid "Caption HTML"
+msgstr ""
+
+#: admin/includes/metabox.php:92
+msgid "Enter the caption HTML, here is an example:"
+msgstr ""
+
+#: admin/includes/metabox.php:98 admin/includes/metabox.php:104
+#: admin/includes/metabox.php:138
+msgid "Video URL"
+msgstr ""
+
+#: admin/includes/metabox.php:99 admin/includes/metabox.php:105
+#: admin/includes/metabox.php:133 admin/includes/metabox.php:139
+msgid "Enter the full URL including http://"
+msgstr ""
+
+#: admin/includes/metabox.php:100
+msgid ""
+"Enter the URL for the video. The specified width and height will set the "
+"size of the lightbox popup, otherwise the default dimensions will be used "
+"from the Portfolio &rarr; Settings page."
+msgstr ""
+
+#: admin/includes/metabox.php:112 admin/includes/metabox.php:146
+msgid "Width"
+msgstr ""
+
+#: admin/includes/metabox.php:121 admin/includes/metabox.php:155
+msgid "Height"
+msgstr ""
+
+#: admin/includes/metabox.php:132
+msgid "YouTube / Vimeo video URL"
+msgstr ""
+
+#: admin/includes/metabox.php:134
+msgid ""
+"Enter the URL for the YouTube or Vimeo video. The width and height will be "
+"fetched automatically and determines the aspect ratio of the embedded video."
+msgstr ""
+
+#: admin/includes/metabox.php:166
+msgid "Link URL"
+msgstr ""
+
+#: admin/includes/metabox.php:167
+msgid "Enter the URL to link to. Include http://"
+msgstr ""
+
+#: admin/includes/metabox.php:173
+msgid "Link target"
+msgstr ""
+
+#: admin/includes/metabox.php:174
+msgid "Specify how the link will be opened by the browser"
+msgstr ""
+
+#: admin/includes/metabox.php:177
+msgid "Open the link in the current window"
+msgstr ""
+
+#: admin/includes/metabox.php:178
+msgid "Open the link in a new window or tab"
+msgstr ""
+
+#: admin/includes/metabox.php:183
+msgid "Masonry layout options"
+msgstr ""
+
+#: admin/includes/metabox.php:184
+msgid ""
+"Choose how many columns and rows this item should cover when displayed in "
+"the portfolio shortcode. Note: the Rows option requires the shortcode to "
+"have a fixed height and the attribute %s"
+msgstr ""
+
+#: admin/includes/metabox.php:188
+msgid "Columns"
+msgstr ""
+
+#: admin/includes/metabox.php:196
+msgid "Rows"
+msgstr ""
+
+#: admin/includes/metabox.php:197
+msgid "The height of the post image will be multiplied by this number"
+msgstr ""
+
+#: admin/includes/settings.php:10
+msgid "Please enable JavaScript to use the settings page."
+msgstr ""
+
+#: admin/includes/settings.php:11
+msgid "Settings saved"
+msgstr ""
+
+#: admin/includes/settings.php:17
+msgid "General settings"
+msgstr ""
+
+#: admin/includes/settings.php:21
+msgid "Rewrite slug"
+msgstr ""
+
+#: admin/includes/settings.php:25 admin/includes/settings.php:35
+#: admin/includes/settings.php:45
+msgid "The slug is the highlighted part of this example URL: %s."
+msgstr ""
+
+#: admin/includes/settings.php:31
+msgid "Category rewrite slug"
+msgstr ""
+
+#: admin/includes/settings.php:41
+msgid "Tag rewrite slug"
+msgstr ""
+
+#: admin/includes/settings.php:51
+msgid "Show in search results"
+msgstr ""
+
+#: admin/includes/settings.php:55
+msgid "Allow visitors to find portfolio items by searching."
+msgstr ""
+
+#: admin/includes/settings.php:61
+msgid "Allow comments"
+msgstr ""
+
+#: admin/includes/settings.php:65
+msgid "Allow visitors to comment on portfolio items."
+msgstr ""
+
+#: admin/includes/settings.php:70 admin/includes/settings.php:96
+#: admin/includes/settings.php:341 admin/includes/settings.php:375
+#: admin/includes/settings.php:409
+msgid "Save all settings"
+msgstr ""
+
+#: admin/includes/settings.php:73
+msgid "Fancybox settings"
+msgstr ""
+
+#: admin/includes/settings.php:77
+msgid "Video width"
+msgstr ""
+
+#: admin/includes/settings.php:81
+msgid "The width of the video lightbox for Video portfolio items."
+msgstr ""
+
+#: admin/includes/settings.php:87
+msgid "Video height"
+msgstr ""
+
+#: admin/includes/settings.php:91
+msgid "The height of the video lightbox for Video portfolio items."
+msgstr ""
+
+#: admin/includes/settings.php:99
+msgid "Serene (full screen gallery) settings"
+msgstr ""
+
+#: admin/includes/settings.php:103
+msgid "Transition speed"
+msgstr ""
+
+#: admin/includes/settings.php:107
+msgid ""
+"Speed of the transition between images, in milliseconds (1000 = 1 second)."
+msgstr ""
+
+#: admin/includes/settings.php:113
+msgid "Transition animation"
+msgstr ""
+
+#: admin/includes/settings.php:117 includes/shortcode.php:648
+#: includes/shortcode.php:917
+msgid "None"
+msgstr ""
+
+#: admin/includes/settings.php:118
+msgid "Fade"
+msgstr ""
+
+#: admin/includes/settings.php:119
+msgid "Fade Out / Fade In"
+msgstr ""
+
+#: admin/includes/settings.php:120
+msgid "Slide Down"
+msgstr ""
+
+#: admin/includes/settings.php:121
+msgid "Slide Right"
+msgstr ""
+
+#: admin/includes/settings.php:122
+msgid "Slide Up"
+msgstr ""
+
+#: admin/includes/settings.php:123
+msgid "Slide Left"
+msgstr ""
+
+#: admin/includes/settings.php:124
+msgid "Carousel Right"
+msgstr ""
+
+#: admin/includes/settings.php:125
+msgid "Carousel Left"
+msgstr ""
+
+#: admin/includes/settings.php:127
+msgid "Choose the type of animation between images."
+msgstr ""
+
+#: admin/includes/settings.php:133
+msgid "Fit landscape"
+msgstr ""
+
+#: admin/includes/settings.php:137
+msgid ""
+"Prevent landscape images from being cropped by locking them at 100% width."
+msgstr ""
+
+#: admin/includes/settings.php:143
+msgid "Fit portrait"
+msgstr ""
+
+#: admin/includes/settings.php:147
+msgid ""
+"Prevent portrait images from being cropped by locking them at 100% height."
+msgstr ""
+
+#: admin/includes/settings.php:153
+msgid "Fit always"
+msgstr ""
+
+#: admin/includes/settings.php:157
+msgid "Prevent images from ever being cropped."
+msgstr ""
+
+#: admin/includes/settings.php:163
+msgid "Horizontal position"
+msgstr ""
+
+#: admin/includes/settings.php:164 admin/includes/settings.php:179
+msgid "Useful when showing a focal point of the images"
+msgstr ""
+
+#: admin/includes/settings.php:168 includes/shortcode.php:746
+#: includes/shortcode.php:870
+msgid "Left"
+msgstr ""
+
+#: admin/includes/settings.php:169 admin/includes/settings.php:184
+#: includes/shortcode.php:748 includes/shortcode.php:871
+msgid "Center"
+msgstr ""
+
+#: admin/includes/settings.php:170 includes/shortcode.php:747
+#: includes/shortcode.php:872
+msgid "Right"
+msgstr ""
+
+#: admin/includes/settings.php:172 admin/includes/settings.php:187
+msgid ""
+"How the image is aligned horizontally in the browser if it is not a perfect "
+"fit."
+msgstr ""
+
+#: admin/includes/settings.php:178
+msgid "Vertical position"
+msgstr ""
+
+#: admin/includes/settings.php:183
+msgid "Top"
+msgstr ""
+
+#: admin/includes/settings.php:185
+msgid "Bottom"
+msgstr ""
+
+#: admin/includes/settings.php:193
+msgid "Transition easing"
+msgstr ""
+
+#: admin/includes/settings.php:194
+msgid "Enhances the animation"
+msgstr ""
+
+#: admin/includes/settings.php:230
+msgid "The easing function to use for the transition."
+msgstr ""
+
+#: admin/includes/settings.php:236
+msgid "Control fade speed"
+msgstr ""
+
+#: admin/includes/settings.php:240
+msgid ""
+"The speed that the controls fade at when going to full screen mode, in "
+"milliseconds (1000 = 1 second)."
+msgstr ""
+
+#: admin/includes/settings.php:246
+msgid "Slideshow"
+msgstr ""
+
+#: admin/includes/settings.php:247
+msgid "Auto rotation of the image"
+msgstr ""
+
+#: admin/includes/settings.php:251
+msgid "When active, the images will be rotated through in a slideshow."
+msgstr ""
+
+#: admin/includes/settings.php:257
+msgid "Start slideshow automatically"
+msgstr ""
+
+#: admin/includes/settings.php:261
+msgid "When active, the slideshow will start automatically."
+msgstr ""
+
+#: admin/includes/settings.php:267
+msgid "Slideshow pause time"
+msgstr ""
+
+#: admin/includes/settings.php:271
+msgid ""
+"The time that each image in the slideshow is shown for, in milliseconds "
+"(1000 = 1 second)."
+msgstr ""
+
+#: admin/includes/settings.php:277
+msgid "Keyboard controls"
+msgstr ""
+
+#: admin/includes/settings.php:278
+msgid "User can control with the keyboard"
+msgstr ""
+
+#: admin/includes/settings.php:282
+msgid ""
+"When active, the Right and Left arrow keys can be used to move through the "
+"images and the Esc key will close the gallery."
+msgstr ""
+
+#: admin/includes/settings.php:289
+msgid "Where to display the image caption"
+msgstr ""
+
+#: admin/includes/settings.php:304
+msgid "The default caption position."
+msgstr ""
+
+#: admin/includes/settings.php:310
+msgid "Caption fade speed"
+msgstr ""
+
+#: admin/includes/settings.php:314
+msgid ""
+"The speed of the caption fade animation, in milliseconds (1000 = 1 second)."
+msgstr ""
+
+#: admin/includes/settings.php:320
+msgid "Bullet navigation"
+msgstr ""
+
+#: admin/includes/settings.php:321
+msgid "A navigation method to switch to any image on full screen mode"
+msgstr ""
+
+#: admin/includes/settings.php:325
+msgid "When active, you can change images using bullet navigation."
+msgstr ""
+
+#: admin/includes/settings.php:331
+msgid "Low quality transitions"
+msgstr ""
+
+#: admin/includes/settings.php:332
+msgid "A performance enhancer, if required"
+msgstr ""
+
+#: admin/includes/settings.php:336
+msgid ""
+"When active, the transitions will be lower quality which improves "
+"performance."
+msgstr ""
+
+#: admin/includes/settings.php:344
+msgid "Performance settings"
+msgstr ""
+
+#: admin/includes/settings.php:348
+msgid "When to load scripts and styles"
+msgstr ""
+
+#: admin/includes/settings.php:352
+msgid "Always"
+msgstr ""
+
+#: admin/includes/settings.php:353
+msgid "Autodetect"
+msgstr ""
+
+#: admin/includes/settings.php:354
+msgid "Only on specific pages"
+msgstr ""
+
+#: admin/includes/settings.php:356
+msgid ""
+"Choose which pages to load the plugin scripts and styles, these are required "
+"for the portfolio to work properly, so you can choose only the pages "
+"containing a portfolio to speed up the other pages on your site. Autodetect "
+"will only load the scripts and styles if a portfolio shortcode is found in "
+"the page content or you are using the portfolio widget."
+msgstr ""
+
+#: admin/includes/settings.php:361 admin/includes/settings.php:363
+msgid "Choose pages"
+msgstr ""
+
+#: admin/includes/settings.php:378
+msgid "Disable script output"
+msgstr ""
+
+#: admin/includes/settings.php:382
+msgid "CSS"
+msgstr ""
+
+#: admin/includes/settings.php:390
+msgid "You can disable the plugin CSS output using the boxes above."
+msgstr ""
+
+#: admin/includes/settings.php:396
+msgid "JavaScript"
+msgstr ""
+
+#: admin/includes/settings.php:404
+msgid "You can disable the plugin JS output using the boxes above."
+msgstr ""
+
+#: admin/includes/settings.php:410
+msgid "Reset settings"
+msgstr ""
+
+#: admin/includes/shortcode.php:11
+msgid "Portfolio generator"
+msgstr ""
+
+#: admin/includes/shortcode.php:14
+msgid "Edit existing shortcode"
+msgstr ""
+
+#: admin/includes/shortcode.php:18
+msgid "Paste a shortcode in the box below and click Edit."
+msgstr ""
+
+#: admin/includes/shortcode.php:20
+msgid "Edit"
+msgstr ""
+
+#: admin/includes/shortcode.php:21
+msgid "Cancel"
+msgstr ""
+
+#: includes/shortcode.php:38 includes/shortcode.php:762
+msgid "All"
+msgstr ""
+
+#: includes/shortcode.php:495
+msgid "Read More"
+msgstr ""
+
+#: includes/shortcode.php:572
+msgid "No portfolio items found."
+msgstr ""
+
+#: includes/shortcode.php:596
+msgid "Portfolio options"
+msgstr ""
+
+#: includes/shortcode.php:603
+msgid "Post type"
+msgstr ""
+
+#: includes/shortcode.php:604
+msgid ""
+"Choose the post type to display. Note: changing this option will regenerate "
+"the available Posts, Categories and Authors in the options below (so you "
+"will lose any selected options in those fields) and set some default values "
+"that are more appropriate for the chosen post type."
+msgstr ""
+
+#: includes/shortcode.php:608 includes/widget.php:29 react-portfolio.php:801
+msgid "Portfolio"
+msgstr ""
+
+#: includes/shortcode.php:609
+msgid "Post"
+msgstr ""
+
+#: includes/shortcode.php:615
+msgid "Method of displaying the enlarged image"
+msgstr ""
+
+#: includes/shortcode.php:619
+msgid "Lightbox"
+msgstr ""
+
+#: includes/shortcode.php:620
+msgid "Full Screen"
+msgstr ""
+
+#: includes/shortcode.php:625
+msgid "Number of columns"
+msgstr ""
+
+#: includes/shortcode.php:629
+msgid "One Column"
+msgstr ""
+
+#: includes/shortcode.php:630
+msgid "Two Columns"
+msgstr ""
+
+#: includes/shortcode.php:631
+msgid "Three Columns"
+msgstr ""
+
+#: includes/shortcode.php:632
+msgid "Four Columns"
+msgstr ""
+
+#: includes/shortcode.php:633
+msgid "Five Columns"
+msgstr ""
+
+#: includes/shortcode.php:634
+msgid "Six Columns (Masonry only)"
+msgstr ""
+
+#: includes/shortcode.php:635
+msgid "Seven Columns (Masonry only)"
+msgstr ""
+
+#: includes/shortcode.php:636
+msgid "Eight Columns (Masonry only)"
+msgstr ""
+
+#: includes/shortcode.php:637
+msgid "Nine Columns (Masonry only)"
+msgstr ""
+
+#: includes/shortcode.php:638
+msgid "Ten Columns (Masonry only)"
+msgstr ""
+
+#: includes/shortcode.php:643
+msgid "Convert to full width"
+msgstr ""
+
+#: includes/shortcode.php:644
+msgid "At which screen size should the column layout adjust to full width"
+msgstr ""
+
+#: includes/shortcode.php:649
+msgid "Phone 1 column"
+msgstr ""
+
+#: includes/shortcode.php:650
+msgid "Phone 2 columns"
+msgstr ""
+
+#: includes/shortcode.php:651
+msgid "Tablet and phone 1 column"
+msgstr ""
+
+#: includes/shortcode.php:652
+msgid "Tablet and phone 2 columns"
+msgstr ""
+
+#: includes/shortcode.php:653
+msgid "Tablet 2 columns, phone 1 column"
+msgstr ""
+
+#: includes/shortcode.php:658
+msgid "Posts"
+msgstr ""
+
+#: includes/shortcode.php:659
+msgid "Shows only these specific posts"
+msgstr ""
+
+#: includes/shortcode.php:668 includes/shortcode.php:677
+#: includes/shortcode.php:687 includes/shortcode.php:705
+msgid "Select one or multiple"
+msgstr ""
+
+#: includes/shortcode.php:676
+msgid "All categories"
+msgstr ""
+
+#: includes/shortcode.php:678
+msgid "Shows only posts that are in all of these categories"
+msgstr ""
+
+#: includes/shortcode.php:686
+msgid "Exclude categories"
+msgstr ""
+
+#: includes/shortcode.php:688
+msgid "Do not show posts in these categories"
+msgstr ""
+
+#: includes/shortcode.php:696
+msgid "Include children"
+msgstr ""
+
+#: includes/shortcode.php:697
+msgid ""
+"When using categories, choose whether to also include items in child "
+"categories"
+msgstr ""
+
+#: includes/shortcode.php:704
+msgid "Authors"
+msgstr ""
+
+#: includes/shortcode.php:706
+msgid "Shows only posts by these authors"
+msgstr ""
+
+#: includes/shortcode.php:714
+msgid "Masonry layout"
+msgstr ""
+
+#: includes/shortcode.php:715
+msgid ""
+"Choose how the items should be displayed in the masonry layout, see the "
+"tooltip for more information."
+msgstr ""
+
+#: includes/shortcode.php:716
+msgid ""
+"The \"Masonry\" layout will arrange items in a vertically cascading grid, "
+"filling empty space. The \"Fit Rows\" layout will arrange the items in rows "
+"of the same height."
+msgstr ""
+
+#: includes/shortcode.php:720
+msgid "Masonry"
+msgstr ""
+
+#: includes/shortcode.php:721
+msgid "Fit Rows"
+msgstr ""
+
+#: includes/shortcode.php:726
+msgid "Masonry use layout options"
+msgstr ""
+
+#: includes/shortcode.php:727
+msgid ""
+"Use the options in each portfolio item metabox settings to allow having some "
+"items larger than others."
+msgstr ""
+
+#: includes/shortcode.php:733
+msgid "Sortable"
+msgstr ""
+
+#: includes/shortcode.php:734
+msgid "Make the portfolio items sortable by category."
+msgstr ""
+
+#: includes/shortcode.php:740
+msgid "Sortable label alignment"
+msgstr ""
+
+#: includes/shortcode.php:741
+msgid "Choose where to show the sortable button labels"
+msgstr ""
+
+#: includes/shortcode.php:745 includes/shortcode.php:889
+msgid "Auto"
+msgstr ""
+
+#: includes/shortcode.php:753
+msgid "Show \"All\" filter button"
+msgstr ""
+
+#: includes/shortcode.php:754
+msgid "Show the \"All\" filter button"
+msgstr ""
+
+#: includes/shortcode.php:760
+msgid "\"All\" filter button text"
+msgstr ""
+
+#: includes/shortcode.php:766
+msgid "Show image"
+msgstr ""
+
+#: includes/shortcode.php:767
+msgid "Show the featured image or video"
+msgstr ""
+
+#: includes/shortcode.php:774
+msgid "Image height"
+msgstr ""
+
+#: includes/shortcode.php:775
+msgid ""
+"Set the image height in pixels, if set to 0 it will be scaled automatically"
+msgstr ""
+
+#: includes/shortcode.php:783
+msgid "Grid"
+msgstr ""
+
+#: includes/shortcode.php:784
+msgid "No border, gaps or margin will be used"
+msgstr ""
+
+#: includes/shortcode.php:790
+msgid "Image type"
+msgstr ""
+
+#: includes/shortcode.php:791
+msgid "Select the image positioning"
+msgstr ""
+
+#: includes/shortcode.php:792
+msgid "Choose how the image is displayed."
+msgstr ""
+
+#: includes/shortcode.php:796
+msgid "Above title (full width)"
+msgstr ""
+
+#: includes/shortcode.php:797
+msgid "Below title (full width)"
+msgstr ""
+
+#: includes/shortcode.php:798
+msgid "Float left"
+msgstr ""
+
+#: includes/shortcode.php:799
+msgid "Float right"
+msgstr ""
+
+#: includes/shortcode.php:800
+msgid "Content shown over image"
+msgstr ""
+
+#: includes/shortcode.php:805
+msgid "Show on hover"
+msgstr ""
+
+#: includes/shortcode.php:806
+msgid "Show details on hover or always"
+msgstr ""
+
+#: includes/shortcode.php:812
+msgid "Column gap"
+msgstr ""
+
+#: includes/shortcode.php:813
+msgid ""
+"The gap is set on both sides of the portfolio item so the actual visible gap "
+"between columns will be 2 times this number.  If left blank it will be set "
+"at an appropriate amount to fit the other settings."
+msgstr ""
+
+#: includes/shortcode.php:821
+msgid "Margin bottom"
+msgstr ""
+
+#: includes/shortcode.php:822
+msgid ""
+"The margin at the bottom of each portfolio item. If left blank it will be "
+"set at an appropriate amount to fit the other settings."
+msgstr ""
+
+#: includes/shortcode.php:830
+msgid "Information area height"
+msgstr ""
+
+#: includes/shortcode.php:831
+msgid "Select the height"
+msgstr ""
+
+#: includes/shortcode.php:832
+msgid ""
+"Set the height of the portfolio item description area, when Image type is "
+"set to show content on hover."
+msgstr ""
+
+#: includes/shortcode.php:840
+msgid "Float image width"
+msgstr ""
+
+#: includes/shortcode.php:841
+msgid ""
+"If 'Image type' is set to Float left or right, this will set the image width."
+msgstr ""
+
+#: includes/shortcode.php:848
+msgid "Float image height"
+msgstr ""
+
+#: includes/shortcode.php:849
+msgid ""
+"If 'Image type' is set to Float left or right, this will set the image "
+"height. If set to 0 the height will be automatically scaled from the image "
+"dimensions."
+msgstr ""
+
+#: includes/shortcode.php:858
+msgid "Boxed style"
+msgstr ""
+
+#: includes/shortcode.php:859
+msgid "Display a box around items"
+msgstr ""
+
+#: includes/shortcode.php:865
+msgid "Text alignment"
+msgstr ""
+
+#: includes/shortcode.php:869
+msgid "Inherit"
+msgstr ""
+
+#: includes/shortcode.php:877
+msgid "Show border?"
+msgstr ""
+
+#: includes/shortcode.php:878
+msgid "Display image with bottom border effect"
+msgstr ""
+
+#: includes/shortcode.php:884
+msgid "Hover size"
+msgstr ""
+
+#: includes/shortcode.php:885
+msgid ""
+"The size of the hover icon, if \"Auto\" is chosen it will be set at an "
+"appropriate size to fit the other settings"
+msgstr ""
+
+#: includes/shortcode.php:890
+msgid "Tiny"
+msgstr ""
+
+#: includes/shortcode.php:891
+msgid "Small"
+msgstr ""
+
+#: includes/shortcode.php:892
+msgid "Medium"
+msgstr ""
+
+#: includes/shortcode.php:893
+msgid "Large"
+msgstr ""
+
+#: includes/shortcode.php:898
+msgid "Paging"
+msgstr ""
+
+#: includes/shortcode.php:899
+msgid ""
+"Portfolio items will be spread over multiple pages. Note: this option "
+"requires the WP-PageNavi plugin to be active, and the \"Rewrite slug\" "
+"option on the Portfolio &rarr; Settings page should not be the same slug as "
+"one of your pages."
+msgstr ""
+
+#: includes/shortcode.php:905
+msgid "Number of items"
+msgstr ""
+
+#: includes/shortcode.php:906
+msgid ""
+"Number of portfolio items to show, or items per page if paging is on, -1 to "
+"show all"
+msgstr ""
+
+#: includes/shortcode.php:913
+msgid "Order by"
+msgstr ""
+
+#: includes/shortcode.php:918
+msgid "ID"
+msgstr ""
+
+#: includes/shortcode.php:919
+msgid "Author"
+msgstr ""
+
+#: includes/shortcode.php:921
+msgid "Date"
+msgstr ""
+
+#: includes/shortcode.php:922
+msgid "Modified"
+msgstr ""
+
+#: includes/shortcode.php:923
+msgid "Parent"
+msgstr ""
+
+#: includes/shortcode.php:925
+msgid "Comment Count"
+msgstr ""
+
+#: includes/shortcode.php:926
+msgid "Menu Order"
+msgstr ""
+
+#: includes/shortcode.php:927
+msgid "Likes (will only show posts with at least 1 like)"
+msgstr ""
+
+#: includes/shortcode.php:932
+msgid "Order"
+msgstr ""
+
+#: includes/shortcode.php:942 includes/shortcode.php:1131
+msgid "Offset"
+msgstr ""
+
+#: includes/shortcode.php:943
+msgid "Number of posts to displace or pass over"
+msgstr ""
+
+#: includes/shortcode.php:949
+msgid "Show title"
+msgstr ""
+
+#: includes/shortcode.php:950
+msgid "Show the title of the portfolio item"
+msgstr ""
+
+#: includes/shortcode.php:957
+msgid "Tag"
+msgstr ""
+
+#: includes/shortcode.php:958
+msgid "Choose which HTML tag to use for the title"
+msgstr ""
+
+#: includes/shortcode.php:965
+msgid "Title min-height"
+msgstr ""
+
+#: includes/shortcode.php:966
+msgid ""
+"Site the title CSS min-height property to help with equal vertical alignment"
+msgstr ""
+
+#: includes/shortcode.php:973
+msgid "Link title"
+msgstr ""
+
+#: includes/shortcode.php:974
+msgid "Link the portfolio title to the portfolio item page"
+msgstr ""
+
+#: includes/shortcode.php:982
+msgid "Show post meta"
+msgstr ""
+
+#: includes/shortcode.php:983
+msgid "Show the post meta data (author, date etc)"
+msgstr ""
+
+#: includes/shortcode.php:990
+msgid "Show date"
+msgstr ""
+
+#: includes/shortcode.php:991
+msgid "Show the post date"
+msgstr ""
+
+#: includes/shortcode.php:998
+msgid "Alternative date and like position"
+msgstr ""
+
+#: includes/shortcode.php:1002
+msgid "On the right (default)"
+msgstr ""
+
+#: includes/shortcode.php:1003
+msgid "On the left"
+msgstr ""
+
+#: includes/shortcode.php:1004
+msgid "Date and like above"
+msgstr ""
+
+#: includes/shortcode.php:1009
+msgid "Show image details on hover"
+msgstr ""
+
+#: includes/shortcode.php:1010
+msgid ""
+"Shows date and like boxes only when the item is hovered, except on touch "
+"devices."
+msgstr ""
+
+#: includes/shortcode.php:1017
+msgid "Show description"
+msgstr ""
+
+#: includes/shortcode.php:1018
+msgid "Show the portfolio item description (excerpt)"
+msgstr ""
+
+#: includes/shortcode.php:1025
+msgid "Description min-height"
+msgstr ""
+
+#: includes/shortcode.php:1026
+msgid ""
+"Site the description CSS min-height property to help with equal vertical "
+"alignment"
+msgstr ""
+
+#: includes/shortcode.php:1033
+msgid "Description excerpt length"
+msgstr ""
+
+#: includes/shortcode.php:1034
+msgid ""
+"The number of words in the description excerpt, leave blank to use the "
+"default"
+msgstr ""
+
+#: includes/shortcode.php:1041
+msgid "Full description"
+msgstr ""
+
+#: includes/shortcode.php:1042
+msgid ""
+"When enabled, the full post content will be shown, otherwise the excerpt "
+"will be shown"
+msgstr ""
+
+#: includes/shortcode.php:1048
+msgid "Show \"Read More\" button"
+msgstr ""
+
+#: includes/shortcode.php:1055
+msgid "Button style"
+msgstr ""
+
+#: includes/shortcode.php:1059
+msgid "Button (default)"
+msgstr ""
+
+#: includes/shortcode.php:1060
+msgid "Button fullwidth"
+msgstr ""
+
+#: includes/shortcode.php:1061
+msgid "Basic link"
+msgstr ""
+
+#: includes/shortcode.php:1066
+msgid "\"Read More\" button text"
+msgstr ""
+
+#: includes/shortcode.php:1067
+msgid "Leave blank to use the default"
+msgstr ""
+
+#: includes/shortcode.php:1074
+msgid "\"Like\" button"
+msgstr ""
+
+#: includes/shortcode.php:1075
+msgid "Adds a like button to each item"
+msgstr ""
+
+#: includes/shortcode.php:1080
+msgid "Image \"Like\" button"
+msgstr ""
+
+#: includes/shortcode.php:1081
+msgid "Adds a like button to each image"
+msgstr ""
+
+#: includes/shortcode.php:1086
+msgid "Title \"Like\" button"
+msgstr ""
+
+#: includes/shortcode.php:1087
+msgid "Adds a like button to each title"
+msgstr ""
+
+#: includes/shortcode.php:1108 includes/shortcode.php:1113
+#: includes/shortcode.php:1144
+msgid "Animation"
+msgstr ""
+
+#: includes/shortcode.php:1109 includes/shortcode.php:1145
+msgid "Add a subtle animation when the item comes into view"
+msgstr ""
+
+#: includes/shortcode.php:1121
+msgid "Delay"
+msgstr ""
+
+#: includes/shortcode.php:1122
+msgid ""
+"The animation will not start until this number of milliseconds after the "
+"element comes into view (1000 milliseconds = 1 second)"
+msgstr ""
+
+#: includes/shortcode.php:1132
+msgid ""
+"If the number is positive, the animation will start when the element is this "
+"number of pixels below the viewport. If the number is negative, the "
+"animation will not start until the element is this number of pixels inside "
+"the viewport."
+msgstr ""
+
+#: includes/shortcode.php:1180 includes/shortcode.php:1189
+msgid "Hover animation"
+msgstr ""
+
+#: includes/shortcode.php:1181 includes/shortcode.php:1190
+msgid "Add a subtle animation when the item is hovered"
+msgstr ""
+
+#: includes/shortcode.php:1218
+msgid "Show / hide"
+msgstr ""
+
+#: includes/shortcode.php:1225
+msgid "Icon"
+msgstr ""
+
+#: includes/shortcode.php:1229
+msgid "Thumbs up"
+msgstr ""
+
+#: includes/shortcode.php:1230
+msgid "Heart"
+msgstr ""
+
+#: includes/shortcode.php:1273 includes/shortcode.php:1281
+msgid "Show icon"
+msgstr ""
+
+#: includes/shortcode.php:1274 includes/shortcode.php:1282
+msgid "Display the meta icon next to the title"
+msgstr ""
+
+#: includes/widget.php:27
+msgid "Add portfolio items to your site."
+msgstr ""
+
+#: includes/widget.php:89
+msgid "Enter the widget content HTML and/or shortcodes."
+msgstr ""
+
+#: react-portfolio.php:357 react-portfolio.php:408
+msgid "Used by the %s option to show the image in a lightbox popup"
+msgstr ""
+
+#: react-portfolio.php:364 react-portfolio.php:424
+msgid "Used by the %s option to show the image in a full screen lightbox"
+msgstr ""
+
+#: react-portfolio.php:400
+msgid "Used to create a masonry layout"
+msgstr ""
+
+#: react-portfolio.php:416
+msgid "Used by the Serene script to add easing to jQuery animations"
+msgstr ""
+
+#: react-portfolio.php:802
+msgid "Portfolio Item"
+msgstr ""
+
+#: react-portfolio.php:803
+msgctxt "add portfolio item"
+msgid "Add New"
+msgstr ""
+
+#: react-portfolio.php:804
+msgctxt "add new portfolio item"
+msgid "Add New Item"
+msgstr ""
+
+#: react-portfolio.php:805
+msgctxt "all portfolio items"
+msgid "All Items"
+msgstr ""
+
+#: react-portfolio.php:806
+msgctxt "edit portfolio item"
+msgid "Edit Item"
+msgstr ""
+
+#: react-portfolio.php:807
+msgid "New Portfolio Item"
+msgstr ""
+
+#: react-portfolio.php:808
+msgctxt "view portfolio item"
+msgid "View Item"
+msgstr ""
+
+#: react-portfolio.php:809
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: react-portfolio.php:810
+msgid "No portfolio Items found."
+msgstr ""
+
+#: react-portfolio.php:811
+msgid "No portfolio items found in Trash."
+msgstr ""
+
+#: react-portfolio.php:837
+msgid "Portfolio Categories"
+msgstr ""
+
+#: react-portfolio.php:838
+msgid "Portfolio Category"
+msgstr ""
+
+#: react-portfolio.php:839
+msgid "Search Categories"
+msgstr ""
+
+#: react-portfolio.php:840
+msgid "Popular Categories"
+msgstr ""
+
+#: react-portfolio.php:841
+msgid "All Categories"
+msgstr ""
+
+#: react-portfolio.php:844
+msgid "Edit Category"
+msgstr ""
+
+#: react-portfolio.php:845
+msgid "Update Category"
+msgstr ""
+
+#: react-portfolio.php:846
+msgid "Add New Category"
+msgstr ""
+
+#: react-portfolio.php:847
+msgid "New Category Name"
+msgstr ""
+
+#: react-portfolio.php:861
+msgid "Portfolio Tags"
+msgstr ""
+
+#: react-portfolio.php:862
+msgid "Portfolio Tag"
+msgstr ""
+
+#: react-portfolio.php:863
+msgid "Search Tags"
+msgstr ""
+
+#: react-portfolio.php:864
+msgid "Popular Tags"
+msgstr ""
+
+#: react-portfolio.php:865
+msgid "All Tags"
+msgstr ""
+
+#: react-portfolio.php:868
+msgid "Edit Tag"
+msgstr ""
+
+#: react-portfolio.php:869
+msgid "Update Tag"
+msgstr ""
+
+#: react-portfolio.php:870
+msgid "Add New Tag"
+msgstr ""
+
+#: react-portfolio.php:871
+msgid "New Tag Name"
+msgstr ""
+
+#: react-portfolio.php:872
+msgid "Separate tags with commas"
+msgstr ""
+
+#: react-portfolio.php:873
+msgid "Add or remove tags"
+msgstr ""
+
+#: react-portfolio.php:874
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: react-portfolio.php:875
+msgid "No tags found."
+msgstr ""
+
+#: react-portfolio.php:921
+msgid "View all posts by %s"
+msgstr ""
+
+#: react-portfolio.php:987
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "React Portfolio"
+msgstr ""
+
+#. #-#-#-#-#  react-portfolio.pot (React Portfolio 1.0.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  react-portfolio.pot (React Portfolio 1.0.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.themecatcher.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easily create portfolio items and display them on your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeCatcher"
+msgstr ""

@@ -1,0 +1,551 @@
+# Copyright (C) 2016 React Widgets
+# This file is distributed under the same license as the React Widgets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: React Widgets 1.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/react-widgets\n"
+"POT-Creation-Date: 2016-06-03 08:54:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/admin.php:55
+msgid "Are you sure you want to reset the settings?"
+msgstr ""
+
+#: admin/admin.php:55
+msgid ""
+"The page will reload and the current settings will be replaced with the "
+"defaults."
+msgstr ""
+
+#: admin/admin.php:69 admin/includes/settings.php:9
+msgid "Widget Settings"
+msgstr ""
+
+#. #-#-#-#-#  react-widgets.pot (React Widgets 1.0.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin.php:70
+msgid "React Widgets"
+msgstr ""
+
+#: admin/includes/settings.php:10
+msgid "Please enable JavaScript to use the settings page."
+msgstr ""
+
+#: admin/includes/settings.php:11
+msgid "Settings saved"
+msgstr ""
+
+#: admin/includes/settings.php:17
+msgid "Performance settings"
+msgstr ""
+
+#: admin/includes/settings.php:21
+msgid "When to load scripts and styles"
+msgstr ""
+
+#: admin/includes/settings.php:25
+msgid "Always"
+msgstr ""
+
+#: admin/includes/settings.php:26
+msgid "Autodetect"
+msgstr ""
+
+#: admin/includes/settings.php:27
+msgid "Only on specific pages"
+msgstr ""
+
+#: admin/includes/settings.php:29
+msgid ""
+"Choose which pages to load the plugin scripts and styles, these are required "
+"for the widgets to work properly, so you can choose only the pages "
+"containing the widgets to speed up the other pages on your site. Autodetect "
+"will only load the scripts and styles if an active widget is found on the "
+"current page."
+msgstr ""
+
+#: admin/includes/settings.php:34 admin/includes/settings.php:36
+msgid "Choose pages"
+msgstr ""
+
+#: admin/includes/settings.php:48 admin/includes/settings.php:68
+msgid "Save all settings"
+msgstr ""
+
+#: admin/includes/settings.php:51
+msgid "Disable script output"
+msgstr ""
+
+#: admin/includes/settings.php:55
+msgid "CSS"
+msgstr ""
+
+#: admin/includes/settings.php:63
+msgid "You can disable the plugin CSS output using the boxes above."
+msgstr ""
+
+#: admin/includes/settings.php:69
+msgid "Reset settings"
+msgstr ""
+
+#: includes/contact-details.php:23 includes/contact-details.php:41
+msgid "Contact Details"
+msgstr ""
+
+#: includes/contact-details.php:39
+msgid "Contact details for a business or person."
+msgstr ""
+
+#: includes/contact-details.php:73 includes/contact-details.php:159
+msgid "Phone"
+msgstr ""
+
+#: includes/contact-details.php:81 includes/contact-details.php:168
+msgid "Fax"
+msgstr ""
+
+#: includes/contact-details.php:89 includes/contact-details.php:177
+msgid "Email"
+msgstr ""
+
+#: includes/contact-details.php:97 includes/contact-details.php:186
+msgid "Address"
+msgstr ""
+
+#: includes/contact-details.php:140 includes/facebook.php:207
+#: includes/opening-times.php:133 includes/popular.php:139
+#: includes/recent.php:139 includes/related.php:162 includes/social.php:120
+#: includes/twitter.php:193
+msgid "Title"
+msgstr ""
+
+#: includes/contact-details.php:149
+msgid "Text/HTML before contact details"
+msgstr ""
+
+#: includes/contact-details.php:153
+msgid ""
+"Custom HTML to be displayed before the contact details, shortcodes can be "
+"used here."
+msgstr ""
+
+#: includes/contact-details.php:195
+msgid "Text/HTML after contact details"
+msgstr ""
+
+#: includes/contact-details.php:199
+msgid ""
+"Custom HTML to be displayed after the contact details, shortcodes can be "
+"used here."
+msgstr ""
+
+#: includes/facebook.php:120 includes/facebook.php:137
+msgid "Facebook"
+msgstr ""
+
+#: includes/facebook.php:134
+msgid "Embed and promote any Facebook Page on your site."
+msgstr ""
+
+#: includes/facebook.php:216 includes/social.php:152
+msgid "URL"
+msgstr ""
+
+#: includes/facebook.php:220
+msgid "The URL of the Facebook Page."
+msgstr ""
+
+#: includes/facebook.php:226
+msgid "Width"
+msgstr ""
+
+#: includes/facebook.php:230
+msgid ""
+"The pixel width of the plugin. The default is 340 if not set. Minimum is "
+"180, maximum is 500."
+msgstr ""
+
+#: includes/facebook.php:236
+msgid "Height"
+msgstr ""
+
+#: includes/facebook.php:240
+msgid ""
+"The pixel height of the plugin. The default is 500 if not set. Minimum is 70."
+msgstr ""
+
+#: includes/facebook.php:246
+msgid "Tabs"
+msgstr ""
+
+#: includes/facebook.php:250
+msgid ""
+"Tabs to render i.e. %1$s. Use a comma-separated list to add multiple tabs, i."
+"e. %2$s."
+msgstr ""
+
+#: includes/facebook.php:256
+msgid "Hide cover photo"
+msgstr ""
+
+#: includes/facebook.php:260
+msgid "Hide cover photo in the header."
+msgstr ""
+
+#: includes/facebook.php:266
+msgid "Show friend's faces"
+msgstr ""
+
+#: includes/facebook.php:270
+msgid "Show profile photos when friends like this."
+msgstr ""
+
+#: includes/facebook.php:276
+msgid "Hide CTA button"
+msgstr ""
+
+#: includes/facebook.php:280
+msgid "Hide the custom call to action button (if available)."
+msgstr ""
+
+#: includes/facebook.php:286
+msgid "Use small header"
+msgstr ""
+
+#: includes/facebook.php:290
+msgid "Use the small header instead."
+msgstr ""
+
+#: includes/facebook.php:296
+msgid "Adapt to plugin container width"
+msgstr ""
+
+#: includes/facebook.php:300
+msgid "Try to fit inside the container width."
+msgstr ""
+
+#: includes/facebook.php:306
+msgid "Locale"
+msgstr ""
+
+#: includes/facebook.php:314
+msgid ""
+"Set the language of the plugin, if you have more than one widget on the page "
+"the first widget will determine the locale of the others."
+msgstr ""
+
+#: includes/facebook.php:320
+msgid "App ID (optional)"
+msgstr ""
+
+#: includes/facebook.php:324
+msgid ""
+"Enter your Facebook App ID if you have one. You can %screate an App ID here"
+"%s."
+msgstr ""
+
+#: includes/opening-times.php:37 includes/opening-times.php:50
+msgid "Opening Times"
+msgstr ""
+
+#: includes/opening-times.php:48
+msgid "Business opening times."
+msgstr ""
+
+#: includes/opening-times.php:142
+msgid "Text/HTML before opening times"
+msgstr ""
+
+#: includes/opening-times.php:146
+msgid ""
+"Custom HTML to be displayed before the opening times. Shortcodes can be used "
+"here."
+msgstr ""
+
+#: includes/opening-times.php:152
+msgid "Day"
+msgstr ""
+
+#: includes/opening-times.php:153
+msgid "Opening times"
+msgstr ""
+
+#: includes/opening-times.php:154
+msgid "Hide?"
+msgstr ""
+
+#: includes/opening-times.php:167
+msgid "Text/HTML after opening times"
+msgstr ""
+
+#: includes/opening-times.php:171
+msgid ""
+"Custom HTML to be displayed after the opening times. Shortcodes can be used "
+"here."
+msgstr ""
+
+#: includes/popular.php:23 includes/popular.php:34
+msgid "Popular Posts"
+msgstr ""
+
+#: includes/popular.php:32
+msgid "Your site&#8217;s most popular Posts."
+msgstr ""
+
+#: includes/popular.php:148 includes/recent.php:148 includes/related.php:171
+msgid "Number of posts"
+msgstr ""
+
+#: includes/popular.php:157 includes/recent.php:157 includes/related.php:180
+msgid "Show thumbnail"
+msgstr ""
+
+#: includes/popular.php:166 includes/recent.php:166 includes/related.php:189
+msgid "Extra information"
+msgstr ""
+
+#: includes/popular.php:170 includes/recent.php:170 includes/related.php:193
+msgid "Date"
+msgstr ""
+
+#: includes/popular.php:171 includes/recent.php:171 includes/related.php:194
+msgid "Description"
+msgstr ""
+
+#: includes/popular.php:172 includes/recent.php:172 includes/related.php:195
+msgid "Date and description"
+msgstr ""
+
+#: includes/popular.php:174 includes/recent.php:174 includes/related.php:197
+msgid "Other post information to display."
+msgstr ""
+
+#: includes/popular.php:180 includes/recent.php:180 includes/related.php:203
+msgid "Description length"
+msgstr ""
+
+#: includes/popular.php:184 includes/recent.php:184 includes/related.php:207
+msgid "Limit the post description to this number of characters."
+msgstr ""
+
+#: includes/popular.php:190 includes/recent.php:190 includes/related.php:213
+#: includes/related.php:232
+msgid "Categories"
+msgstr ""
+
+#: includes/popular.php:198 includes/recent.php:198 includes/related.php:221
+msgid "Show only posts from these categories."
+msgstr ""
+
+#: includes/popular.php:204 includes/recent.php:204
+msgid "Authors"
+msgstr ""
+
+#: includes/popular.php:212 includes/recent.php:212
+msgid "Show only posts from these authors."
+msgstr ""
+
+#: includes/recent.php:23 includes/recent.php:34
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/recent.php:32
+msgid "An enhanced version of the core Recent Posts widget."
+msgstr ""
+
+#: includes/related.php:23 includes/related.php:34
+msgid "Related Posts"
+msgstr ""
+
+#: includes/related.php:32
+msgid "Posts related to the one being currently viewed."
+msgstr ""
+
+#: includes/related.php:227
+msgid "Related by"
+msgstr ""
+
+#: includes/related.php:231
+msgid "Tags"
+msgstr ""
+
+#: includes/related.php:234
+msgid "How related posts should be found."
+msgstr ""
+
+#: includes/social.php:29
+msgid "Social Links"
+msgstr ""
+
+#: includes/social.php:41
+msgid "Social icons and links."
+msgstr ""
+
+#: includes/social.php:43
+msgid "Social Icons"
+msgstr ""
+
+#: includes/social.php:109
+msgid "SVG retina ready, IE image fallback"
+msgstr ""
+
+#: includes/social.php:110
+msgid "FontAwesome text colored"
+msgstr ""
+
+#: includes/social.php:111
+msgid "FontAwesome brand colored"
+msgstr ""
+
+#: includes/social.php:112
+msgid "FontAwesome brand colored on hover"
+msgstr ""
+
+#: includes/social.php:113
+msgid "FontAwesome brand colored (round)"
+msgstr ""
+
+#: includes/social.php:114
+msgid "FontAwesome brand colored on hover (round)"
+msgstr ""
+
+#: includes/social.php:129
+msgid "Icon style"
+msgstr ""
+
+#: includes/social.php:144
+msgid "Open links in new tab"
+msgstr ""
+
+#: includes/social.php:151
+msgid "Network"
+msgstr ""
+
+#: includes/social.php:162
+msgid "Available only with SVG icons"
+msgstr ""
+
+#: includes/social.php:165
+msgid "Available only with FontAwesome icons"
+msgstr ""
+
+#: includes/twitter.php:23 includes/twitter.php:40
+msgid "Twitter"
+msgstr ""
+
+#: includes/twitter.php:34
+msgid "Follow Me"
+msgstr ""
+
+#: includes/twitter.php:35
+msgid "No tweets found."
+msgstr ""
+
+#: includes/twitter.php:38
+msgid "A Twitter feed and Follow button."
+msgstr ""
+
+#: includes/twitter.php:147
+msgid ""
+"Please configure the Twitter widget settings at Appearance &rarr; Widgets "
+"within the WordPress admin."
+msgstr ""
+
+#: includes/twitter.php:150
+msgid ""
+"Error: cURL is not available. Please ask your host to install the cURL "
+"package for PHP."
+msgstr ""
+
+#: includes/twitter.php:202
+msgid "Username"
+msgstr ""
+
+#: includes/twitter.php:209
+msgid "Click here for help finding the API keys."
+msgstr ""
+
+#: includes/twitter.php:213
+msgid "API key"
+msgstr ""
+
+#: includes/twitter.php:222
+msgid "API secret"
+msgstr ""
+
+#: includes/twitter.php:231
+msgid "Access token"
+msgstr ""
+
+#: includes/twitter.php:240
+msgid "Access token secret"
+msgstr ""
+
+#: includes/twitter.php:249
+msgid "Number of tweets"
+msgstr ""
+
+#: includes/twitter.php:258
+msgid "Include retweets"
+msgstr ""
+
+#: includes/twitter.php:267
+msgid "Exclude replies"
+msgstr ""
+
+#: includes/twitter.php:276
+msgid "Style"
+msgstr ""
+
+#: includes/twitter.php:280
+msgid "Underlined"
+msgstr ""
+
+#: includes/twitter.php:281
+msgid "Light"
+msgstr ""
+
+#: includes/twitter.php:282
+msgid "Dark"
+msgstr ""
+
+#: includes/twitter.php:289
+msgid "Show follow button"
+msgstr ""
+
+#: includes/twitter.php:298
+msgid "Follow button text"
+msgstr ""
+
+#: includes/twitter.php:307
+msgid "\"No tweets found\" text"
+msgstr ""
+
+#: react-widgets.php:307
+msgid ""
+"Used to display icons in the Contact Details, Social Icons and Twitter widget"
+msgstr ""
+
+#: react-widgets.php:314
+msgid "Used to display social network icons in the Social Icons widget"
+msgstr ""
+
+#. #-#-#-#-#  react-widgets.pot (React Widgets 1.0.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  react-widgets.pot (React Widgets 1.0.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.themecatcher.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A stylish collection of useful widgets."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeCatcher"
+msgstr ""

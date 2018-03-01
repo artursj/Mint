@@ -1,0 +1,395 @@
+<?php /* Global StickyMenu Color */ ?>
+<?php
+	if ($options['general_sticky_header'] && $options['nav_prime_nav_location'] == 'prime_nav_in_head') {
+
+		if ($options['general_color_mainheader_background'] != '' || $options['general_color_mainheader_border'] != '') {
+			echo '
+				#header.stickied {
+					' . react_css_color($options['general_color_mainheader_background']) . '
+					' . react_css_color($options['general_color_mainheader_border'], 'border-color') . '
+				}
+			';
+		}
+		if ($options['general_color_mainheader_background_gradient']) {
+			echo '
+			#header.stickied {
+				background: -moz-linear-gradient(top, ' . react_sanitize_color($options['general_color_mainheader_background_lighter']) . ' 0%, ' . react_sanitize_color($options['general_color_mainheader_background_much_darker']) . ' 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,' . react_sanitize_color($options['general_color_mainheader_background_lighter']) . '), color-stop(100%,' . react_sanitize_color($options['general_color_mainheader_background_much_darker']) . '));
+				background: -webkit-linear-gradient(top, ' . react_sanitize_color($options['general_color_mainheader_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_mainheader_background_much_darker']) . ' 100%);
+				background: -o-linear-gradient(top, ' . react_sanitize_color($options['general_color_mainheader_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_mainheader_background_much_darker']) . ' 100%);
+				background: -ms-linear-gradient(top, ' . react_sanitize_color($options['general_color_mainheader_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_mainheader_background_much_darker']) . ' 100%);
+				background: linear-gradient(to bottom, ' . react_sanitize_color($options['general_color_mainheader_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_mainheader_background_much_darker']) . ' 100%);
+			}';
+		}
+		if ($options['general_color_mainheader_border_lr']) {
+		echo '
+		#header.stickied {
+			' . react_css_color($options['general_color_mainheader_border_lr'], 'border-left-color') . '
+			' . react_css_color($options['general_color_mainheader_border_lr'], 'border-right-color') . '
+		}';
+		}
+
+		if ($options['general_color_mainheader_background']) {
+			echo '
+				#header.stickied .back-home-icon, #header.stickied .search-container, #header.stickied.split-nav ul.react-menu > li:not(.button-nav) > a {
+					' . react_css_color($options['general_color_mainheader_background_darker'], 'border-color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_text']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a span.main,
+				#header.stickied.button-nav ul.react-menu li a span.main, #header.stickied.button-nav .react-menu li.menu-icon:before {
+					' . react_css_color($options['general_color_default_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a:hover span.main,
+				#header.stickied ul.react-menu li.button-nav.sfHover > a span.main,
+				#header.stickied.button-nav ul.react-menu li a:hover span.main,
+				#header.stickied.button-nav ul.react-menu li.sfHover > a span.main {
+					' . react_css_color($options['general_color_default_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_textnav_text']) {
+			echo '
+				#header.stickied ul.react-menu li a span.main {
+					' . react_css_color($options['general_color_default_textnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_textnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu li a:hover span.main,
+				#header.stickied ul.react-menu li.sfHover > a span.main {
+					' . react_css_color($options['general_color_default_textnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_text']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a span.main,
+				#header.stickied.button-nav ul.react-menu li a span.main {
+					' . react_css_color($options['general_color_default_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a:hover span.main,
+				#header.stickied ul.react-menu li.button-nav.sfHover > a span.main,
+				#header.stickied.button-nav ul.react-menu li a:hover span.main,
+				#header.stickied.button-nav ul.react-menu li.sfHover > a span.main {
+					' . react_css_color($options['general_color_default_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_textnav_desc']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li a span.desc {
+					' . react_css_color($options['general_color_default_textnav_desc'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_textnav_desc_hover']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li a:hover span.desc, #header.stickied.desc-on ul.react-menu li a:active span.desc,
+				#header.stickied.desc-on ul.react-menu li.sfHover > a span.desc{
+					' . react_css_color($options['general_color_default_textnav_desc_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_desc']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li.button-nav a span.desc,
+				#header.stickied.button-nav.desc-on ul.react-menu li a span.desc {
+					' . react_css_color($options['general_color_default_buttonnav_desc'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_desc_hover']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li.button-nav a:hover span.desc, #header.stickied.desc-on ul.react-menu li.button-nav a:active span.desc,
+				#header.stickied.desc-on ul.react-menu li.button-nav.sfHover > a span.desc,
+				#header.stickied.button-nav.desc-on ul.react-menu li a:hover span.desc, #header.stickied.button-nav.desc-on ul.react-menu li a:active span.desc,
+				#header.stickied.button-nav.desc-on ul.react-menu li.sfHover > a span.desc {
+					' . react_css_color($options['general_color_default_buttonnav_desc_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_background'] != '' || $options['general_color_default_buttonnav_border'] != '' || $options['general_color_default_buttonnav_text'] != '') {
+			echo '
+				#header.stickied.button-nav ul.react-menu > li > a {
+					' . react_css_color($options['general_color_default_buttonnav_background']) . '
+					' . react_css_color($options['general_color_default_buttonnav_border'], 'border-color') . '
+					' . react_css_color($options['general_color_default_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_background']) {
+			echo '
+				#header.stickied.button-nav.hover ul.react-menu > li > a {
+					background: transparent;
+					border-color: transparent;
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_background_hover'] != '' || $options['general_color_default_buttonnav_border_hover'] != '' || $options['general_color_default_buttonnav_text_hover'] != '') {
+			echo '
+				#header.stickied ul.react-menu > li.button-nav > a:hover, #header.stickied ul.react-menu > li.button-nav > a:active, #header.stickied ul.react-menu > li.button-nav.sfHover > a,
+				#header.stickied.button-nav ul.react-menu > li > a:hover, #header.stickied.button-nav.hover ul.react-menu > li > a:hover, #header.stickied.button-nav ul.react-menu > li.sfHover > a, #header.stickied.button-nav.hover ul.react-menu > li.sfHover > a,
+				#header.stickied.button-nav ul.react-menu > li > a:active, #header.stickied.button-nav ul.react-menu > li.sfHover > a {
+					' . react_css_color($options['general_color_default_buttonnav_background_hover']) . '
+					' . react_css_color($options['general_color_default_buttonnav_border_hover'], 'border-color') . '
+					' . react_css_color($options['general_color_default_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_background'] != '' || $options['general_color_default_buttonnav_border'] != '' || $options['general_color_default_buttonnav_text'] != '') {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu {
+					' . react_css_color($options['general_color_default_buttonnav_background']) . '
+					' . react_css_color($options['general_color_default_buttonnav_border'], 'border-color') . '
+					' . react_css_color($options['general_color_default_buttonnav_text'], 'color') . '
+				}
+				#header.stickied .react-menu > li > ul.sub-menu:after {' . react_css_color($options['general_color_default_buttonnav_border'], 'border-left-color') . '}
+			';
+		}
+		if ($options['general_color_default_buttonnav_text']) {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu li {
+					' . react_css_color($options['general_color_default_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_background'] != '' || $options['general_color_default_buttonnav_text'] != '') {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu li a {
+					' . react_css_color($options['general_color_default_buttonnav_background_darken']) . '
+					' . react_css_color($options['general_color_default_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_background_hover'] != '' || $options['general_color_default_buttonnav_text_hover'] != '') {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu > li:hover > a {
+					' . react_css_color($options['general_color_default_buttonnav_background_hover'], 'border-color') . '
+					' . react_css_color($options['general_color_default_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_background_hover']) {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu > li:hover, #header.stickied ul.react-menu ul.sub-menu > li:hover {
+					' . react_css_color($options['general_color_default_buttonnav_background_hover']) . '
+				}
+			';
+		}
+		if ($options['general_color_default_buttonnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu > li > a:hover, #header.stickied ul.react-menu ul.sub-menu > li.sfHover > a, #header.stickied #nav-wrap ul.react-menu ul.sub-menu > li > a:active {
+					' . react_css_color($options['general_color_default_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+
+
+	} elseif ($options['general_sticky_header'] && $options['nav_prime_nav_location'] == 'prime_nav_in_solo') {
+
+		if ($options['general_color_solonav_background'] != '' || $options['general_color_solonav_border'] != '') {
+			echo '
+				#header.stickied {
+					' . react_css_color($options['general_color_solonav_background']) . '
+					' . react_css_color($options['general_color_solonav_border'], 'border-color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_background_gradient']) {
+			echo '
+			#header.stickied {
+				background: -moz-linear-gradient(top, ' . react_sanitize_color($options['general_color_solonav_background_lighter']) . ' 0%, ' . react_sanitize_color($options['general_color_solonav_background_much_darker']) . ' 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,' . react_sanitize_color($options['general_color_solonav_background_lighter']) . '), color-stop(100%,' . react_sanitize_color($options['general_color_solonav_background_much_darker']) . '));
+				background: -webkit-linear-gradient(top, ' . react_sanitize_color($options['general_color_solonav_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_solonav_background_much_darker']) . ' 100%);
+				background: -o-linear-gradient(top, ' . react_sanitize_color($options['general_color_solonav_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_solonav_background_much_darker']) . ' 100%);
+				background: -ms-linear-gradient(top, ' . react_sanitize_color($options['general_color_solonav_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_solonav_background_much_darker']) . ' 100%);
+				background: linear-gradient(to bottom, ' . react_sanitize_color($options['general_color_solonav_background_lighter']) . ' 0%,' . react_sanitize_color($options['general_color_solonav_background_much_darker']) . ' 100%);
+			}';
+		}
+	if ($options['general_color_solonav_border_lr']) {
+		echo '
+		#header.stickied {
+			' . react_css_color($options['general_color_solonav_border_lr'], 'border-left-color') . '
+			' . react_css_color($options['general_color_solonav_border_lr'], 'border-right-color') . '
+		}';
+		}
+		if ($options['general_color_solonav_background']) {
+			echo '
+				#header.stickied .back-home-icon, #header.stickied .search-container, #header.stickied.split-nav ul.react-menu > li:not(.button-nav) > a {
+					' . react_css_color($options['general_color_solonav_background_darker'], 'border-color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_text']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a span.main,
+				#header.stickied.button-nav ul.react-menu li a span.main {
+					' . react_css_color($options['general_color_solonav_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a:hover span.main,
+				#header.stickied ul.react-menu li.button-nav.sfHover > a span.main,
+				#header.stickied.button-nav ul.react-menu li a:hover span.main,
+				#header.stickied.button-nav ul.react-menu li.sfHover > a span.main {
+					' . react_css_color($options['general_color_solonav_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_textnav_text']) {
+			echo '
+				#header.stickied ul.react-menu li a span.main {
+					' . react_css_color($options['general_color_solonav_textnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_textnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu li a:hover span.main,
+				#header.stickied ul.react-menu li.sfHover > a span.main {
+					' . react_css_color($options['general_color_solonav_textnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_text']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a span.main,
+				#header.stickied.button-nav ul.react-menu li a span.main {
+					' . react_css_color($options['general_color_solonav_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu li.button-nav a:hover span.main,
+				#header.stickied ul.react-menu li.button-nav.sfHover > a span.main,
+				#header.stickied.button-nav ul.react-menu li a:hover span.main,
+				#header.stickied.button-nav ul.react-menu li.sfHover > a span.main {
+					' . react_css_color($options['general_color_solonav_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_textnav_desc']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li a span.desc {
+					' . react_css_color($options['general_color_solonav_textnav_desc'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_textnav_desc_hover']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li a:hover span.desc, #header.stickied.desc-on ul.react-menu li a:active span.desc,
+				#header.stickied.desc-on ul.react-menu li.sfHover > a span.desc{
+					' . react_css_color($options['general_color_solonav_textnav_desc_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_desc']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li.button-nav a span.desc,
+				#header.stickied.button-nav.desc-on ul.react-menu li a span.desc {
+					' . react_css_color($options['general_color_solonav_buttonnav_desc'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_desc_hover']) {
+			echo '
+				#header.stickied.desc-on ul.react-menu li.button-nav a:hover span.desc, #header.stickied.desc-on ul.react-menu li.button-nav a:active span.desc,
+				#header.stickied.desc-on ul.react-menu li.button-nav.sfHover > a span.desc,
+				#header.stickied.button-nav.desc-on ul.react-menu li a:hover span.desc, #header.stickied.button-nav.desc-on ul.react-menu li a:active span.desc,
+				#header.stickied.button-nav.desc-on ul.react-menu li.sfHover > a span.desc {
+					' . react_css_color($options['general_color_solonav_buttonnav_desc_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_background'] != '' || $options['general_color_solonav_buttonnav_border'] != '' || $options['general_color_solonav_buttonnav_text'] != '') {
+			echo '
+				#header.stickied.button-nav ul.react-menu > li > a {
+					' . react_css_color($options['general_color_solonav_buttonnav_background']) . '
+					' . react_css_color($options['general_color_solonav_buttonnav_border'], 'border-color') . '
+					' . react_css_color($options['general_color_solonav_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_background']) {
+			echo '
+				#header.stickied.button-nav.hover ul.react-menu > li > a {
+					background: transparent;
+					border-color: transparent;
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_background_hover'] != '' || $options['general_color_solonav_buttonnav_border_hover'] != '' || $options['general_color_solonav_buttonnav_text_hover'] != '') {
+			echo '
+				#header.stickied ul.react-menu > li.button-nav > a:hover, #header.stickied ul.react-menu > li.button-nav > a:active, #header.stickied ul.react-menu > li.button-nav.sfHover > a,
+				#header.stickied.button-nav ul.react-menu > li > a:hover, #header.stickied.button-nav.hover ul.react-menu > li > a:hover, #header.stickied.button-nav ul.react-menu > li.sfHover > a, #header.stickied.button-nav.hover ul.react-menu > li.sfHover > a,
+				#header.stickied.button-nav ul.react-menu > li > a:active, #header.stickied.button-nav ul.react-menu > li.sfHover > a {
+					' . react_css_color($options['general_color_solonav_buttonnav_background_hover']) . '
+					' . react_css_color($options['general_color_solonav_buttonnav_border_hover'], 'border-color') . '
+					' . react_css_color($options['general_color_solonav_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_background'] != '' || $options['general_color_solonav_buttonnav_border'] != '' || $options['general_color_solonav_buttonnav_text'] != '') {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu {
+					' . react_css_color($options['general_color_solonav_buttonnav_background']) . '
+					' . react_css_color($options['general_color_solonav_buttonnav_border'], 'border-color') . '
+					' . react_css_color($options['general_color_solonav_buttonnav_text'], 'color') . '
+				}
+				#header.stickied .react-menu > li > ul.sub-menu:after {' . react_css_color($options['general_color_default_buttonnav_border'], 'border-left-color') . '}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_text']) {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu li {
+					' . react_css_color($options['general_color_solonav_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_background'] != '' || $options['general_color_solonav_buttonnav_text'] != '') {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu li a {
+					' . react_css_color($options['general_color_solonav_buttonnav_background_darken']) . '
+					' . react_css_color($options['general_color_solonav_buttonnav_text'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_background_hover'] != '' || $options['general_color_solonav_buttonnav_text_hover'] != '') {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu > li:hover > a {
+					' . react_css_color($options['general_color_solonav_buttonnav_background_hover'], 'border-color') . '
+					' . react_css_color($options['general_color_solonav_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_background_hover']) {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu > li:hover, #header.stickied ul.react-menu ul.sub-menu > li:hover {
+					' . react_css_color($options['general_color_solonav_buttonnav_background_hover']) . '
+				}
+			';
+		}
+		if ($options['general_color_solonav_buttonnav_text_hover']) {
+			echo '
+				#header.stickied ul.react-menu ul.sub-menu > li > a:hover, #header.stickied ul.react-menu ul.sub-menu > li.sfHover > a, #header.stickied #nav-wrap ul.react-menu ul.sub-menu > li > a:active {
+					' . react_css_color($options['general_color_solonav_buttonnav_text_hover'], 'color') . '
+				}
+			';
+		}
+	}
+?>

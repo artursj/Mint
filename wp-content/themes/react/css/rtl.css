@@ -1,0 +1,1496 @@
+body {
+	 direction: rtl;
+	 unicode-bidi: embed;
+}
+
+/* ----------- MAKE IT GO BACKWARDS ----------- */
+
+.search-container {
+	padding-left: 0;
+	padding-right: 0;
+}
+.intro-text h1,
+.tophead-wrap .react-menu,
+.solonav-wrap .react-menu,
+#header.stickied .react-menu,
+.top-head-menu {
+	float: right;
+}
+.top-head-menu {margin-right: 10px; margin-left: 0;}
+.top-head-menu.split-nav {margin-right: 10px; margin-left: 0;}
+.logo {text-align: left;}
+.logo-r .logo {text-align: right;}
+
+#solonav .back-home-icon,
+#header.stickied .back-home-icon,
+.breadcrumbs .back-home-icon  {
+	float: right;
+	padding-right: 0;
+	margin-right: 0;
+
+	padding-left: 15px;
+	margin-left: 15px;
+
+	border-right: none 0;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+
+.popdown-wrap {
+	padding: 25px 0 15px 50px;
+}
+body.pop-trig-abso #popdown-trigger,
+.dismissed #popdown-trigger {
+	left: 15px;
+	right: auto;
+}
+#popdown-trigger span.popdown-icon {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.solonav-wrap .search-container {float: left;}
+
+.intro-text h1 {
+	float: right;
+}
+.pricetable .pricetable-header p,
+caption, table th, table td {
+	text-align: right;
+}
+.im-box.im-drop {
+	padding: 12px 30px 25px 60px;
+}
+.im-box.im-drop.im-search {padding-left: 43px; padding-right: 12px;}
+.im-box.im-drop.im-location, .im-box.im-drop.im-video {padding-right: 12px; padding-left: 43px;}
+.im-box.im-drop .im-close {
+	right: auto;
+	left: 6px;
+}
+/*Slideout*/
+.im-box.im-slide .im-close {
+	right: auto;
+	left: 10px;
+}
+
+.im-box.im-slide .im-close {
+	float: left;
+}
+ul.flag-list li {
+	float: right;
+	margin: 0 0 0 10px;
+}
+ul.flag-list li span.flag-label {
+	float: right;
+	padding-left: 0;
+	padding-right: 10px;
+}
+ul.flag-list li span.flag-ico {
+	float: right;
+}
+
+/*Footer*/
+.back-to-top {
+	float: left;
+	right: auto;
+	left: 20px;
+}
+blockquote p:before {
+  padding-right: 2px;
+  padding-left: 0;
+}
+blockquote p:after {
+  content: ' " ';
+  padding-right: 0;
+  padding-left: 2px;
+}
+.x-close {
+	text-indent: 99999px;
+}
+ul, ol {padding-left: 0; padding-right: 15px;}
+li {margin-left: 0; margin-right: 15px;}
+#wp-calendar tbody tr:last-child .pad,
+#wp-calendar tbody tr.last-child .pad {
+	-webkit-box-shadow: -1px 2px 0 0px rgba(0, 0, 0, 0.05) inset;
+	box-shadow: -1px 2px 0 0px rgba(0, 0, 0, 0.05) inset;
+	border-right-width: 1px;
+	border-left-width: 0;
+}
+#wp-calendar tbody tr:first-child .pad,
+#wp-calendar tbody tr.first-child .pad {
+	border-left-width: 1px;
+	border-right-width: 0;
+}
+#wp-calendar #next {
+	text-align: left;
+}
+.search-pop-up {
+	float: right;
+	margin-left: 0;
+	margin-right: 10px;
+}
+.search-input-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 1%;
+}
+html#ie7 .widget_search input[type="text"] {float: right;}
+
+/*Button*/
+.search-button-wrap {
+	float: left;
+}
+.search-button-wrap input {
+	float: left;
+	border-radius: 2px 0 0 2px;
+	margin-left: -86%;
+	margin-right: 0;
+}
+.search-container .search-button-wrap input,
+.search-container .widget_search input.searchsubmit {
+}
+.search-container:hover .search-button-wrap input,
+.search-container:hover .widget_search input.searchsubmit {
+	margin-left: 0;
+}
+.search-button-wrap input,
+.widget_search input.searchsubmit {
+	float: left;
+}
+.widget_search input.searchsubmit {padding: 9px 5% 9px; float: left;}
+.woocommerce.widget_product_search input[type="submit"],
+.widget_search .searchform input.searchsubmit {
+	border-radius: 2px 0 0 2px;
+}
+.woocommerce.widget_product_search input[type="search"],
+.widget_search input[type="text"] {
+	padding-right: 15px;
+	padding-left: 60px;
+}
+
+ul.vert-nav-ul > li > a,
+.widget_pages ul > li > a,
+.widget_recent_entries ul > li > a,
+.widget_meta ul > li > a,
+.widget_archive ul > li > a,
+.widget_categories ul > li > a,
+ul.blogroll > li > a,
+.widget_product_categories ul > li > a,
+.widget_nav_menu ul.menu > li > a,
+.tcs-menu.tcs-menu-separator.tcs-stacked ul li a {
+	text-align: right;
+	padding: 8px 0 8px 10px;
+}
+
+ul#recentcomments li:before,
+ul li.cat-item a:before,
+.widget_archive ul li a:before,
+.widget_pages ul li a:before {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.widget_archive ul > li > a {padding-right: 0; padding-left: 3px;}
+
+ul#recentcomments li > a {
+	padding-left: 0;
+	padding-right: 3px;
+}
+ul#recentcomments li:before,
+ul li.cat-item a:before,
+.widget_archive ul li a:before,
+.widget_pages ul li a:before {
+	margin-right: 0;
+	margin-left: 10px;
+}
+/*Intro page template*/
+#intro-page-skip {
+	right: auto;
+	left: 20px;
+}
+#intro-page-skip a i {
+	padding-left: 0;
+	padding-right: 15px;
+}
+.page h1.entry-title {margin-right: 0; margin-left: 0;}
+
+.gallery-thumb {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+.entry .date {
+	left: auto;
+	right: -70px;
+}
+.read-more-link {
+	padding: 0 0 0 5px;
+	float: right;
+}
+
+h3.comments-title i.fa, h3.socialcount-title i.fa {
+	margin-left: 15px;
+	margin-right: 0;
+}
+.comments-link {
+	float: right;
+}
+.read-more-link .more-link, .comments-link a {
+	float: right;
+}
+.entry-content .comments-link a b {
+	right: auto;
+	left: -3px;
+}
+.entry-content:hover .comments-link a b {left: -10px; right:auto;}
+
+.comments-link a b, .im-woocart-count {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: -13px;
+	padding: 4px;
+	background: red;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.1)), color-stop(100%,rgba(0,0,0,0.1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+	background-color: red;
+	line-height: 11PX; /* pxtorem ignore */
+	height: 11px;
+	min-width: 10px;
+	font-size: 10px;
+	text-align: center;
+	font-weight: 700;
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 100%;
+	font-family: arial;
+	letter-spacing: 0;
+	text-indent: 0;
+}
+
+
+img.post-img {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+/*pagination*/
+.wp-pagenavi span.pages {
+	float: left;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 0 !important;
+	margin-left: 0 !important;
+}
+.comments-pagination-wrap a.prev {margin-right: 0;margin-left: 5px;}
+.comments-pagination-wrap a.next {margin-left: 0;margin-right: 5px;}
+
+.wp-pagenavi > a,
+.wp-pagenavi > span,
+.comments-pagination-wrap > a,
+.comments-pagination-wrap > span {
+	margin-right: 0;
+	margin-left: 3px;
+}
+.comment .avatar {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+.page-link span {
+	padding-left: 10px;
+	padding-right: 0;
+}
+/* ----------- BIO ----------- */
+
+.author_bio_section h3 > i {margin-left: 10px; margin-right: 0; }
+.author_bio_section > h3,
+.author_bio_section > .author_details {
+	float: right;
+}
+.author_bio_section > img {
+	float: right;
+	margin-right: 0;
+	margin-left: 4%;
+}
+
+.search-results #content .type-post,
+.search-results #content .type-page,
+.search-results #content .type-portfolio,
+.search-results #content .type-product,
+.archive #content .type-post,
+.archive #content .type-page,
+.archive #content .type-portfolio,
+.archive #content .type-product,
+.blog #content .type-post,
+.blog #content .type-page,
+.blog #content .type-portfolio,
+.blog #content div.type-product {
+	padding-left: 0;
+	padding-right: 75px;
+}
+/*Boxed*/
+body:not(.blg-bxd) #content > div.entry.sticky,
+.blg-bxd.search-results #content .type-post,
+.blg-bxd.search-results #content .type-page,
+.blg-bxd.search-results #content .type-portfolio,
+.blg-bxd.search-results #content .type-product,
+.blg-bxd.archive #content .type-post,
+.blg-bxd.archive #content .type-page,
+.blg-bxd.archive #content .type-portfolio,
+.blg-bxd.archive #content .type-product,
+.blg-bxd.blog #content .type-post,
+.blg-bxd.blog #content .type-page,
+.blg-bxd.blog #content .type-portfolio,
+.blg-bxd.blog #content div.type-product {
+	padding-left: 35px;
+	padding-right: 100px;
+}
+.entry-info {
+	left: auto;
+	right: 0;
+}
+.blg-bxd .entry-info,
+body:not(.blg-bxd) #content > div.entry.sticky .entry-info {
+	right: 20px;
+	left: auto;
+}
+
+#content > .entry .entry-info > div:first-child:after {
+	border-width: 6px 0 0 6px;
+	left: -6px;
+	right: auto;
+}
+#content > .entry .entry-info > div:first-child {
+	border-top-right-radius: 2px !important;
+	border-top-left-radius: 0 !important;
+}
+/*****************************************************
+12.  BLOG ARTICLE ELEMENTS
+******************************************************/
+.like-facebook,
+.like-twitter,
+.like-buzz {
+	float: right;
+	padding: 5px 5px 5px 10px;
+}
+h3#reply-title small,
+h3#reply-title small a {
+	float: left;
+	right: auto;
+	left: 0;
+	text-align: right;
+}
+h3#reply-title small a:after,
+h3#reply-title small a .after {
+	right:auto;
+	left: 0;
+}
+/* ----------- Comments ----------- */
+.comment-reply-wrap > h3 {
+	text-align: right;
+	margin-left: 0;
+	margin-right: 35px;
+}
+.comment-reply-wrap > h3 > span {
+	left: auto;
+	right: -35px;
+	text-align: right;
+}
+.comment-reply-wrap > h3 > a > i {
+	float: left;
+}
+#comments .comment-respond h3#reply-title {
+	right: auto;
+	left: 15px;
+}
+.commentlist > .comment > ul.children:after  {
+	left: auto;
+	right: 23px;
+}
+.comments ul.children li.comment.bypostauthor div.comment:after {
+	left: auto;
+	right: -1px;
+}
+/*Big family*/
+ol.commentlist {
+	padding-bottom: 20px 30px 10px 0;
+}
+.comments ul.children div.comment .reply {
+	left: 15px;
+	right: auto;
+}
+.comment-author img {
+	left: auto;
+	right: 0;
+}
+ul#comment-tabs-nav {
+	text-align: left;
+}
+ul#comment-tabs-nav li a {
+	margin: 4px 0 0 2px;
+}
+ul#comment-tabs-nav li a.current:after {
+	left: 0;
+	right: 50%;
+	margin-left: 0;
+	margin-right: -7px;
+}
+/* ----------- Social Share ----------- */
+
+ul.socialcount li, .ungrpd ul.socialcount li, ul.socialcount li {
+	float: right;
+}
+ul.socialcount li a span.social-icon {
+	padding:0 5px 0 15px;
+}
+ul.socialcount li a span.network {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.react-woocom-share-wrap ul.socialcount li a span.social-icon,
+.react-woocom-share-wrap ul.socialcount li a span.network {
+	padding-left: 8px;
+}
+ul.socialcount li a span.count {
+	float: left;
+}
+#ie7 ul.socialcount li a span {float: right;}
+#ie7 ul.socialcount li a span.count {float: left;}
+
+.im-box-inner ul.wp-tag-cloud li {
+	margin: 2px 0 2px 2px;
+	float: right;
+}
+/*****************************************************
+14.  CONTACT PAGE ELEMENTS
+******************************************************/
+.contact-left-col {
+	padding-right: 0;
+	margin-left: 2%;
+	float: right;
+}
+.contact-right-col {
+	padding-left: 0;
+	margin-right: 2%;
+	float: left;
+}
+.contact-type-wrap,
+.hidden-map {
+	margin: 2px 1% 10px 0;
+}
+.contact-type-left h3 {
+	float: right;
+}
+.contact-type-right {
+	text-align: left;
+}
+a.view-map {
+	float: left;
+}
+span.contact-ico {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+/*****************************************************
+15.  MAIN NAVIGATION (HORIZONTAL NAV)
+******************************************************/
+.sf-vertical ul {
+	left: auto;
+	right: 100%;
+}
+.react-menu ul ul {
+	left: auto;
+	right: 100%;
+	text-align: right;
+}
+ul.react-menu li .main {
+	float: right;
+}
+ul.react-menu li .desc {
+	float: right;
+}
+.react-menu > li {
+	float: right;
+	margin-right: 0;
+	margin-left: 3px;
+}
+ul.react-menu li a {
+	float: right;
+}
+ul.react-menu li ul li a {
+	float: none;
+}
+.sf-arrows .sub-menu .sf-with-ul {
+	padding-right: 12px !important;
+	padding-left: 45px !important;
+}
+.react-menu ul {
+	left: auto;
+	right: 0;
+}
+.react-menu ul ul { margin-right: 5px; margin-left: 0;}
+.no-js .react-menu ul ul { margin-left: auto; margin-right: 0;}
+
+.react-menu ul li a,
+.react-menu ul li ul li a {
+	text-align: right;
+}
+.sf-arrows .sf-with-ul:after,
+.sf-arrows .sf-with-ul .after {
+	padding-left: 0;
+	padding-right: 3px;
+	background: url(../../react/images/sml-down-arrow-dark.png) no-repeat left bottom;
+}
+
+/*Lower nav styles*/
+#lower-nav ul.react-menu {
+	margin-left: 0;
+	margin-right: 13px;
+}
+/*Nav desc on hover*/
+.desc-hover ul.react-menu li a span.desc,
+.im-trigger span.im-desc {
+	left: auto;
+	right: 0;
+}
+.desc-hover ul.react-menu li a span.desc:after,
+.im-trigger span.im-desc:after {
+	left: auto;
+	right: 15px;
+}
+.device-menu-trigger-wrap,
+.device-top-menu-trigger-wrap {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+}
+/*Backhome icon*/
+#solonav .back-home-icon {
+	float: right;
+	padding-right: 0;
+	margin-right: 0;
+	border-right: 0 none;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 1px solid #f4f4f4;
+}
+.back-home-icon a.back-home {
+	float: right;
+}
+.back-home-icon.plain-dark .back-home-icon,
+.back-home-icon.plain-light .back-home-icon {
+	padding-left: 5px;
+	padding-right: 0;
+}
+/*Top nav styles*/
+.top-head-menu {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.top-head-menu.split-nav { margin-right: 0;}
+
+
+.top-head-menu.plain-nav .sf-arrows > li > .sf-with-ul:after,
+.top-head-menu.plain-nav .sf-arrows > li > .sf-with-ul .after {
+	right: auto;
+	left: 0;
+}
+
+/*Top header move hover right*/
+.top-head-menu.desc-hover ul.react-menu li a span.desc {
+	left: auto;
+	right: 100%;
+	margin-left: 0;
+	margin-right: 8px;
+}
+/*left arrow on hover desc*/
+.top-head-menu.desc-hover ul.react-menu li a span.desc:after {
+	right: auto;
+	left: 100%;
+}
+.top-head-menu.desc-hover ul.react-menu li a span.desc:after {
+	left: auto;
+	right: auto;
+}
+/*Split nav*/
+.split-nav ul.react-menu > li > ul.sub-menu,
+#tophead .split-nav ul.react-menu > li > ul.sub-menu {
+	left: auto;
+	right: 0;
+}
+.react-menu > li > ul.sub-menu:after {
+	display: none; /*add*/
+}
+
+.split-nav ul.react-menu > li  {
+	margin-right: auto;
+	margin-left: 0;
+}
+.split-nav .method  {
+	border-right: 0 none;
+	border-left: 1px solid #eee;
+}
+#tophead .split-nav ul.react-menu > li > a  {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.split-nav.contact-details-top-head .method {
+	padding: 0 0 0 10px;
+	margin-right: 0;
+	margin-left: 10px;
+}
+.split-nav.contact-details-top-head .contact-info-drop-wrap {
+	border-left: 1px solid;
+	border-right: 0 none;
+}
+#nav-wrap.split-nav ul.react-menu > li > a,
+.solonav-wrap.split-nav ul.react-menu > li > a,
+#header.stickied.split-nav ul.react-menu > li > a {
+	padding: 4px 0 4px 15px;
+	margin-right: 0;
+	margin-left: 15px;
+}
+#nav-wrap.split-nav .back-home-icon {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.button-nav.btm-brdr ul.react-menu > li > a {
+	margin-left: 12px;
+	margin-right: 0;
+}
+.contact-details-top-head .divide {display: none;}
+
+/*Nav icons*/
+.react-menu li.menu-icon:before, .sidr ul li.menu-icon:before, .widget_nav_menu ul li.menu-icon:before {
+	left: auto;
+	right: 5px;
+}
+
+.sidr ul li.menu-icon:before {left: auto;right: 12px;}
+.top-head-menu ul li.menu-icon:before {left: auto;right: 7px;}
+
+.split-nav ul.react-menu > li.menu-icon > a {
+	padding-left: 0!important;
+	padding-right: 35px!important;
+}
+.split-nav ul.react-menu > li.menu-icon:before {
+	left: auto;
+	right: 10px;
+}
+
+.solonav-wrap .split-nav ul.react-menu > li.menu-icon > a {
+	margin-left: 0;
+	margin-right: 10px;
+}
+#tophead .split-nav ul.react-menu > li.menu-icon > a {
+	margin-left: 0;
+	margin-right: 10px;
+}
+.solonav-wrap .split-nav ul.react-menu > li.menu-icon:before,
+#tophead .split-nav ul.react-menu > li.menu-icon:before {
+	left: auto;
+	right: 5px;
+}
+
+.react-menu li.menu-icon > a,
+#tophead .react-menu li.menu-icon > a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+.react-menu ul li.menu-icon > a,
+#tophead .react-menu ul li.menu-icon > a {
+	padding-left: 0;
+	padding-right: 45px;
+}
+.react-menu li.menu-icon.box > a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+.react-menu ul li.menu-icon.box > a {
+	padding-left: 0;
+	padding-right: 55px;
+}
+.react-menu ul li.menu-icon:before {
+	left: auto;
+	right: 15px;
+}
+.react-menu ul li.menu-icon.box:before {
+	left: auto;
+	right: 20px;
+}
+#tophead .react-menu li.menu-icon.box > a {
+	padding-left: 0;
+	padding-right: 30px;
+}
+.widget_nav_menu ul li.menu-icon:before {
+	left: auto;
+	right: -4px;
+}
+.widget_nav_menu ul li ul li.menu-icon:before {
+	left: auto;
+	right: -3px;
+}
+
+.button-nav.btm-brdr .react-menu > li.menu-icon > a,
+#tophead .button-nav.btm-brdr .react-menu > li.menu-icon > a {
+	padding-left: 0;
+	padding-right: 25px;
+}
+.button-nav.btm-brdr .react-menu > li.menu-icon.box > a,
+#tophead .button-nav.btm-brdr .react-menu > li.menu-icon.box > a {
+	padding-left: 0;
+	padding-right: 35px;
+}
+.button-nav.btm-brdr .react-menu > li.menu-icon:before {
+	left: auto;
+	right: 8px;
+}
+
+
+/*Small arrows for vertival nav*/
+.widget_nav_menu ul.menu li ul li ul a {
+	padding: 4px 22px 4px 0;
+	background: url(../../react/images/sml-left-arrow-dark.png) right center no-repeat;
+}
+.widget_nav_menu ul.menu li > a {
+	padding-left: 0;
+	padding-right: 22px;
+	background: url(../../react/images/sml-left-arrow-dark.png) right center no-repeat;
+}
+.widget_nav_menu ul.menu li > a:hover, .widget_nav_menu ul.menu li ul li ul a:hover {
+	background: url(../../react/images/sml-left-arrow-dark.png) right center no-repeat;
+	padding-left: 0;
+	padding-right: 30px;
+}
+
+.sf-arrows .sf-with-ul:after,
+.sf-arrows .sf-with-ul .after {
+	padding-left: 0;
+	padding-right: 3px;
+	background: url(../../react/images/sml-down-arrow-dark.png) no-repeat left bottom;
+}
+.sf-arrows ul .sf-with-ul:after,
+.sf-arrows ul .sf-with-ul .after {
+	right: auto;
+	left: 15px;
+	background: url(../../react/images/sml-left-arrow-dark.png) no-repeat left bottom;
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+	.sf-arrows ul .sf-with-ul:after, .widget_nav_menu ul.menu li ul li ul a, .widget_nav_menu ul.menu li ul li ul a:hover,
+	.widget_nav_menu ul.menu li > a, .widget_nav_menu ul.menu li > a:hover {
+		background-image: url(../../react/images/sml-left-arrow-dark@2x.png);
+		background-size: 6px 9px;
+	}
+}
+
+/*****************************************************
+18. DEVICE MENU
+******************************************************/
+.sidr.left {
+	border-right: 0 none;
+	border-left: 1px solid #e7e7e7;
+}
+.sidr.right {
+	border-left: 0 none;
+	border-right: 1px solid #e7e7e7;
+}
+.sidr.right{
+	left: auto;
+	right:-260px;
+}.sidr.left {
+	left: auto;
+	right: -260px;
+}
+.sidr ul li ul li a,.sidr ul li ul li span{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.sidr span.desc {
+	padding: 0 5px 10px 0;
+}
+.sidr .method > span {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.sidr .contact-info-drop-wrap > span {
+	text-align: right;
+	padding-right: 0;
+	right: 10px;
+}
+.sidr .contact-info-drop.open-close-content {
+	left: auto;
+	right: auto;
+	padding-left: 50px;
+	padding-right: 15px;
+}
+.sidr .contact-info-drop:after {
+	right: auto;
+	left: 19px;
+}
+
+/* ----------- IE Fixes ----------- */
+html#ie7 .iphorm-inner .submit-button-input-wrapper span {
+	float: left;
+	margin-left: 47px;
+}
+html#ie7 .foot-right-col {right: auto; left: 0;}
+
+
+/* ----------- InfoMenu ----------- */
+.im-box-wrap .im-close {
+	left: 50%;
+	right: auto;
+	margin-left: -25px;
+}
+.im-box .tag-cloud .tag-cloud-toggle > h3 > span {
+	left: auto;
+	right: -28px;
+}
+.im-box .tag-cloud .tag-cloud-toggle > h3 {
+	margin: 15px 29px 5px 1px;
+}
+/* ----------- TopHead Menu / Details ----------- */
+.top-head-menu {
+	float: right;
+}
+.contact-info-drop-wrap {
+	float: right;
+	border-left: 0 none;
+	border-right: 1px solid #eee;
+}
+#tophead .button-nav .contact-info-drop-wrap {
+	border-left: 1px solid #eee;
+	border-right: 0 none;
+}
+.contact-info-drop {
+	padding: 20px 20px 20px 32px;
+}
+#open-close-close {
+	right: auto;
+	left: 5px;
+}
+/*Contact details - Tophead*/
+.contact-details-top-head {
+	float: right;
+}
+.contact-details-top-head i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.contact-details-top-head .method {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+/* ----------- Social Icons ----------- */
+.social-icon-wrap i {
+	margin-right: 13px;
+}
+.social-icon-outer {
+	float: left;
+}
+.social-icon-wrap {
+	float: right;
+	margin-right: 5px;
+	margin-left: 0;
+}
+.social-icon-outer.type-3 .social-icon-wrap,
+.social-icon-outer.type-4 .social-icon-wrap {
+	margin-right: 1px;
+	margin-left: 0;
+}
+/* ----------- TopHeader sizes ----------- */
+body.th-thin #tophead .social-icon-wrap {
+	padding: 7px 5px 0 0;
+}
+body.th-bold #tophead .social-icon-wrap i {
+	margin-right: 10px;
+}
+/*Thin top head*/
+body.th-thin .button-nav.top-head-menu ul.react-menu > li {
+	margin-left: 3px;
+}
+body.th-med .button-nav.top-head-menu ul.react-menu > li {
+	margin-left: 3px;
+}
+/*Button nav*/
+.button-nav.contact-details-top-head .method {margin-left: 3px;}
+
+.button-nav.contact-details-top-head .contact-info-drop-wrap {margin-left: 10px;}
+.button-nav.contact-details-top-head .contact-info-drop-wrap {margin-left: 10px;}
+/*Split nav*/
+.split-nav .contact-info-drop-wrap {
+	padding-left: 10px;
+	margin-right: 0;
+}
+/*Plain nav*/
+.contact-details-top-head.plain-nav .method {
+	margin-left: 15px;
+}
+.split-nav ul.react-menu > li:last-child a {
+	border-left: none 0 !important;
+}
+.split-nav ul.react-menu > li.last-child a {
+	border-left: none 0 !important;
+}
+
+#tophead .split-nav ul.react-menu > li:not(.button-nav) > ul.sub-menu {
+	left: 0;
+}
+.split-nav ul.react-menu > li:not(.button-nav)  {
+	margin-right: 0;
+}
+.js .split-nav ul.react-menu:not(.button-nav) > li > ul.sub-menu {
+	left: auto;
+	right: 2px;
+}
+.split-nav .method  {
+	border-right: none 0;
+	border-left: 1px solid #eee;
+}
+#tophead .split-nav ul.react-menu > li:not(.button-nav) > a  {
+	padding-left: 0;
+	padding-right: 10px;
+}
+#nav-wrap.split-nav ul.react-menu > li:not(.button-nav) > a, .solonav-wrap .split-nav ul.react-menu > li:not(.button-nav) > a, #header.stickied.split-nav ul.react-menu > li:not(.button-nav) > a {
+	padding-left: 0;
+	padding-right: 16px;
+	margin-right: 0;
+	margin-left: 15px;
+}
+#nav-wrap.nav-align-right.split-nav ul.react-menu > li:last-child:not(.button-nav) > a {
+	margin-left: 0;
+	padding-left: 5px;
+}
+/* ----------- Tooltips ----------- */
+
+.vote-tip.qtip.qtip-default.qtip-react.tip-rtl {
+	margin: -1px 0 0 -5px;
+}
+.breadcrumbs .breadcrumbs-inner > a,
+.widget_breadcrumb_navxt > a {
+	margin-right: 0;
+	border-right: 0 none;
+
+	margin-left: 7px;
+	padding: 2px 0 2px 7px;
+	border-left: 1px solid #eee;
+}
+/*****************************************************
+27.  MEDIA QUIERIES
+******************************************************/
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		/*Pagination*/
+		.wp-pagenavi span, .wp-pagenavi a,
+		.comments-pagination-wrap a,
+		.comments-pagination-wrap span.page-numbers {
+			margin-left: 1%;
+		}
+		.wp-pagenavi span:nth-child(3n+1),
+		.wp-pagenavi a:nth-child(3n+1),
+		.comments-pagination-wrap a:nth-child(3n+1),
+		.comments-pagination-wrap span.page-numbers:nth-child(3n+1) {
+			margin-left: 0;
+		}
+		.comments-pagination-wrap a.prev,
+		.comments-pagination-wrap a.next, .wp-pagenavi span.pages {
+			margin-left: 0;
+		}
+		/* Breadcrumbs*/
+		.breadcrumbs .breadcrumbs-inner > a {
+			float: left;
+			margin-left: 0;
+			text-align: left;
+		}
+		.intro-text h1 {
+			float: none;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.contact-right-col {
+			margin-right: 0;
+		}
+		.contact-left-col {
+			margin-left: 0;
+		}
+	}
+/* ----------- Popdown section ----------- */
+#popdown-hide {
+	right: auto;
+	left: 0;
+}
+.trigger-wrap {
+	padding-left: 15px;
+}
+body.pop-trig-abso #popdown-trigger:after {
+	left: auto;
+	right: 15px;
+}
+#popdown-trigger h3 {
+	padding: 0 0 0 15px;
+}
+#popdown-trigger h3 i {
+	padding-left: 10px;
+}
+#popdown-trigger a.popdown-close {
+	right: auto;
+	left: 16px;
+}
+body.pop-trig-abso #popdown-trigger a.popdown-close {right: auto; left: -10px;}
+
+body.stretch-header #popdown-trigger {
+	left: auto;
+	right: 5px;
+}
+body.stretch-header.hide-top-head #popdown-trigger {
+	left: auto;
+	right: 5px;
+}
+/*fixes padding fix*/
+.dismissed .tophead-wrap,
+.dismissed .header-wrap {padding-left: 0!important;}
+.post .react-vote {
+	left: auto;
+	right: -70px;
+}
+/* ----------- Intro Vote ----------- */
+#intro .react-vote .count {
+	float: left;
+}
+#intro .react-vote {
+	float: right;
+	margin-right: 25px;
+	left: auto;
+	padding-right: 10px;
+	border-right: 1px solid #eee;
+}
+#intro span.post-like a {
+	float: right;
+}
+/* ----------- Price table plugin ----------- */
+
+.pricetable .pricetable-column {
+	float: right;
+}
+#ie7 .pricetable {
+	padding:0 0 0 1%;
+}
+.pricetable h4.pricetable-price {
+	text-align: left;
+	float: left;
+}
+/* ----------- Bottom of page box ----------- */
+#footer-logo-info-wrap {
+	left: auto;
+	right: 10px;
+	padding: 30px 35px 30px 50px;
+}
+@media only screen and (max-width: 500px) {
+	#footer-logo-info-wrap {
+	width: auto;
+	min-width: auto;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	}
+}
+#footer-logo-info-wrap:after {
+	left: auto;
+	right: 25px;
+}
+
+#close-footer-logo-info-wrap {
+	right: auto;
+	left: 7px;
+}
+/* ----------- Quform ----------- */
+.iphorm-group-row > .iphorm-element-wrap, .iphorm-group-row > .iphorm-group-wrap,
+.iphorm-group-alignment-left > .iphorm-group-elements > .iphorm-group-row > .iphorm-element-wrap, .iphorm-group-alignment-left > .iphorm-group-elements > .iphorm-group-row > .iphorm-group-wrap, .iphorm-errors-list > .iphorm-error, .iphorm-input-wrap-date-select-wrap, .iphorm-datepicker-icon, .ifb-captcha-image-inner, .iphorm-swfupload-browse, .iphorm-labels-left > .iphorm-element-spacer > label {
+	float: right;
+}
+.iphorm-theme-react-default .iphorm-submit-input-wrap, .iphorm-theme-react-default .iphorm-loading-wrap {
+	 float: right;
+}
+.iphorm-submit-wrap button {
+	margin: 0 0 0 5px;
+}
+.iphorm-labels-left.iphorm-element-wrap .iphorm-input-outer-wrap, .iphorm-labels-left.iphorm-element-wrap .iphorm-input-wrap, .iphorm-labels-left.iphorm-element-wrap .iphorm-captcha-image-wrap {
+	margin-left: 0;
+	margin-right: 150px;
+	padding-left: 0;
+	padding-right: 10px;
+}
+/* ----------- Visual composer ----------- */
+.wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon, .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	right: auto !important;
+	left: 0.7em !important;
+}
+
+.wpb_tour_next_prev_nav span.wpb_next_slide {
+	float: left !important;
+	text-align: left !important;
+}
+.wpb_tour_next_prev_nav span.wpb_prev_slide {
+	float: right !important;
+	text-align: right !important;
+}
+.wc-forward a:after, .wc-forward:after {
+	margin-right: 7px;
+}
+.wc-backward a:before, .wc-backward:before {
+	margin-left: 7px;
+}
+/* ----------- Woocommerce ----------- */
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message, .woocommerce-page .woocommerce-error, .woocommerce-page .woocommerce-info, .woocommerce-page .woocommerce-message {
+	padding: 1em 3.5em 1em 1em!important;
+	margin: 0 0 2em!important;
+}
+.woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before, .woocommerce-page .woocommerce-error:before, .woocommerce-page .woocommerce-info:before, .woocommerce-page .woocommerce-message:before {
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button, .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+	float: left;
+}
+.woocommerce .woocommerce-error .button:hover, .woocommerce .woocommerce-info .button:hover, .woocommerce .woocommerce-message .button:hover, .woocommerce-page .woocommerce-error .button:hover, .woocommerce-page .woocommerce-info .button:hover, .woocommerce-page .woocommerce-message .button:hover {
+	float: left;
+}
+.woocommerce #content div.product .single_variation_wrap p.price, .woocommerce #content div.product .single_variation_wrap span.price, .woocommerce div.product .single_variation_wrap p.price, .woocommerce div.product .single_variation_wrap span.price, .woocommerce-page #content div.product .single_variation_wrap p.price, .woocommerce-page #content div.product .single_variation_wrap span.price, .woocommerce-page div.product .single_variation_wrap p.price, .woocommerce-page div.product .single_variation_wrap span.price {
+	float: left;
+}
+.woocommerce #content div.product div.social, .woocommerce div.product div.social, .woocommerce-page #content div.product div.social, .woocommerce-page div.product div.social {
+	text-align: left;
+	margin: 0 0 1em;
+}
+.woocommerce #content div.product div.social span, .woocommerce div.product div.social span, .woocommerce-page #content div.product div.social span, .woocommerce-page div.product div.social span {
+	margin: 0 2px 0 0;
+}
+.woocommerce #content div.product div.social iframe, .woocommerce div.product div.social iframe, .woocommerce-page #content div.product div.social iframe, .woocommerce-page div.product div.social iframe {
+	float: right;
+}
+
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li a, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a {
+	float: right;
+	margin: 4px 0 0 2px;
+}
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:after {
+	margin-right: -7px;
+}
+
+.woocommerce #content div.product form.cart div.quantity, .woocommerce div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity {
+	float: right;
+	margin: 2px 0 5px 7px;
+}
+.woocommerce #content div.product form.cart .variations select, .woocommerce div.product form.cart .variations select, .woocommerce-page #content div.product form.cart .variations select, .woocommerce-page div.product form.cart .variations select {
+	float: right;
+}
+.woocommerce #content div.product form.cart .variations td.label, .woocommerce div.product form.cart .variations td.label, .woocommerce-page #content div.product form.cart .variations td.label, .woocommerce-page div.product form.cart .variations td.label {
+	padding-left: 1em;
+}
+.woocommerce #content div.product form.cart .button, .woocommerce div.product form.cart .button, .woocommerce-page #content div.product form.cart .button, .woocommerce-page div.product form.cart .button {
+	float: right;
+}
+.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale {
+	top: 0;
+	left: 0;
+	right: auto;
+	margin: 10px 0 0 10px;
+}
+.woocommerce.woocom-bxd  ul.products li.product .onsale, .woocommerce-page.woocom-bxd  ul.products li.product .onsale {
+	margin: 30px 0 0 30px;
+}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+	margin-right: 1%;
+	float: left;
+}
+.woocommerce #content nav.woocommerce-pagination ul, .woocommerce nav.woocommerce-pagination ul, .woocommerce-page #content nav.woocommerce-pagination ul, .woocommerce-page nav.woocommerce-pagination ul {
+	border-left: 0;
+}
+.woocommerce #content nav.woocommerce-pagination ul li, .woocommerce nav.woocommerce-pagination ul li, .woocommerce-page #content nav.woocommerce-pagination ul li, .woocommerce-page nav.woocommerce-pagination ul li {
+	float: right;
+	margin-left: 3px;
+}
+.woocommerce #content input.button.added:before, .woocommerce #respond input#submit.added:before, .woocommerce a.button.added:before, .woocommerce button.button.added:before, .woocommerce input.button.added:before, .woocommerce-page #content input.button.added:before, .woocommerce-page #respond input#submit.added:before, .woocommerce-page a.button.added:before, .woocommerce-page button.button.added:before, .woocommerce-page input.button.added:before {
+	left: -2px;
+}
+.woocommerce .products a.add_to_cart_button {
+	float: right;
+}
+.woocommerce #content .quantity input.qty, .woocommerce .quantity input.qty, .woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity input.qty {
+	float: right;
+	border: 1px solid #ddd;
+	border-left-width: 0;
+	border-left-style: none;
+}
+.woocommerce #content .quantity input[type=number], .woocommerce #content .quantity noindex:-o-prefocus, .woocommerce .quantity input[type=number], .woocommerce .quantity noindex:-o-prefocus, .woocommerce-page #content .quantity input[type=number], .woocommerce-page #content .quantity noindex:-o-prefocus, .woocommerce-page .quantity input[type=number], .woocommerce-page .quantity noindex:-o-prefocus {
+	padding-left: 1.2em;
+}
+.woocommerce #content .quantity .minus, .woocommerce #content .quantity .plus, .woocommerce .quantity .minus, .woocommerce .quantity .plus, .woocommerce-page #content .quantity .minus, .woocommerce-page #content .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page .quantity .plus {
+	left: 30px;
+}
+.woocommerce #content .quantity .plus, .woocommerce .quantity .plus, .woocommerce-page #content .quantity .plus, .woocommerce-page .quantity .plus {
+	left: 0;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.woocommerce #content .quantity .minus, .woocommerce .quantity .minus, .woocommerce-page #content .quantity .minus, .woocommerce-page .quantity .minus {
+	left: 30px;
+	border-left: 0 none;
+}
+.woocommerce #reviews h2 small, .woocommerce-page #reviews h2 small {
+	float: left;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar, .woocommerce-page #reviews #comments ol.commentlist li img.avatar {
+	float: right;
+	right: 0;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text, .woocommerce-page #reviews #comments ol.commentlist li .comment-text {
+	margin: 0 50px 0 0;
+}
+.woocommerce #reviews #comments ol.commentlist ul.children, .woocommerce-page #reviews #comments ol.commentlist ul.children {
+	margin: 20px 50px 0 0;
+}
+.woocommerce #reviews #comments ol.commentlist #respond, .woocommerce-page #reviews #comments ol.commentlist #respond {
+	padding: 1em 1em 0;
+	margin: 20px 50px 0 0;
+}
+.woocommerce #reviews #comments .commentlist>li:before, .woocommerce-page #reviews #comments .commentlist>li:before {
+	content: ""}
+.woocommerce .star-rating, .woocommerce-page .star-rating {
+	float: left;
+}
+.woocommerce .star-rating:before, .woocommerce-page .star-rating:before {
+	float: right;
+	top: 0;
+	right: 0;
+}
+.woocommerce .star-rating span, .woocommerce-page .star-rating span {
+	float: right;
+	right: 0;
+}
+.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before {
+	right: 0;
+}
+.woocommerce .woocommerce-product-rating, .woocommerce-page .woocommerce-product-rating {
+	line-height: 2em;
+	display: block;
+}
+.woocommerce .woocommerce-product-rating .star-rating, .woocommerce-page .woocommerce-product-rating .star-rating {
+	margin: .5em 0 0 4px;
+	float: right;
+}
+.woocommerce #review_form #respond .form-submit input, .woocommerce-page #review_form #respond .form-submit input {
+	right: auto;
+}
+.woocommerce p.stars a, .woocommerce-page p.stars a {
+	margin-left: 1em;
+	text-indent: -9999px;
+}
+.woocommerce p.stars a.star-1, .woocommerce p.stars a.star-2, .woocommerce p.stars a.star-3, .woocommerce p.stars a.star-4, .woocommerce p.stars a.star-5, .woocommerce-page p.stars a.star-1, .woocommerce-page p.stars a.star-2, .woocommerce-page p.stars a.star-3, .woocommerce-page p.stars a.star-4, .woocommerce-page p.stars a.star-5 {
+	border-left: 1px solid #eee;
+}
+.woocommerce p.stars a.star-1:after, .woocommerce p.stars a.star-2:after, .woocommerce p.stars a.star-3:after, .woocommerce p.stars a.star-4:after, .woocommerce p.stars a.star-5:after, .woocommerce-page p.stars a.star-1:after, .woocommerce-page p.stars a.star-2:after, .woocommerce-page p.stars a.star-3:after, .woocommerce-page p.stars a.star-4:after, .woocommerce-page p.stars a.star-5:after {
+	right: 0;
+}
+.woocommerce table.shop_table, .woocommerce-page table.shop_table {
+	margin: 0 0 24px -1px;
+	text-align: right;
+}
+.woocommerce table.my_account_orders .order-actions, .woocommerce-page table.my_account_orders .order-actions {
+	text-align: left;
+}
+.woocommerce td.product-name dl.variation dd, .woocommerce td.product-name dl.variation dt, .woocommerce-page td.product-name dl.variation dd, .woocommerce-page td.product-name dl.variation dt {
+	float: right;
+}
+.woocommerce td.product-name dl.variation dt, .woocommerce-page td.product-name dl.variation dt {
+	padding: 0 0 .25em;
+	margin: 0 0 0 4px;
+	clear: right;
+}
+.woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon .input-text {
+	float: right;
+	padding: 6px 6px 5px;
+	margin: 0 0 0 1%;
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img, .woocommerce-page ul.cart_list li img, .woocommerce-page ul.product_list_widget li img {
+	float: left;
+	margin-right: 4px;
+	width: 64px;
+	height: auto;
+}
+.woocommerce ul.cart_list li dl, .woocommerce ul.product_list_widget li dl, .woocommerce-page ul.cart_list li dl, .woocommerce-page ul.product_list_widget li dl {
+	padding-right: 1em;
+	border-right: 2px solid #eee;
+}
+.woocommerce ul.cart_list li dl dd, .woocommerce ul.cart_list li dl dt, .woocommerce ul.product_list_widget li dl dd, .woocommerce ul.product_list_widget li dl dt, .woocommerce-page ul.cart_list li dl dd, .woocommerce-page ul.cart_list li dl dt, .woocommerce-page ul.product_list_widget li dl dd, .woocommerce-page ul.product_list_widget li dl dt {
+	float: right;
+}
+.woocommerce ul.cart_list li dl dt, .woocommerce ul.product_list_widget li dl dt, .woocommerce-page ul.cart_list li dl dt, .woocommerce-page ul.product_list_widget li dl dt {
+	padding: 0 0 .25em;
+	margin: 0 0 0 4px;
+	clear: right;
+}
+.woocommerce .cart-collaterals .shipping_calculator .button, .woocommerce-page .cart-collaterals .shipping_calculator .button {
+	float: left;
+}
+.woocommerce .cart-collaterals .shipping_calculator h2, .woocommerce-page .cart-collaterals .shipping_calculator h2 {
+	margin: 20px 42px 20px 0;
+}
+.woocommerce .cart-collaterals .shipping_calculator h2 a:after, .woocommerce-page .cart-collaterals .shipping_calculator h2 a:after {
+	right: -42px;
+}
+
+.woocommerce .cart-collaterals .cart_totals table th, .woocommerce-page .cart-collaterals .cart_totals table th {
+	padding: 6px 0 0 12px;
+}
+.woocommerce form .form-row label.inline, .woocommerce-page form .form-row label.inline {
+	margin-right: 10px;
+}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register, .woocommerce-page form.checkout_coupon, .woocommerce-page form.login, .woocommerce-page form.register {
+	text-align: right;
+}
+.woocommerce ul#shipping_method li, .woocommerce-page ul#shipping_method li {
+	padding: .25em 22px .25em 0;
+	text-indent: -22px;
+}
+.woocommerce .checkout .col-2 h3#ship-to-different-address, .woocommerce-page .checkout .col-2 h3#ship-to-different-address {
+	float: right;
+	clear: none;
+}
+.woocommerce .checkout .col-2 .form-row-first, .woocommerce .checkout .col-2 .notes, .woocommerce-page .checkout .col-2 .form-row-first, .woocommerce-page .checkout .col-2 .notes {
+	clear: right;
+}
+.woocommerce .checkout div.shipping-address, .woocommerce-page .checkout div.shipping-address {
+	clear: right;
+	width: 100%}
+.woocommerce #payment ul.payment_methods, .woocommerce-page #payment ul.payment_methods {
+	text-align: right;
+}
+.woocommerce #payment ul.payment_methods li, .woocommerce-page #payment ul.payment_methods li {
+	text-align: right;
+}
+.woocommerce #payment ul.payment_methods li input, .woocommerce-page #payment ul.payment_methods li input {
+	margin: 0 0 0 1em;
+}
+.woocommerce #payment ul.payment_methods li img, .woocommerce-page #payment ul.payment_methods li img {
+	margin: -2px .5em 0 0;
+}
+.woocommerce .addresses .title .edit, .woocommerce-page .addresses .title .edit {
+	float: left;
+}
+.woocommerce ul.digital-downloads li .count, .woocommerce-page ul.digital-downloads li .count {
+	float: left;
+}
+.woocommerce .widget_layered_nav ul li a, .woocommerce .widget_layered_nav ul li span, .woocommerce-page .widget_layered_nav ul li a, .woocommerce-page .widget_layered_nav ul li span {
+	float: right;
+}
+.woocommerce .widget_layered_nav ul li.chosen a:before, .woocommerce-page .widget_layered_nav ul li.chosen a:before {
+	margin-left: 7px;
+}
+.woocommerce .widget_layered_nav ul small.count, .woocommerce-page .widget_layered_nav ul small.count {
+	float: left;
+	margin-right: 6px;
+}
+.woocommerce .widget_layered_nav_filters ul li, .woocommerce-page .widget_layered_nav_filters ul li {
+	float: right;
+	padding: 0 0 3px 3px;
+}
+.woocommerce .widget_layered_nav_filters ul li a, .woocommerce-page .widget_layered_nav_filters ul li a {
+	float: right;
+}
+.woocommerce .widget_layered_nav_filters ul li a:before, .woocommerce-page .widget_layered_nav_filters ul li a:before {
+	margin-left: 7px;
+}
+.woocommerce .widget_price_filter .price_slider_amount, .woocommerce-page .widget_price_filter .price_slider_amount {
+	text-align: left;
+}
+.woocommerce .widget_price_filter .price_slider_amount .button, .woocommerce-page .widget_price_filter .price_slider_amount .button {
+	float: right;
+}
+.woocommerce .widget_price_filter .ui-slider, .woocommerce-page .widget_price_filter .ui-slider {
+	text-align: right;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-state-hover.ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-state-hover.ui-slider-handle {
+	top: -1px;
+	margin-right: -1px;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle:last-child, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle:last-child {
+	margin-right: -14px;
+}
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range-min, .woocommerce-page .widget_price_filter .ui-slider-horizontal .ui-slider-range-min {
+	right: -1px;
+}
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range-max, .woocommerce-page .widget_price_filter .ui-slider-horizontal .ui-slider-range-max {
+	left: -1px;
+}
+.woocommerce #payment .terms, .woocommerce-page #payment .terms {
+	text-align: right;
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+	margin-right: 20px;
+}
+.woocommerce.page-template-template-note-block-php .col2-set .col-1, .woocommerce-page.page-template-template-note-block-php .col2-set .col-1,
+.woocommerce.page-template-template-note-block-php .col2-set .col-2, .woocommerce-page.page-template-template-note-block-php .col2-set .col-2 {
+	float: none;
+}
+
+
+.react-accordion > h3 {text-align: right;}
+.react-accordion > h3 {
+	margin: 2px 40px 0 0;
+	border-radius: 2px 0 0 2px;
+}
+.react-accordion > h3 span.react-acc-icon {
+	left: auto;
+	right: -40px;
+	border-radius: 0 2px 2px 0;
+}
+.react-accordion > h3 span.react-acc-icon i,
+.react-accordion > h3:hover span.react-acc-icon i  {
+	left: auto;
+	right: 0;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-0-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+.react-accordion > h3.react-active span.react-acc-icon i {
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-0-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+/*variations*/
+.react-accordion.react-med > h3 {
+	margin-left: 0;
+	margin-right: 50px;
+}
+.react-accordion.react-med  > h3 span.react-acc-icon {
+	left: auto;
+	right: -50px;
+}
+.react-accordion.react-lrg > h3 {
+	margin-left: 0;
+	padding-left: 10px;
+	margin-right: 80px;
+	padding-right: 15px;
+}
+.react-accordion.react-lrg > h3 span.react-acc-icon {
+	left: auto;
+	right: -80px;
+}

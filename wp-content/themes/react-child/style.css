@@ -1,0 +1,109 @@
+/*
+Theme Name: React Child
+Template: react
+Theme URI: http://react.themecatcher.net/
+Description: React Child Theme
+Version: 1.0.1
+Author: ThemeCatcher
+Author URI: http://www.themecatcher.net/
+License: ThemeForest Standard License (Split License)
+License URI: http://themeforest.net/licenses/standard
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-menu, featured-images, rtl-language-support, theme-options, translation-ready
+Text Domain: react
+*/
+
+.top-head-menu {
+    float: right;
+}
+/********
+ Woocommerce product archive
+ ********/
+
+.woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img, .woocommerce ul.products li.product a:hover img, .woocommerce-page ul.products li.product a:hover img{
+    border-bottom: none;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
+    font-size: 1.1em;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+.woocommerce .products a.add_to_cart_button, .woocommerce .products a.button{
+    display: none;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title{
+    border: none;
+    text-align: left;
+}
+.woocommerce ul.products li.product .price span.amount, .woocommerce-page ul.products li.product .price span.amount {
+    color: #111;
+    font-size: 1.1em;
+}
+.woocommerce ul.products li.product:hover .woocommerce-loop-product__title, .woocommerce-page ul.products li.product:hover .woocommerce-loop-product__title, .woocommerce .woocommerce-review-link:hover, .woocommerce-page .woocommerce-review-link:hover {
+        color: #949494;
+}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{
+    color: #111;
+    position: relative;
+    background: none;
+    left: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.woocommerce ul.products li.product .price:after, .woocommerce-page ul.products li.product .price:after{
+    display: none;
+}
+.woocommerce ul.products li.product:hover .price, .woocommerce-page ul.products li.product:hover .price {
+    background: none;
+    color: #949494;
+
+}
+
+/********
+ Woocommerce product options
+ ********/
+.product-options{
+    pointer-events: none;
+}
+.product-options-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    
+}
+.woocommerce .products .star-rating, .woocommerce-page .products .star-rating{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.product-thumbnail-image{
+    position: relative;
+    overflow: hidden;
+    transition: opacity linear 0.1s, height ease-in-out 0.2s;
+}
+.product-options{
+    width: 100%;
+    height: 0%;
+    background-color: #00000061;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    opacity: 0;
+    transition: opacity linear 0.1s, height ease-in-out 0.2s;
+}
+.product-thumbnail-image:hover .product-options{
+    height: 100%;
+    opacity: 1;
+}
+/********
+ Buttons
+ ********/
+.btn.view-product{
+    padding: 10px 20px;
+    border: 3px solid #fff;
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 600;
+}
