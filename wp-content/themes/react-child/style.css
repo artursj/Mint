@@ -15,6 +15,9 @@ Text Domain: react
 .top-head-menu {
     float: right;
 }
+#header, #intro{
+    border: none;
+}
 /********
  Woocommerce product archive
  ********/
