@@ -15,7 +15,7 @@ Text Domain: react
 .top-head-menu {
     float: right;
 }
-#header, #intro{
+#header, .intro-inner-helper{
     border: none;
 }
 /********
@@ -100,12 +100,29 @@ Text Domain: react
     height: 100%;
     opacity: 1;
 }
+/**
+ Single product
+**/
+.woocommerce ul.wc-tabs{
+    width: 100%;
+    float: none;
+    padding: 10px 10px !important;
+    background-color: #fff;
+    border: none;
+}
+#woocommerce-product-data ul.wc-tabs li a::before, .woocommerce ul.wc-tabs li a::before{
+    content: none;
+}
+#woocommerce-product-data ul.wc-tabs::after, .woocommerce ul.wc-tabs::after{
+    background-color: #fff;
+    border: none;
+}
 /********
  Buttons
  ********/
 .btn.view-product{
     padding: 10px 20px;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     color: #FFF;
     font-size: 1.1em;
     font-weight: 600;
