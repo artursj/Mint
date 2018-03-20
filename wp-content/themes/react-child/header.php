@@ -60,8 +60,9 @@ if ( ! defined('ABSPATH')) {
 		<?php react_slider(); ?>
 
 		<div class="after-header-wrap clearfix">
-
-			<?php do_action('react_after_header'); ?>
+			<?php if (!is_product()){ ?>
+				<?php do_action('react_after_header'); ?>
+			<?php } ?>
 
 			<div class="<?php echo esc_attr(react_sanitize_class(react_content_class('content-outer clearfix'))); ?>"<?php echo react_get_parallax_data('content'); ?>>
 				<div class="content-inner-helper clearfix"><div class="content-inner clearfix">

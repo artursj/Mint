@@ -18,6 +18,24 @@ Text Domain: react
 #header, .intro-inner-helper{
     border: none;
 }
+.content-outer{
+    border: none;
+}
+.im-woocart-count{
+    background-color: #11c2cd;
+    color: #ffffff;
+}
+.im-woocart-count-outer{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.info-menu .im-split.info-menu-ul>li{
+    border: none;
+}
+.split-nav .method, .split-nav ul.react-menu>li:not(.button-nav)>a{
+    border: none;
+}
 /********
  Woocommerce product archive
  ********/
@@ -103,6 +121,47 @@ Text Domain: react
 /**
  Single product
 **/
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images{
+    float: none;
+    width: 100%;
+}
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    float: left;
+    width: 42%;
+    border: none;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #fafafa;
+}
+.product-description {
+    width: 56%;
+    display: inline-block;
+    padding-top: 40px;
+    margin-top: 40px;
+    padding: 20px 30px;
+    
+}
+.woocommerce #content div.product div.images img, .woocommerce div.product div.images img, .woocommerce-page #content div.product div.images img, .woocommerce-page div.product div.images img{
+    border: none;
+    height: 400px;
+    width: auto;
+}
+.woocommerce #content div.product .product_title, .woocommerce div.product .product_title, .woocommerce-page #content div.product .product_title, .woocommerce-page div.product .product_title{
+    border: none;
+    padding: 0;
+}
+.woocommerce #content div.product .summary p.price, .woocommerce div.product .summary p.price, .woocommerce-page #content div.product .summary p.price, .woocommerce-page div.product .summary p.price{
+    background-color: #fafafa;
+    color: #000;
+    font-size: 1.3em;
+    position: relative;
+    transform: translate(0, 0);
+    padding: 0;
+}
+.woocommerce #content div.product .summary p.price:after, .woocommerce div.product .summary p.price:after, .woocommerce-page #content div.product .summary p.price:after, .woocommerce-page div.product .summary p.price:after{
+    display: none;
+}
 .woocommerce ul.wc-tabs{
     width: 100%;
     float: none;
@@ -110,6 +169,33 @@ Text Domain: react
     background-color: #fff;
     border: none;
 }
+.product-gallery-container {
+    width: auto;
+    height: 100%;
+}
+.product-gallery-container .swiper-wrapper{
+    width: auto;
+    height: 400px;
+}
+.product-gallery-container  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: auto;
+  }
 #woocommerce-product-data ul.wc-tabs li a::before, .woocommerce ul.wc-tabs li a::before{
     content: none;
 }

@@ -772,14 +772,14 @@ function react_get_styles()
 			'deps' => array(),
 			'version' => '1.1.1'
 		),
-		'fancybox2' => array( // http://fancyapps.com/fancybox/
-			'name' => 'Fancybox 2',
-			'tooltip' => esc_html__('Used by several theme features to create a lightbox popup', 'react'),
-			'url' => react_url('css/jquery.fancybox.min.css'),
-			'path' => REACT_DIR . '/css/jquery.fancybox.min.css',
-			'deps' => array(),
-			'version' => '2.1.5'
-		),
+		//'fancybox2' => array( // http://fancyapps.com/fancybox/
+		//	'name' => 'Fancybox 2',
+		//	'tooltip' => esc_html__('Used by several theme features to create a lightbox popup', 'react'),
+		//	'url' => react_url('css/jquery.fancybox.min.css'),
+		//	'path' => REACT_DIR . '/css/jquery.fancybox.min.css',
+		//	'deps' => array(),
+		//	'version' => '2.1.5'
+		//),
 		'qtip2' => array( // http://qtip2.com/
 			'name' => 'qTip2',
 			'tooltip' => esc_html__('Used for displaying tooltips, you are looking at one :)', 'react'),
@@ -892,15 +892,15 @@ function react_get_scripts()
 			'version' => '1.3',
 			'footer' => true
 		),
-		'fancybox2' => array( // http://fancyapps.com/fancybox/
-			'name' => 'Fancybox 2',
-			'tooltip' => esc_html__('Used by several theme features to create a lightbox popup', 'react'),
-			'url' => react_url('js/fancybox2/jquery.fancybox.pack.js'),
-			'path' => REACT_DIR . '/js/fancybox2/jquery.fancybox.pack.js',
-			'deps' => array('jquery'),
-			'version' => '2.1.5',
-			'footer' => true
-		),
+		//'fancybox2' => array( // http://fancyapps.com/fancybox/
+		//	'name' => 'Fancybox 2',
+		//	'tooltip' => esc_html__('Used by several theme features to create a lightbox popup', 'react'),
+		//	'url' => react_url('js/fancybox2/jquery.fancybox.pack.js'),
+		//	'path' => REACT_DIR . '/js/fancybox2/jquery.fancybox.pack.js',
+		//	'deps' => array('jquery'),
+		//	'version' => '2.1.5',
+		//	'footer' => true
+		//),
 		'jquery-throttle-debounce' => array( // https://github.com/cowboy/jquery-throttle-debounce
 			'name' => 'jQuery Throttle Debounce',
 			'tooltip' => esc_html__('Used to reduce the browser workload by throttling function calls', 'react'),

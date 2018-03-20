@@ -2939,19 +2939,19 @@ function react_slider($position = 'belowhead')
 }
 endif;
 
-if (!function_exists('react_dequeue_quform_fancybox')) :
-/**
- * Dequeue fancybox style from the Quform plugin and use the built-in Fancybox2 instead
- */
-function react_dequeue_quform_fancybox()
-{
-	if (function_exists('iphorm')) {
-		wp_dequeue_style('iphorm-fancybox');
-		wp_dequeue_script('fancybox');
-	}
-}
-endif;
-add_action('wp_enqueue_scripts', 'react_dequeue_quform_fancybox');
+//if (!function_exists('react_dequeue_quform_fancybox')) :
+///**
+// * Dequeue fancybox style from the Quform plugin and use the built-in Fancybox2 instead
+// */
+//function react_dequeue_quform_fancybox()
+//{
+//	if (function_exists('iphorm')) {
+//		wp_dequeue_style('iphorm-fancybox');
+//		wp_dequeue_script('fancybox');
+//	}
+//}
+//endif;
+//add_action('wp_enqueue_scripts', 'react_dequeue_quform_fancybox');
 
 if (!function_exists('react_get_attachment_caption')) :
 /**

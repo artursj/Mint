@@ -29,8 +29,8 @@ function react_manage_woocommerce_styles() {
 	if ( function_exists( 'is_woocommerce' ) ) {
 		//dequeue scripts and styles
 		if ( ! is_woocommerce() && ! is_cart() && ! is_checkout() ) {
-			wp_dequeue_style( 'woocommerce_frontend_styles' );
-			wp_dequeue_style( 'woocommerce_fancybox_styles' );
+			//wp_dequeue_style( 'woocommerce_frontend_styles' );
+				//wp_dequeue_style( 'woocommerce_fancybox_styles' );
 			wp_dequeue_style( 'woocommerce_chosen_styles' );
 			wp_dequeue_script( 'wc_price_slider' );
 			wp_dequeue_script( 'wc-single-product' );
@@ -42,7 +42,7 @@ function react_manage_woocommerce_styles() {
 			wp_dequeue_script( 'woocommerce' );
 			wp_dequeue_script( 'jquery-blockui' );
 			wp_dequeue_script( 'jquery-placeholder' );
-			wp_dequeue_script( 'fancybox' );
+			//wp_dequeue_script( 'fancybox' );
 			wp_dequeue_script( 'jqueryui' );
 		} else {
 			wp_enqueue_script('select2buttons', react_url('js/select2buttons.js'), array('jquery'), '1.0.1', true);
@@ -122,7 +122,6 @@ add_filter('react_intro_subtitle', 'react_woocommerce_intro_subtitle');
 add_filter('woocommerce_show_page_title', '__return_false');
 
 // Remove single product titles
-remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
 
 if (function_exists('wc_get_page_id')) {
 	/**

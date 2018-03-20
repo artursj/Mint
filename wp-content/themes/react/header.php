@@ -64,7 +64,7 @@ if ( ! defined('ABSPATH')) {
 			<?php do_action('react_after_header'); ?>
 
 			<div class="<?php echo esc_attr(react_sanitize_class(react_content_class('content-outer clearfix'))); ?>"<?php echo react_get_parallax_data('content'); ?>>
-				<div class="content-inner-helper clearfix"><div class="content-inner clearfix">
+				<div class="content-inner-helper clearfix">Hello<div class="content-inner clearfix">
 
 					<?php do_action('react_before_content_style'); ?>
 
