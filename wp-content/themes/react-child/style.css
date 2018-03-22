@@ -213,3 +213,57 @@ Text Domain: react
     font-size: 1.1em;
     font-weight: 600;
 }
+/************
+ * Swiper home gallery
+ ************/
+.section-home-gallery{
+    position: relative;
+}
+.home .home-swiper-container .swiper-container{
+    height: 600px;
+}
+.home .swiper-button-next, .home .swiper-button-prev {
+    transform: translateY(-50%);
+    background-image: none;
+        
+}
+.home .swiper-button-next p, .home .swiper-button-prev p{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+.home .swiper-button-next i, .home .swiper-button-prev i{
+    font-size: 3em;
+}
+.home .swiper-button-next{
+    right: -50px;
+    background-image:
+}
+.home .swiper-button-prev{
+    left: -90px;
+}
+.home .swiper-slide{
+    max-height: 700px;
+    overflow: hidden;
+}
+.home .content-wrapper .swiper-slide img{
+    width: 100%;
+}
+.home .content-wrapper .swiper-pagination {
+    position: relative;
+    text-align: right;
+}
+
+.annotation-container p{
+    width: 80%;
+    font-size: 1.1em;
+}
+.swiper-pagination-bullet-active {
+    background: #4c4c4c;
+}
+@media (max-width: 768px){
+    .home .swiper-button-next, .home .swiper-button-prev{
+        display: none;
+    }
+    
+}

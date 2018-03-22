@@ -593,11 +593,11 @@ h3{
     font-size: 3em;
 }
 .home .swiper-button-next{
-    right: 60px;
+    right: -50px;
     background-image:
 }
 .home .swiper-button-prev{
-    left: 60px;
+    left: 110px;
 }
 .home .swiper-slide{
     max-height: 700px;

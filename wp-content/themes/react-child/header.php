@@ -60,7 +60,7 @@ if ( ! defined('ABSPATH')) {
 		<?php react_slider(); ?>
 
 		<div class="after-header-wrap clearfix">
-			<?php if (!is_product()){ ?>
+			<?php if (is_archive()){ ?>
 				<?php do_action('react_after_header'); ?>
 			<?php } ?>
 
