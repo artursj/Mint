@@ -22,7 +22,7 @@ class WC_PaysonCheckout_Process_Order_Lines {
 	 * @return array $order_lines
 	 */
 	public function get_order_lines( $order_id = false ) {
-		if ( $order_id ) {
+		if ( $order_id && isset( $_GET['pay_for_order'] ) )  {
 			return $this->get_order_lines_from_order( $order_id );
 		} else {
 			return $this->get_order_lines_from_cart();
@@ -110,16 +110,18 @@ class WC_PaysonCheckout_Process_Order_Lines {
 		// Process order lines.
 		if ( count( WC()->cart->cart_contents ) > 0 ) {
 			foreach ( WC()->cart->cart_contents as $cart_item_key => $cart_item ) {
+				
 				$_product      = apply_filters( 'woocommerce_cart_item_product', $cart_item['data'], $cart_item, $cart_item_key );
 				$product_name  = $this->get_product_name( $_product, $cart_item, true );
 				$product_price = ( $cart_item['line_total'] + $cart_item['line_tax'] ) / $cart_item['quantity'];
 				$qty           = $cart_item['quantity'];
 				$sku           = $this->get_item_reference( $_product );
-				if( 0 === $cart_item['line_total'] ) {
+				if( 0 == $cart_item['line_total'] || 0 == $cart_item['line_tax'] ) {
 					$vat = 0.0;
 				} else {
 					$vat = round( $cart_item['line_tax'] / $cart_item['line_total'], 2 );
 				}
+							
 				$permalink     = get_permalink( $_product->get_id() );
 				$image         = $_product->get_image_id() ? wp_get_attachment_url( $_product->get_image_id() ) : null;
 				$pay_data->AddOrderItem( new PaysonEmbedded\OrderItem(

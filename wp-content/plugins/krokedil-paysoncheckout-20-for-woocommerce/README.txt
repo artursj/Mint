@@ -2,12 +2,12 @@
 Contributors: krokedil, niklashogefjord
 Tags: ecommerce, e-commerce, woocommerce, payson, paysoncheckout2.0
 Requires at least: 4.3
-Tested up to: 4.8.1
-Requires WooCommerce at least: 2.5
-Tested WooCommerce up to: 3.1.2
+Tested up to: 4.9.5
+WC requires at least: 3.0
+WC tested up to: 3.3.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Stable tag: 1.1.9
+Stable tag: trunk
 
 PaysonCheckout 2.0 for WooCommerce is a plugin that extends WooCommerce, allowing you to take payments via Payson.
 
@@ -36,6 +36,57 @@ More information on how to get started can be found in the [plugin documentation
 
 
 == CHANGELOG ==
+
+= 2018.05.15    - version 1.3.1 =
+* Tweak			- Only make merchant account validation request to Payson on PaysonCheckout 2.0 settings page.
+* Fix			- Don’t display Payson as an available payment method if cart total is too low (below 4 SEK or 0 EUR).
+* Fix			- Save customer order note correctly when processing WC checkout/order.
+
+= 2018.05.04    - version 1.3.0 =
+* Feature       - Added support for handling payments of manually created orders (via Pay for order page).
+* Tweak         - Save _payson_checkout_id to WC order in thank you page if it hasn't been saved earlier. 
+
+= 2018.04.09    - version 1.2.3 =
+* Tweak			- Change priority to 999 for filter woocommerce_locate_template so that PaysonCheckout template file doesn't get overwritten by other plugins/themes.
+* Fix			- Changed text domain for "Select another payment method" label so it uses translation files in plugin.
+
+= 2018.04.05    - version 1.2.2 =
+* Tweak         - Improved error logging/handling.
+* Tweak         - Display error message in checkout if Payson iframe doesnt load.
+* Fix           - Unset payson_checkout_id session if communication error happens.
+
+= 2018.04.05    - version 1.2.1 =
+* Fix           - Refer to self in static function to avoid issues when processing order in WooCommerce checkout. 
+* Fix           - Logging improvements.
+* Tweak         - Don't rely on session data in thank you page when trigger payment_complete().
+
+= 2018.03.23    - version 1.2.0 =
+* Feature       - Use template file for displaying Payson Checkout. Making it possible to overwrite via theme.
+* Tweak         - Make initial call to Payson before the checkout page is rendered. Reusluts in a faster loading Payson Checkout iframe.
+* Tweak         - Submit WC checkout form when purchase is finalized in Payson iframe. Making it possible to save more order/cart data.
+* Tweak         - Pause and resume current iframe on update_checkout event instead of re-rendering the html/iframe.
+* Tweak         - Logging improvements.
+* Tweak         - Schedule readyToShip notification callback to be executed in WC 2 minutes after purchase. For better order status control.
+* Fix           - Avoid order status updates to be executed in a way so that new order email is missing customer address data.
+
+= 2018.02.18    - version 1.1.14 =
+* Fix			- WC 3.3 switch payment method bug fix (not being able to switch from Payson to other gateway).
+* Fix			- Flatesome theme css compatibility fix.
+
+= 2017.12.06    - version 1.1.13 =
+* Tweak			- Save order after adding customer data in ready to ship callback.
+
+= 2017.12.06    - version 1.1.12 =
+* Fix			- Re-add possibility to send items to Payson with price set to 0. 
+* Fix           - Only include Krokedil compatibility functions if they don't already exist (compat w other plugins).
+
+
+= 2017.11.22	- version 1.1.11 =
+* Fix			- Don’t send items to Payson with price set to 0. Product Bundles compatibility fix.
+* Tweak			- Improved logging.
+
+= 2017.10.09    - version 1.1.10 =
+* Fix			- Only delete WC order on expired callback from Payson if WC order has status payson-incomplete.
 
 = 2017.09.29   	- version 1.1.9 =
 * Fix           - Changed how we get the name of fees from $fee->label to $fee->name.

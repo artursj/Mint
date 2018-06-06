@@ -7,4 +7,5 @@ if ( ! defined('ABSPATH')) {
 }
 
 // Load the theme
+
 require_once get_template_directory() . '/includes/framework.php';

@@ -96,9 +96,7 @@ class WC_PaysonCheckout_WC_Order {
 		$order_data = array(
 			'status'      => apply_filters( 'payson_checkout_incomplete_order_status', 'payson-incomplete' ),
 			'customer_id' => $customer_id,
-			'created_via' => 'payson_checkout',
 		);
-
 		// Create the order.
 		$order = wc_create_order( $order_data );
 		if ( is_wp_error( $order ) ) {
@@ -285,6 +283,7 @@ class WC_PaysonCheckout_WC_Order {
 		WC()->cart->calculate_totals();
 
 		$order->calculate_totals();
+		$order->save();
 	}
 	public function add_order_customer_note( $order ) {
 		if ( WC()->session->get( 'payson_customer_order_note' ) ) {

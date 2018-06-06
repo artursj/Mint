@@ -33,13 +33,19 @@ class WC_PaysonCheckout {
 			$this,
 			'payson_incomplete_payment_complete'
 		) );
+		
 		// Send customer and merchant emails for Payson Incomplete > Processing status change
 		add_filter( 'woocommerce_email_actions', array( $this, 'wc_add_payson_incomplete_email_actions' ) );
 		add_action( 'woocommerce_order_status_payson-incomplete_to_processing_notification', array(
 			$this,
 			'wc_payson_incomplete_trigger'
 		) );
+
+		add_filter( 'woocommerce_checkout_fields', array( $this, 'unrequire_fields' ), 99 );
+		add_filter( 'woocommerce_checkout_posted_data', array( $this, 'unrequire_posted_data' ), 99 );
+
 	}
+
 
 	/**
 	 * Register Payson Incomplete order status
@@ -123,6 +129,43 @@ class WC_PaysonCheckout {
 				$payson_mail->trigger( krokedil_get_order_id( $order ) );
 			}
 		}
+	}
+
+	/**
+	 * When checking out using Payson Checkout, we need to make sure none of the WooCommerce are required, in case Payson
+	 * does not return info for some of them.
+	 *
+	 * @param array $fields WooCommerce checkout fields.
+	 *
+	 * @return mixed
+	 */
+	public function unrequire_fields( $fields ) {
+		if ( 'paysoncheckout' === WC()->session->get( 'chosen_payment_method' ) ) {
+			foreach ( $fields as $fieldset_key => $fieldset ) {
+				foreach ( $fieldset as $key => $field ) {
+					$fields[ $fieldset_key ][ $key ]['required']        = '';
+					$fields[ $fieldset_key ][ $key ]['wooccm_required'] = '';
+				}
+			}
+		}
+		return $fields;
+	}
+	/**
+	 * Makes sure there's no empty data sent for validation.
+	 *
+	 * @param array $data Posted data.
+	 *
+	 * @return mixed
+	 */
+	public function unrequire_posted_data( $data ) {
+		if ( 'paysoncheckout' === WC()->session->get( 'chosen_payment_method' ) ) {
+			foreach ( $data as $key => $value ) {
+				if ( '' === $value ) {
+					unset( $data[ $key ] );
+				}
+			}
+		}
+		return $data;
 	}
 
 }

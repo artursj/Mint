@@ -67,6 +67,9 @@ function init_wc_gateway_paysoncheckout_class() {
 			// Thank you page.
 			add_filter( 'woocommerce_thankyou_order_received_text', array( $this, 'payson_thankyou_order_received_text' ), 10, 2 );
 			add_action( 'woocommerce_thankyou_paysoncheckout', array( $this, 'payson_thankyou' ) );
+
+			// Change the title when processing the WooCommerce order in checkout
+			add_filter( 'the_title', array( $this, 'confirm_page_title' ) );
 		}
 
 		/**
@@ -99,6 +102,13 @@ function init_wc_gateway_paysoncheckout_class() {
 					if ( ! $this->merchant_id || ! $this->api_key ) {
 						return false;
 					}
+					// Don't display the payment method if we have an order with to low amount
+					if( WC()->cart->total < 4 && 'SEK' == get_woocommerce_currency() ) {
+						return false;
+					}
+					if( WC()->cart->total == 0 && 'EUR' == get_woocommerce_currency() ) {
+						return false;
+					}
 				}
 
 				return true;
@@ -118,6 +128,14 @@ function init_wc_gateway_paysoncheckout_class() {
 			$icon_html  = '<img src="' . $icon_src . '" alt="PaysonCheckout 2.0" style="max-width:' . $icon_width . 'px"/>';
 
 			return apply_filters( 'wc_payson_icon_html', $icon_html );
+		}
+
+		public function process_payment( $order_id ) {
+			$order = wc_get_order( $order_id );
+			return array(
+				'result'   => 'success',
+				'redirect' => $this->get_return_url( $order ),
+			);
 		}
 
 		/**
@@ -140,34 +158,54 @@ function init_wc_gateway_paysoncheckout_class() {
 		 * Add PaysonCheckout iframe to thankyou page.
 		 */
 		public function payson_thankyou( $order_id ) {
-			if ( $_GET['paysonorder'] ) {
-
+			$payson_id 	= get_post_meta( $order_id, '_payson_checkout_id', true );
+			
+			// If the _payson_checkout_id hasn't been saved yet, try to get it from thankyou page url
+			if( empty( $payson_id ) && isset( $_GET['paysonorder'] ) ) {
+				$payson_id = sanitize_text_field( $_GET['paysonorder'] );
+				update_post_meta( $order_id, '_payson_checkout_id', $payson_id );
+			}
+				
+			if ( $payson_id ) {
+				
+				WC_Gateway_PaysonCheckout::log('payson_thankyou page hit for payson_checkout_id ' . $payson_id . ' (order ID ' . $order_id . ').' );
 				remove_action( 'woocommerce_thankyou', 'woocommerce_order_details_table', 10 );
 				include_once( PAYSONCHECKOUT_PATH . '/includes/class-wc-paysoncheckout-setup-payson-api.php' );
 				$payson_api = new WC_PaysonCheckout_Setup_Payson_API();
-				$checkout   = $payson_api->get_notification_checkout( $_GET['paysonorder'] );
+				$checkout   = $payson_api->get_notification_checkout( $payson_id );
+				$order = wc_get_order( $order_id );
 
 				if ( 'canceled' === $checkout->status ) {
-					WC()->session->__unset( 'payson_checkout_id' );
-					WC()->session->__unset( 'ongoing_payson_order' );
 
 					wc_add_notice( __( 'Order was cancelled.', 'woocommerce-gateway-paysoncheckout' ), 'error' );
 					wp_safe_redirect( wc_get_cart_url() );
+				
 				} else {
-					WC_Gateway_PaysonCheckout::log( 'Posted checkout info in thank you page: ' . var_export( $checkout, true ) );
 
 					if ( 'readyToShip' === $checkout->status ) {
-						$order = wc_get_order( $order_id );
-						$payson_response_handler = new WC_PaysonCheckout_Response_Handler();
-						$payson_response_handler->ready_to_ship_cb( $order, $checkout );
+						
+						if ( is_object( $order ) && ! $order->has_status( array( 'on-hold', 'processing', 'completed' ) ) ) {
+							// Add Payson order status.
+							update_post_meta( $order_id, '_paysoncheckout_order_status', $checkout->status );
+							$order->add_order_note( __( 'Thankyou page hit.', 'woocommerce-gateway-paysoncheckout' ) );
+							// Payment complete
+							$order->payment_complete( $checkout->purchaseId );
+						} else {
+							WC_Gateway_PaysonCheckout::log('payson_thankyou page hit for order ID ' . $order_id . ' but orderstatus already set to On hold, Processing or Completed.' );
+						}
 					}
 
 					echo '<div class="paysoncheckout-container" style="width:100%; margin-left:auto; margin-right:auto;">';
 					echo $checkout->snippet;
 					echo '</div>';
-					WC()->session->__unset( 'payson_checkout_id' );
-					WC()->session->__unset( 'ongoing_payson_order' );
+					
 				}
+
+				// Unset sessions
+				wc_payson_unset_sessions();
+
+			} else {
+				WC_Gateway_PaysonCheckout::log('payson_thankyou page hit but _payson_checkout_id does not exist in order ID ' . $order_id );
 			}
 		}
 
@@ -255,17 +293,78 @@ function init_wc_gateway_paysoncheckout_class() {
 			if ( is_checkout() ) {
 				$theme            = wp_get_theme();
 				$theme_name       = $theme->name;
+
+				if( WC()->session->get( 'payson_checkout_id' ) ) {
+					$checkout_initiated = 'yes';
+				} else {
+					$checkout_initiated = 'no';
+				}
+				if( isset( $_GET['payson_payment_successful'] ) && '1' == $_GET['payson_payment_successful'] ) {
+					$payment_successful = '1';
+				} else {
+					$payment_successful = '0';
+				}
+
+				if( isset( $_GET['pay_for_order'] ) && 'true' == $_GET['pay_for_order'] ) {
+					$pay_for_order = 'yes';
+				} else {
+					$pay_for_order = 'no';
+				}
+
 				wp_register_script( 'wc_paysoncheckout', PAYSONCHECKOUT_URL . '/assets/js/paysoncheckout.js', array( 'jquery' ), PAYSONCHECKOUT_VERSION, true );
 				wp_localize_script( 'wc_paysoncheckout', 'wc_paysoncheckout', array(
-					'ajax_url'                   => admin_url( 'admin-ajax.php' ),
-					'select_another_method_text' => __( 'Select another payment method', 'woocommerce-gateway-paysoncheckout' ),
-					'debug'                      => $this->debug,
-					'wc_payson_checkout_nonce'   => wp_create_nonce( 'wc_payson_checkout_nonce' )
+					'ajax_url'                   	=> admin_url( 'admin-ajax.php' ),
+					'select_another_method_text' 	=> __( 'Select another payment method', 'woocommerce-gateway-paysoncheckout' ),
+					'checkout_initiated'			=> $checkout_initiated,
+					'payment_successful'			=> $payment_successful,
+					'pay_for_order'					=> $pay_for_order,
+					'debug'                      	=> $this->debug,
+					'wc_payson_checkout_nonce'   	=> wp_create_nonce( 'wc_payson_checkout_nonce' )
 				) );
 				wp_enqueue_script( 'wc_paysoncheckout' );
 				wp_register_style( 'wc_paysoncheckout', PAYSONCHECKOUT_URL . '/assets/css/paysoncheckout.css', array(), PAYSONCHECKOUT_VERSION );
 				wp_enqueue_style( 'wc_paysoncheckout' );
+				
+				// Hide the Order overview data on thankyou page if it's a Collector Checkout purchase
+				if( '1' == $payment_successful ) {
+					$custom_css = "
+					form.woocommerce-checkout,
+					.woocommerce-info {
+									display: none;
+								}";
+					wp_add_inline_style( 'wc_paysoncheckout', $custom_css );
+				}
 			}
+		}
+
+		/**
+		 * Filter Checkout page title in confirmation page.
+		 *
+		 * @param $title
+		 *
+		 * @return string
+		 */
+		public function confirm_page_title( $title ) {
+			if ( ! is_admin() && is_main_query() && in_the_loop() && is_page() && is_checkout() && isset( $_GET['payson_payment_successful'] ) && 1 == $_GET['payson_payment_successful'] ) {
+				$title = __( 'Please wait while we process your order.', 'woocommerce-gateway-paysoncheckout' );
+			}
+			return $title;
+		}
+
+		/**
+		 * Payment form on checkout page
+		 */
+		public function payment_fields() {
+			$description = $this->get_description();
+			if ( $description ) {
+				echo wpautop( wptexturize( $description ) ); // @codingStandardsIgnoreLine.
+			}
+			
+			// Display the PaysonCheckout iframe if this is a pay for order page
+			if( isset( $_GET['pay_for_order'] ) && 'true' == $_GET['pay_for_order'] ) {
+				wc_payson_show_snippet();
+			}
+
 		}
 
 	}

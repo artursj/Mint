@@ -20,6 +20,7 @@ class WC_PaysonCheckout_Response_Handler {
 	public function __construct() {
 		// Notification listener.
 		add_action( 'woocommerce_api_wc_gateway_paysoncheckout', array( $this, 'notification_listener' ) );
+		add_action( 'payson_ready_to_ship_notification', array( $this, 'ready_to_ship_cb' ), 10, 2 );
 	}
 
 	/**
@@ -32,17 +33,14 @@ class WC_PaysonCheckout_Response_Handler {
 		$payson_api = new WC_PaysonCheckout_Setup_Payson_API();
 		$checkout   = $payson_api->get_notification_checkout( $_GET['checkout'] );
 
-		WC_Gateway_PaysonCheckout::log( 'Posted notification info: ' . var_export( $checkout, true ) );
+		//WC_Gateway_PaysonCheckout::log( 'Posted notification info: ' . var_export( $checkout, true ) );
 
 		$order = wc_get_order( $_GET['wc_order'] );
-
-		WC_Gateway_PaysonCheckout::log( 'Posted reference: ' . $checkout->merchant->reference );
-		WC_Gateway_PaysonCheckout::log( 'Posted status: ' . $checkout->status, true );
 		
 		if ( $order ) {
 			switch ( $checkout->status ) {
 				case 'readyToShip':
-					$this->ready_to_ship_cb( $order, $checkout );
+					$this->ready_to_ship_scheduler( sanitize_text_field( $_GET['wc_order'] ), sanitize_text_field( $_GET['checkout'] ) );
 					break;
 				case 'paidToAccount':
 					// $this->paid_to_account_cb( $order, $checkout );
@@ -60,15 +58,23 @@ class WC_PaysonCheckout_Response_Handler {
 		}
 	}
 
+	public function ready_to_ship_scheduler( $order_id, $checkout_id ) {
+		wp_schedule_single_event( time() + 120, 'payson_ready_to_ship_notification', array( $order_id, $checkout_id ) );
+	}
+
 	/**
 	 * Handle a completed payment.
 	 *
 	 * @param WC_Order $order    WooCommerce order.
 	 * @param object   $checkout PaysonCheckout resource.
 	 */
-	public function ready_to_ship_cb( $order, $checkout ) {
+	public function ready_to_ship_cb( $order_id, $checkout_id ) {
 		WC_Gateway_PaysonCheckout::log( 'Payment status readyToShip callback.' );
 
+		include_once( PAYSONCHECKOUT_PATH . '/includes/class-wc-paysoncheckout-setup-payson-api.php' );
+		$payson_api = new WC_PaysonCheckout_Setup_Payson_API();
+		$checkout   = $payson_api->get_notification_checkout( $checkout_id );
+		$order 		= wc_get_order( $order_id );
 		if ( ! $order instanceof WC_Order ) {
 			exit;
 		}
@@ -80,22 +86,22 @@ class WC_PaysonCheckout_Response_Handler {
 
 		}
 
-		// Add order addresses.
-		$this->add_order_addresses( $order, $checkout );
-
 		// Add Payson order status.
 		update_post_meta( krokedil_get_order_id( $order ), '_paysoncheckout_order_status', $checkout->status );
 
-		// Add Payson Checkout Id.
-		update_post_meta( krokedil_get_order_id( $order ), '_payson_checkout_id', $checkout->id );
-
-		// Set status to pending
-		$order->update_status( 'pending' );
-
 		// Change the order status to Processing/Completed in WooCommerce.
-		$order->payment_complete( $checkout->purchaseId );
+		if ( 'readyToShip' === $checkout->status ) {
+			if ( ! $order->has_status( array( 'on-hold', 'processing', 'completed' ) ) ) {
+				WC_Gateway_PaysonCheckout::log('Order status not set correctly for order ' . $order->get_order_number() . ' during checkout process. Setting order status to Processing/Completed.');
+				$order->payment_complete( $checkout->purchaseId );
+				$order->add_order_note( __( 'Order status changed via API callback.', 'woocommerce-gateway-paysoncheckout' ) );
+			}
+		} else {
+			$order->add_order_note( __( 'Payson Ready to Ship API callback but Payson order status is set to: ' . $checkout->status, 'woocommerce-gateway-paysoncheckout' ) );
+		}
 
 		header( 'HTTP/1.0 200 OK' );
+		exit;
 	}
 
 	/**
@@ -105,7 +111,9 @@ class WC_PaysonCheckout_Response_Handler {
 	 * @param WC_Order $order WooCommerce order.
 	 */
 	protected function expired_cb( $order ) {
-		wp_delete_post( krokedil_get_order_id( $order ), true );
+		if( $order->has_status( 'payson-incomplete' ) ) {
+			wp_delete_post( krokedil_get_order_id( $order ), true );
+		}
 		header( 'HTTP/1.0 200 OK' );
 	}
 
