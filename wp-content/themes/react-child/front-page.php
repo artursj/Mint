@@ -25,22 +25,16 @@
                            <h1>Möbler för barnkammaren</h1>
                            <p class="p">Omsorgsfullt formgivna barnmöbler där estetiken går hand i hand med funktion, säkerhet och städbarhet. Designen omfattar också miljöhänsyn vid tillverkning och återvinning.</p>
                         </div>
-                    <img alt="Dining room" src="/wp-content/uploads/2017/10/IMG_2948v2.jpg">
+                    <img alt="Dining room" src="/wp-content/uploads/2017/06/DSC_7793aa.jpg">
                 </div>
                 <div class="swiper-slide">
                     <div class="annotation-container">
-                           <h1>Möbler för vardagsrummet.</h1>
-                           <p class="p">Inred praktiskt och trivsamt med en mediabänk mot vägg och en skön soffa mittemot, med plats för ett soffbord i en höjd som man trivs med däremellan. Bara att välja!</p>
+                           <h1>Fristående köksbänk</h1>
+                          
                         </div>
-                    <img alt="Dining room" src="/wp-content/uploads/2017/10/mintint_1024x1024.jpg">
+                    <img alt="Dining room" src="/wp-content/uploads/2017/06/MINT_kitchen_6b69bcda-3a08-478a-9204-4c843918c70f.jpg">
                 </div>
-                <div class="swiper-slide">
-                    <div class="annotation-container">
-                           <h1>Möbler för vardagsrummet.</h1>
-                           <p class="p">Inred praktiskt och trivsamt med en mediabänk mot vägg och en skön soffa mittemot, med plats för ett soffbord i en höjd som man trivs med däremellan. Bara att välja!</p>
-                        </div>
-                    <img alt="Dining room" src="/wp-content/uploads/2017/10/mintint_1024x1024.jpg">
-                </div>
+                
             </div>
               </div>
         </div>
