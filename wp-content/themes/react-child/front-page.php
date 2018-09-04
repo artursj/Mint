@@ -15,24 +15,38 @@
               <div class="col-sm-12">
                      <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i><br><p>Previous</p></div>
         <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i><br><p>Next</p></div>
-        <div class="swiper-container container home-swiper-container">
+        <div class="swiper-container home-swiper-container">
             <div class="swiper-pagination"></div>
       
             <div class="swiper-wrapper">
     
                 <div class="swiper-slide">
                     <div class="annotation-container">
-                           <h1>Möbler för barnkammaren</h1>
-                           <p class="p">Omsorgsfullt formgivna barnmöbler där estetiken går hand i hand med funktion, säkerhet och städbarhet. Designen omfattar också miljöhänsyn vid tillverkning och återvinning.</p>
+                           <h1>Black edition</h1>
+                           
                         </div>
-                    <img alt="Dining room" src="/wp-content/uploads/2017/06/DSC_7793aa.jpg">
+                    <a href="/black-edition">
+                        <img alt="Dining room" src="/wp-content/uploads/2017/09/diningroom.jpg">
+                    </a>
+                    
                 </div>
                 <div class="swiper-slide">
                     <div class="annotation-container">
                            <h1>Fristående köksbänk</h1>
                           
                         </div>
+                    <a href="/fristaende-koksbank">
                     <img alt="Dining room" src="/wp-content/uploads/2017/06/MINT_kitchen_6b69bcda-3a08-478a-9204-4c843918c70f.jpg">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="annotation-container">
+                           <h1>Sängar</h1>
+                          
+                        </div>
+                    <a href="/sangar/">
+                    <img alt="Dining room" src="/wp-content/uploads/2017/11/netherlands_Mint.jpg">
+                    </a>
                 </div>
                 
             </div>
@@ -103,10 +117,10 @@
                             </div>
                      </div>
                      <div class="col-sm-6">
-                           
+                                
                             <a href="/vardagrum">
                                    <div class="image-cover-overlay">
-                                          <p>Vardagrum</p>
+                                          <p>Vardagsrum</p>
                                    </div>
                                    <div class="image-cover" style="background-image: url(/wp-content/uploads/2017/06/Mint-fåtölj-comfy-i-valnöt-grön-interior2.jpg)"></div>
                             </a>

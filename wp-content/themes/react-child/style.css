@@ -176,6 +176,7 @@ Text Domain: react
 .product-gallery-container .swiper-wrapper{
     width: auto;
     height: 400px;
+    
 }
 .product-gallery-container  .swiper-slide {
     text-align: center;
