@@ -118,11 +118,11 @@
                      </div>
                      <div class="col-sm-6">
                                 
-                            <a href="/vardagrum">
+                            <a href="/accessoarer">
                                    <div class="image-cover-overlay">
-                                          <p>Vardagsrum</p>
+                                          <p>Accessoarer</p>
                                    </div>
-                                   <div class="image-cover" style="background-image: url(/wp-content/uploads/2017/06/Mint-fåtölj-comfy-i-valnöt-grön-interior2.jpg)"></div>
+                                   <div class="image-cover" style="background-image: url(/wp-content/uploads/2017/06/M1803_CoatRack_STORK_Hanger_4.jpg)"></div>
                             </a>
                 
                      </div>
