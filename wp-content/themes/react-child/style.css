@@ -57,13 +57,16 @@ Text Domain: react
 }
 @media only screen and (max-width: 1024px){
     .device-right-nav .info-menu, body.logo-r.device-right-nav .info-menu {
-    float: right;
-    right: 00px;
+        float: right;
+        right: 00px;
+    }
+    .react-menu-inline{
+        right: 0;
+        position: absolute;
+    }
 }
-.react-menu-inline{
-    right: 0;
-    position: absolute;
-}
+.info-menu{
+    padding-right: 45px;
 }
 .device-menu-trigger-wrap.plain-nav:hover{
     color: #111;
