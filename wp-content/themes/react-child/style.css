@@ -250,6 +250,11 @@ Text Domain: react
     .product-description {
         width: 100%;
     }
+    .woocommerce #content div.product div.images img, .woocommerce div.product div.images img, .woocommerce-page #content div.product div.images img, .woocommerce-page div.product div.images img {
+
+        height: 220px;
+
+    }
 }
 /********
  Buttons
