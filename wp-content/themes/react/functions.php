@@ -9,3 +9,8 @@ if ( ! defined('ABSPATH')) {
 // Load the theme
 
 require_once get_template_directory() . '/includes/framework.php';
+
+add_action( 'after_setup_theme', 'register_my_menu' );
+function register_my_menu() {
+  register_nav_menu( 'footer', __( 'Footer', 'mint' ) );
+}

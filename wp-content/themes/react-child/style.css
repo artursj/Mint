@@ -36,6 +36,38 @@ Text Domain: react
 .split-nav .method, .split-nav ul.react-menu>li:not(.button-nav)>a{
     border: none;
 }
+.logo a{
+    background-image: none;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx){
+    .logo a {
+            background-size: unset;
+    background-repeat: no-repeat;
+    width: unset;
+    height: unset;
+        margin-top: 38px;
+    }
+    .logo img{
+        opacity: 1;
+        
+    }
+}
+.menu-item span.desc{
+    display: none;
+}
+@media only screen and (max-width: 1024px){
+    .device-right-nav .info-menu, body.logo-r.device-right-nav .info-menu {
+    float: right;
+    right: 00px;
+}
+.react-menu-inline{
+    right: 0;
+    position: absolute;
+}
+}
+.device-menu-trigger-wrap.plain-nav:hover{
+    color: #111;
+}
 /********
  Woocommerce product archive
  ********/

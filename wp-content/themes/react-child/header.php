@@ -33,7 +33,7 @@ if ( ! defined('ABSPATH')) {
 
 			<?php react_popdown(); ?>
 
-			<?php react_tophead(); ?>
+		
 
 		</div>
 
